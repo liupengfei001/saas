@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>莎莎网注册界面</title>
+		<link rel="Shortcut Icon" href="images/favicon.ico.png" />
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="icon/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="css/topBar.css"/>
+		<link rel="stylesheet" type="text/css" href="css/logincom.css"/>
+		<script src="libs/jquery-1.11.3.js"></script>
+		<script src="js/header.js"></script>
+		<script src="js/login.js"></script>
+		
+		<script>
+			$(function(){
+				
+				//console.log(1);//jq加载成功
+				
+				$("#topBar_load").load("header.html #topBar",header_callback);
+				
+			})
+		</script>
+	</head>
+	<body>
+		<!--加载topBar-->
+		<div id="topBar_load"></div>
+			<div id="logo_wrap">
+				<div class="logo">
+					<h1><a href="http://www.sasa.com/">莎莎网</a></h1>
+				</div>
+				
+			</div>
+			<div id="main_wrap" class="clear">
+				<div class="main">
+					<div class="login_box">
+						<div class="title">
+							<h2>注册账号</h2>
+							<span>已有莎莎网帐号？<a href="register.html" target="_blank">立即登录</a></span>
+						</div>
+						<form action="" name="login">
+							<input type="text" 		placeholder="请输入邮箱/手机号，最少5个字符" name="phone_num" minlength="5" class="phone_num mOver"/>
+							<input type="password"  placeholder="请输入密码6-16位字母和数字的组合" name="password" class="password mOver" />
+							<input type="password"  placeholder="再次填写密码" class="again_p mOver" />
+							<input type="text" 		placeholder="填写验证码" maxlength="4" class="form_act mOver"/>
+							<label><input type="checkbox"  class="checkbox"/><span>同意</span></label>
+							<input type="button"    value="注册" name="submit" class="submit"/>
+						</form>
+						<div id="position_form">
+							<div id="po_phone_num"><p>!</p><span>请填写邮箱或手机号，最少5个字符</span></div>
+							<div id="po_password"><p>!</p><span>输入不正确，最少6个字符</span></div>
+							<div id="po_again_p"><p>!</p><span>密码与确认密码不相符，请重新填写</span></div>
+							<div id="form_act"><p>!</p><span>请正确填写验证码</span></div>
+							<div class="po_form_act"><p id="code"></p><a href="javascript:void(0);">看不清?换一张</a></div>
+							<div class="po_checkbox"><a href="#">莎莎网使用条款</a> 和 <a href="#">隐私保护政策</a></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="login_foot">
+					<div class="footer">
+						<p class="left"><span>&copy;</span>Copyright 2000-2016 Sa Sa dot Com Limited 版权所有。</p>
+						<p class="right">莎莎国际控股有限公司成员</p>
+					</div>
+			</div>
+	</body>
+</html>

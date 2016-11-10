@@ -1,0 +1,484 @@
+@charset "utf-8";
+/* CSS Document */
+					/*2*/
+					/*topBar*/
+/*左边*/
+	#topBar{
+		height: 32px;
+	    line-height: 32px;
+	    background-color: #f2f2f2;
+	    font-size: 12px;
+	    color: #6c6c6c;
+	    border-bottom: 1px solid #e5e5e5;
+	}
+	#topBar .bar{
+		width: 1090px;
+		margin: 0 auto;
+	}
+	.login_bar{
+		float:left;
+	}
+	.login_bar a{
+		color:#EC3E7D;
+		text-decoration: underline;
+	}
+/*登录成功后显示的用户名*/
+	.userName_get{
+		float:left;
+	}
+	.userName_get p{
+		display:inline-block;
+	}
+	.userName_get a {
+		font-size:12px;
+		text-decoration:underline;
+	}
+
+/*右边*/
+	.member_link{
+		float:right;
+	}
+	.top_right li{
+		float:left;
+	}
+	.pos_re_01{
+		position:relative;
+		
+	}
+	.pos_re_01 .pos_ab_01{
+		position:absolute;
+		top:32px;
+		left:0;
+		background:#fff;
+		z-index:2;
+		padding-left:11px;
+		display:none;
+		box-shadow: 0px 6px 12px -4px #666;
+	}
+	.top_right .man,.top_right .heart,.top_right .letter{
+		color:#ec3e7d;
+		font-size:16px;
+	}
+	.pos_re_01 .sanjiao01,.pos_re_03 .sanjiao01{
+		font-size:16px;
+		
+	}
+	.top_right a{
+		display: block;
+		height:32px;
+		padding:0 12px;
+		line-height:32px;
+		
+	}
+	.top_right a:hover{
+		background:#fff;
+	}
+	.top_right a:hover .sanjiao01{
+		color:#6c6c6c;
+	}
+	.pos_re_02 {
+		position:relative;
+	}
+	.pos_re_02 #letter_num{
+		position:absolute;
+		top:2px;
+		left:18px;
+		width:20px;
+		height:15px;
+		border-radius:10px;
+		background:#DD4337;
+		color:#fff;
+		font-size:12px;
+		text-align:center;
+		line-height:15px;
+	}
+	.pos_re_03{
+		position:relative;
+		
+	}
+	.pos_re_03 ul{
+		background: #fff;
+	    position: absolute;
+	    top: 32px;
+	    left: -17px;
+	    padding: 0 18px;
+	    z-index: 2;
+	    display: none;
+	    box-shadow: 1px 8px 15px -7px #666;
+	}
+	.pos_re_03 ul li{
+		float:none;
+		
+	}	
+	.pos_re_03 ul li a{
+		padding: 0 5px 0 19px;
+	}	
+	.link .shoucang a{
+		background:url(../images/letter.png) no-repeat left center;
+	}
+	.link .xinlang a{
+		background:url(../images/xinlang.png) no-repeat left center;
+	}
+	.link .shasha a{
+		background:url(../images/shasha.png) no-repeat left center;
+	}
+	.link .youku a{
+		background:url(../images/youku.png) no-repeat left center;
+	}
+	.pos_re_03 #saoma img{
+		position: absolute;
+	    top: 32px;
+	    left: -130px;
+	    width: 100px;
+	    height: 100px;
+	    z-index: 2;
+	    border: 14px solid #fff;
+	    display:none;
+	        box-shadow: -9px 10px 23px -15px #666;
+	}
+		/*topBar结束*/
+		
+		/*顶部的导航*/
+	#nav_Bar_Wrap{
+		background:#EC3E7D;
+	}
+	#nav_Bar_Wrap .nav_Bar{
+		width:1090px;
+		height:45px;
+		margin:0 auto;
+	}
+	#nav_Bar_Wrap .nav_Bar_L{
+		float:left;
+	}
+	.n_B_L_Ul{
+		float:left;
+		
+		
+	}
+	.n_B_L_Ul .nav_text{
+		float:left;
+		position:relative;
+	}
+	.n_B_L_Ul .nav_text a{
+		padding:0 20px;
+		display:block;
+		float:left;
+		font-size:16px;
+		font-weight:bold;
+		color:#fff;
+		font-family:"microsoft yahei";
+		line-height:45px;
+	}
+	.n_B_L_Ul .nav_text .nav_saojiao01{
+		cursor: pointer;
+	    width: 0;
+	    height: 0;
+	    border-width: 5px;
+	    border-style: solid;
+	    font-size: 0;
+	    line-height: 0;
+	    position: absolute;
+	    left: 87px;
+	    top: 21px;
+	    border-color: #fff #EC417D #EC417D #EC417D;
+	}
+	
+	/*顶部手风琴效果*/
+	
+	.nav_Bar_R .sfq{
+		width:185px;
+		height:45px;
+		float:right;
+	}
+	.nav_Bar_R .sfq li{
+		float:left;
+		width:35px;
+		color:#fff;
+		text-align: center;
+		height:45px;
+		line-height:45px;
+		overflow:hidden;
+	}
+	.nav_Bar_R .sfq li p{
+
+		float:left;
+	}
+	.nav_Bar_R .sfq li img{
+		margin-top: 13px;
+	    float: left;
+	    margin-right: 8px;
+		
+	}
+	
+	/*顶部的二级菜单*/
+	
+	.nav_text .nav_two {
+		width:440px;
+		height:0;
+		position:absolute;
+		top:45px;
+		left:0;
+		background: #fff;
+		border-top:0;
+		z-index:2;
+		overflow: hidden;
+	}
+	.n_B_L_Ul .nav_text .nav_saojiao02{
+		cursor: pointer;
+	    width: 0;
+	    height: 0;
+	    border-width: 7px;
+	    border-style: solid;
+	    font-size: 0;
+	    line-height: 0;
+	    position: absolute;
+	    left: 41px;
+	    top: 32px;
+	    display: none;
+	    border-color: #EC417D #EC417D #eee #EC417D;
+	}
+	.n_B_L_Ul .nav_text .nav_t_title{
+		color:#EC417D;
+		height:12px;
+		padding:15px 0 15px 20px;
+		background:#eee;
+		width:420px;
+		font-size: 12px;
+		line-height:12px;
+	}
+	.n_B_L_Ul .nav_text .nav_two_left{
+		width:222px;
+		padding-left:20px;
+		float:left;
+	}
+	.n_B_L_Ul .nav_text .nav_two_left p{
+		width:210px;
+		height:30px;
+		font-size:16px;
+		text-align:center;
+		border-top:1px dashed #ddd;
+		margin-top:12px;
+	}
+	.n_B_L_Ul .nav_text .nav_two_left p a{
+		color:#363636;
+		line-height:30px;
+		margin-left:20px;
+		
+	}
+	.n_B_L_Ul .nav_text .brandName li{
+		overflow:hidden;
+		float:none;
+	}
+	.n_B_L_Ul .nav_text .brandName a{
+		display: block;
+	    margin-top: 12px;
+	    color: #363636;
+	    padding: 0;
+	    font-size: 12px;
+	    line-height:12px;
+	    font-weight:100;
+	}
+	.n_B_L_Ul .nav_text .brandName a:hover{
+		color:#000;
+	}
+	.n_B_L_Ul .nav_text .brandImg{
+		float:left;
+		width:198px;
+		
+	}
+	.n_B_L_Ul .nav_text .brandImg li{
+		float:left;
+		border-left:1px dashed #ddd;
+		border-bottom:1px dashed #ddd;
+	}
+	.n_B_L_Ul .nav_text .brandImg a{
+		padding:0;
+		
+	}
+	.n_B_L_Ul .nav_text .brandImg img{
+		display: block;
+		
+	}
+	/*顶部的导航结束*/
+	
+	/*banner上面的商品分类*/
+	/*left*/
+	#nav_category_wrap{
+		background:#232323;
+	}
+	.nav_category{
+		width:1090px;
+		margin:0 auto;
+	}
+	.all_category{
+		width:252px;
+		height:40px;
+		position:relative;
+		float:left;
+		z-index:100;
+	}
+	.all_category .category_title{
+		padding-left:16px;
+		width:236px;
+		height:40px;
+		line-height:40px;
+		background:#363636;
+		font-weight:bold;
+		color:#fff;
+		cursor:pointer;
+	}
+	.category_content{
+		position:absolute;
+		top:40px;
+		left:0;
+		z-index:5;
+		width:252px;
+		background:#f9f8f8;
+		height:420px;
+		box-shadow: 0px 2px 2px -2px #666;
+	}
+	.oUl01{
+		width:232px;
+		padding:0 10px;
+		overflow:hidden;
+	}
+	.oUl01 h3{
+		padding-left:25px;
+		/*background:url(../images/category_title01.png) no-repeat left center;*/
+		margin-top:8px;
+		/*background-size:20px;*/
+		
+	}
+	.oUl01 h3 a{
+		color:#000;
+		font-weight:100;
+		
+	}
+	.oUl01 h3 a:hover{
+		color:#EC3E7D;
+	}
+	.oUl01 ul {
+		width: 206px;
+	    float: left;
+	    margin-top: 10px;
+	    margin-left: 25px;
+	    border-bottom: 1px solid #E7E7E7;
+	    
+	}
+	.oUl01 ul li{
+		float:left;
+		margin-right:6px;
+		margin-bottom:10px;
+
+	}
+	
+	/*定位*/
+	.oUl01_01{
+		width:121px;
+		height:420px;
+		background:#fff;
+		opacity:0.95;
+		position:absolute;
+		top:0;
+		left:252px;
+		padding:0 17px;
+		box-shadow: -4px 2px 10px -8px #666;
+		display:none;
+		
+	}
+	.oUl01_01 div{
+		margin-top:20px;
+		overflow:hidden;
+	}
+	.oUl01_01 h3{
+		margin-bottom:20px;
+	}
+	.oUl01_01 h3 a{
+		color:#000;
+		
+	}
+	.oUl01_01 h3 a:hover{
+		color:#EC3E7D;
+	}
+	.oUl01_01 ul{
+		float:left;
+	}
+	.oUl01_01 ul li{
+		float:left;
+		margin:0 8px 10px 0;
+	}
+	/*right*/
+	.other_category{
+		float:left;
+		position:relative;
+		margin-left:20px;
+	}
+	.other_category a{
+		padding:0 10px;
+		line-height:40px;
+		color:#fff;
+	}
+	.other_category a:hover{
+		color:#EC3E7D;
+	}
+	.other_category li{
+		margin-right:15px;
+		float:left;
+	}
+	.other_category .line_move{
+		width:76px;
+		height:2px;
+		border-bottom: 2px solid #c69a62;		
+		position:absolute;
+		top:36px;
+		left:0;
+		display: none;
+	}
+	/*banner上面的商品分类*/
+	
+	/*banner开始*/
+	#banner_wrap{
+		height:420px;
+		min-height:420px;
+		height:auto !important;
+		background:#FFB7C5;
+		width:100%;
+		position:relative;
+		
+	}
+	#banner_wrap .banner div{
+		height:420px;
+		margin:0 auto;
+		position:absolute;
+		width:100%;
+		/*opacity:0;*/
+	}
+	#banner_wrap .banner a{
+		display:none;
+	}
+	#banner_wrap .banner_btn_po{
+		width:838px;
+		padding-left:252px;
+		margin:0 auto;
+
+		position:relative;
+
+	}
+	#banner_wrap .banner_btn{
+		position:absolute;
+		top:400px;
+		left:600px;
+	}
+	#banner_wrap .banner_btn li{
+		width:12px;
+		height:12px;
+		border-radius:50%;
+		background:#999;
+		float:left;
+		margin-right:10px;
+	}
+	#banner_wrap .banner_btn .activeBtn{
+		background:#EC3E7D;
+	}
+	/*banner结束*/
+	

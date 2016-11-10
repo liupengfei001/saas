@@ -1,0 +1,889 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    
+        <link href="typical.min.css-20160825.css" tppabs="http://cdnec.sasa.com/public/app/site/statics/css_mini/typical.min.css?20160825" rel="stylesheet" media="screen, projection" /><script src="lang.min.js-20160818.js" tppabs="http://cdnec.sasa.com/public/app/site/lang/zh_CN/js_mini/lang.min.js?20160818"></script><script src="moo.min.js-20160818.js" tppabs="http://cdnec.sasa.com/public/app/site/statics/js_mini/moo.min.js?20160818"></script><script src="ui.min.js-20160818.js" tppabs="http://cdnec.sasa.com/public/app/site/statics/js_mini/ui.min.js?20160818"></script><script src="jquery.min.js-20160818.js" tppabs="http://cdnec.sasa.com/public/app/b2c/statics/js_mini/jquery.min.js?20160818"></script><script src="time.min.js-20160818.js" tppabs="http://cdnec.sasa.com/public/app/b2c/statics/js_mini/time.min.js?20160818"></script>	
+<link rel="dns-prefetch" href="//cdnec.sasa.com">
+<link rel="icon" href="favicon.ico.png" tppabs="http://cdnec.sasa.com/public/app/site/statics/favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="favicon.ico.png" tppabs="http://cdnec.sasa.com/public/app/site/statics/favicon.ico" type="image/x-icon" />
+<link href="base.min.css-20160825.css" tppabs="http://cdnec.sasa.com/public/app/b2c/statics/css_mini/base.min.css?20160825" rel="stylesheet" media="screen, projection" /><link href="theme.min.css-20160825.css" tppabs="http://cdnec.sasa.com/public/app/b2c/statics/css_mini/theme.min.css?20160825" rel="stylesheet" media="screen, projection" /><script>
+//此处定义js全局变量
+var __PHP_HOST_MIRRORS = 'http://cdnec.sasa.com/';
+var Shop = {"url":{"shipping":"\/cart-shipping.html","total":"\/cart-total.html","region":"\/tools-selRegion.html","payment":"\/cart-payment.html","purchase_shipping":"\/cart-purchase_shipping.html","purchase_def_addr":"\/cart-purchase_def_addr.html","purchase_payment":"\/cart-purchase_payment.html","get_default_info":"\/cart-get_default_info.html","diff":"\/product-diff.html","fav_url":"\/member-ajax_fav.html","datepicker":"http:\/\/cdnec.sasa.com\/public\/app\/site\/statics\/js_mini","placeholder":"http:\/\/cdnec.sasa.com\/public\/app\/b2c\/statics\/images\/imglazyload.gif"},"base_url":"\/"};
+!(function(){
+  'use strict';
+  window.__g_baseModule = [];
+  window.__g_widgetsModule = {};
+  window.__addJsCommonModule = function(_module, path) {
+    // var base = '/public/app/site/statics/requirejs_lib/';
+    // if(location.href.indexOf('debug=1') > -1){
+    //   path = path.replace(/\.[0-9a-z]{8}\.lc/i, "");
+    // }
+    // __g_baseModule.push(path.replace(base, ""));
+    var args = Array.prototype.slice.call(arguments, 2);
+
+    if ('base' === _module) {
+      __g_baseModule.push(path);
+    } else if ('widget' === _module) {
+      __g_widgetsModule[path] = '';
+      if (args.length > 0) {
+        __g_widgetsModule[path] = args;
+      }
+    }
+  }
+
+})();
+</script>
+
+  <script src="lang.min-1.js-20160818.js" tppabs="http://cdnec.sasa.com/public/app/b2c/lang/zh_CN/js_mini/lang.min.js?20160818"></script><script src="shop.min.js-20160818.js" tppabs="http://cdnec.sasa.com/public/app/b2c/statics/js_mini/shop.min.js?20160818"></script><script src="jquery.zclip.min.js-20160818.js" tppabs="http://cdnec.sasa.com/public/app/b2c/statics/js_mini/jquery.zclip.min.js?20160818"></script>
+
+	<!-- Omniture数据分析    Add by PanF   2015-1-11         begin  -->
+<script>
+	// 在 <head> 里面放入 JavaScript变量，必须在 Adobe DTM代码前面
+	// Place JavaScript Variables before Adobe DTM Tag in the <head> section
+    	var page_data ='';
+	if(navigator.appName == "Microsoft Internet Explorer")
+	{
+		if(navigator.appVersion.match(/8./i)=='8.' || navigator.appVersion.match(/7./i)=='7.')
+		{
+			page_data = eval('({"sc_language":"sch","sc_platform":"desktop","sc_server":"ap7","sc_loginType":"logged out","sc_channel":"help_faq","sc_pageName":"\u6d88\u8d39\u8005\u544a\u77e5\u4e66"})');
+
+		}else{
+			page_data = JSON.parse('{"sc_language":"sch","sc_platform":"desktop","sc_server":"ap7","sc_loginType":"logged out","sc_channel":"help_faq","sc_pageName":"\u6d88\u8d39\u8005\u544a\u77e5\u4e66"}');
+		}
+	}else{
+		page_data =JSON.parse('{"sc_language":"sch","sc_platform":"desktop","sc_server":"ap7","sc_loginType":"logged out","sc_channel":"help_faq","sc_pageName":"\u6d88\u8d39\u8005\u544a\u77e5\u4e66"}');
+	}
+    
+	//baidu statistics
+	var _hmt = _hmt || [];
+	(function() {
+		var hm = document.createElement("script");
+		hm.src = "hm.js-90571b0f5e06e2615ae1664b8df093bf.js"/*tpa=http://hm.baidu.com/hm.js?90571b0f5e06e2615ae1664b8df093bf*/;
+		var s = document.getElementsByTagName("script")[0];
+		s.parentNode.insertBefore(hm, s);
+	})();
+
+</script>
+
+<script src="satelliteLib-50514f95884828fbb41a404dd564f1b62a4f9844.js" tppabs="http://assets.adobedtm.com/254533015d50bd0ff9bd0f3971bff3a36234d966/satelliteLib-50514f95884828fbb41a404dd564f1b62a4f9844.js">
+// JavaScript变量和 </head> 中间放入 Adobe DTM 页首代码，网站内的每一页都必须铺设
+// Place Adobe DTM top of page tag between JavaScript Variables and </head> tag on every page
+</script>
+<!-- Omniture数据分析    Add by PanF   2015-1-11         end  -->
+<!-- criteo dsp begin:add by shelby --><script type="text/javascript" src="ld.js" tppabs="http://static.criteo.net/js/ld/ld.js" async="true"></script><!-- criteo dsp end:add by shelby --><meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>消费者告知书-香港莎莎官网 - 正品美妆海淘商城,化妆品护肤品海外购首选</title><meta name="keywords" content="帮助中心-特别公告-消费者告知书">
+<meta name="description" content="消费者告知书-香港莎莎官网 - 正品美妆海淘商城,化妆品护肤品海外购首选">
+<link rel="stylesheet" href="widgetsproinstance-get_css-default-YXJ0aWNsZS0oMSkuaHRtbA==.html-20160825.css" tppabs="http://www.sasa.com/widgetsproinstance-get_css-default-YXJ0aWNsZS0oMSkuaHRtbA==.html?20160825" /><link href="styles.min.css-20160825.css" tppabs="http://cdnec.sasa.com/public/app/site/statics/css_mini/styles.min.css?20160825" rel="stylesheet" media="screen, projection" /><link href="custom.min.css-20160825.css" tppabs="http://cdnec.sasa.com/public/app/site/statics/css_mini/custom.min.css?20160825" rel="stylesheet" media="screen, projection" /><script src="jquery.validate.min.js-20160818.js" tppabs="http://cdnec.sasa.com/public/app/site/statics/js_mini/jquery.validate.min.js?20160818"></script><script src="jquery.validate.additional.min.js-20160818.js" tppabs="http://cdnec.sasa.com/public/app/site/statics/js_mini/jquery.validate.additional.min.js?20160818"></script>    
+</head>
+<body class="helppage">
+<div class="topbar">
+          <div class="page">
+                <div class="login-bar">
+                      <span id="loginBar_279" style=" ">
+    <span>
+                欢迎光临莎莎官网！
+    </span>
+    <a href="javascript:if(confirm(%27http://www.sasa.com/account/login  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a path excluded by the site\%27s Robot Exclusion parameters.  (Teleport Pro\%27s compliance with this system is optional; see the Project Properties, Netiquette page.)  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/account/login%27" tppabs="http://www.sasa.com/account/login" style="margin-left:10px;">登录</a>
+    <span class="dividing">或</span>
+    <a href="javascript:if(confirm(%27http://www.sasa.com/account/register  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a path excluded by the site\%27s Robot Exclusion parameters.  (Teleport Pro\%27s compliance with this system is optional; see the Project Properties, Netiquette page.)  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/account/register%27" tppabs="http://www.sasa.com/account/register">免费注册</a>
+</span>
+
+<span id="memberBar_279" style="display:none">
+    <span>
+        您好！<span id="uname_279"></span>
+    </span>
+    <span class="syew" style="display:none;"><i class="iconfont">&#xe611;</i>VIP </span>
+    <span class="point" style="color:#cb9966;"><b>0</b> 积分</span>
+    <a href="javascript:if(confirm(%27http://www.sasa.com/passport-logout.html  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/passport-logout.html%27" tppabs="http://www.sasa.com/passport-logout.html">退出</a>
+</span>
+
+                </div>
+                <div class="member-link">
+                      <ul>
+                        <li class="noline">  <div class="member-linktext" id="mem_h4_247"><a rel="nofollow" href="javascript:if(confirm(%27http://www.sasa.com/account/login  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a path excluded by the site\%27s Robot Exclusion parameters.  (Teleport Pro\%27s compliance with this system is optional; see the Project Properties, Netiquette page.)  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/account/login%27" tppabs="http://www.sasa.com/account/login"><i class="iconfont">&#xe654;</i>我的账戶<i class="iconfont ijt">&#xe608;</i></a></div>
+  
+  <dl id="mem_dl_247">
+        <dd><a href="javascript:if(confirm(%27http://www.sasa.com/account/login  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a path excluded by the site\%27s Robot Exclusion parameters.  (Teleport Pro\%27s compliance with this system is optional; see the Project Properties, Netiquette page.)  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/account/login%27" tppabs="http://www.sasa.com/account/login" rel="nofollow">我的订单</a></dd>
+        <dd><a href="javascript:if(confirm(%27http://www.sasa.com/account/login  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a path excluded by the site\%27s Robot Exclusion parameters.  (Teleport Pro\%27s compliance with this system is optional; see the Project Properties, Netiquette page.)  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/account/login%27" tppabs="http://www.sasa.com/account/login" rel="nofollow">我的积分</a></dd>
+        <dd><a href="javascript:if(confirm(%27http://www.sasa.com/account/login  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a path excluded by the site\%27s Robot Exclusion parameters.  (Teleport Pro\%27s compliance with this system is optional; see the Project Properties, Netiquette page.)  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/account/login%27" tppabs="http://www.sasa.com/account/login" rel="nofollow">我的优惠券</a></dd>
+        <dd><a href="javascript:if(confirm(%27http://www.sasa.com/account/login  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a path excluded by the site\%27s Robot Exclusion parameters.  (Teleport Pro\%27s compliance with this system is optional; see the Project Properties, Netiquette page.)  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/account/login%27" tppabs="http://www.sasa.com/account/login" rel="nofollow">我的收藏</a></dd>
+        <dd><a href="javascript:if(confirm(%27http://www.sasa.com/account/login  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a path excluded by the site\%27s Robot Exclusion parameters.  (Teleport Pro\%27s compliance with this system is optional; see the Project Properties, Netiquette page.)  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/account/login%27" tppabs="http://www.sasa.com/account/login" rel="nofollow">我的评价</a></dd>
+      </dl>
+  
+  </li>
+                        <li class="noline"><div class="member-linktext">
+      <a href="javascript:if(confirm(%27http://www.sasa.com/account/login  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a path excluded by the site\%27s Robot Exclusion parameters.  (Teleport Pro\%27s compliance with this system is optional; see the Project Properties, Netiquette page.)  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/account/login%27" tppabs="http://www.sasa.com/account/login" rel="nofollow">
+          <i class="iconfont">&#xe66b;</i>我的收藏
+      </a>
+</div></li>
+                        <li class="noline"><div class="member-linktext"  id="index_mymessage"><a rel="nofollow" href="javascript:if(confirm(%27http://www.sasa.com/passport-error.html  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/passport-error.html%27" tppabs="http://www.sasa.com/account/inbox"><i class="iconfont">&#xe61d;</i>我的站內信</a></div>
+  </li>
+                        <li class="noline"><div class="member-linktext"><a href="javascript:if(confirm(%27https://www.sasa.com/index.php/gift-lists.html  \n\nThis file was not retrieved by Teleport Pro, because it is addressed using an unsupported protocol (e.g., gopher).  \n\nDo you want to open it from the server?%27))window.location=%27https://www.sasa.com/index.php/gift-lists.html%27" tppabs="http://www.sasa.com/index.php/gift-lists.html" type="url" target="_blank" rel="nofollow">积分中心</a></div></li>
+                        <li class="noline"><div class="member-linktext"><a href="javascript:if(confirm(%27http://web1.sasa.com/SasaWeb/splash.jsp?cm_re=cn_top_globalsite  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?%27))window.location=%27http://web1.sasa.com/SasaWeb/splash.jsp?cm_re=cn_top_globalsite%27" tppabs="http://web1.sasa.com/SasaWeb/splash.jsp?cm_re=cn_top_globalsite" type="url" target="_blank" rel="nofollow">Global Site</a></div></li>
+                        <li class="noline"></li>
+                        <li class="noline"></li>
+                        <li class="noline"><div class="member-linktext" id="us_h4_246"><a rel="nofollow" href="">关注我们<i class="iconfont ijt">&#xe608;</i></a></div>
+
+<dl class="ajust"  id="us_246" style="width:86px;">
+  <dt>
+    <a rel="nofollow" href="javascript:void(0);" onClick="setFavorite($(this));" data-tab="1422512260807"><img src="7e8914061eeb568e3028b79761ae7567c6f3ebfa.png-1426562256.png#w" tppabs="http://cdnec.sasa.com/public/images/e8/ca/1c/7e8914061eeb568e3028b79761ae7567c6f3ebfa.png?1426562256#w" alt="加入收藏"  height="12" width="16">加入收藏</a></dd>
+    <a rel="nofollow" href="javascript:if(confirm(%27http://www.weibo.com/sasahongkong  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.weibo.com/sasahongkong%27" tppabs="http://www.weibo.com/sasahongkong" target="_blank" data-tab="1422512260967"><img src="faae579e39a34e1b3b27ae6bf285684d918cce89.png-1426562278.png#w" tppabs="http://cdnec.sasa.com/public/images/aa/0a/02/faae579e39a34e1b3b27ae6bf285684d918cce89.png?1426562278#w" alt="新浪微博"  height="15" width="17">新浪微博</a></dd>
+    <a rel="nofollow" href="javascript:if(confirm(%27https://wx.qq.com/  \n\nThis file was not retrieved by Teleport Pro, because it is addressed using an unsupported protocol (e.g., gopher).  \n\nDo you want to open it from the server?%27))window.location=%27https://wx.qq.com/%27" tppabs="https://wx.qq.com/" target="_blank" data-tab="1422512261732"><img src="956dbfa798e4ad7c52eaea2a85e2fada7b427355.png-1426562318.png#w" tppabs="http://cdnec.sasa.com/public/images/ff/03/5b/956dbfa798e4ad7c52eaea2a85e2fada7b427355.png?1426562318#w" alt="莎莎微信"  height="14" width="17">莎莎微信</a></dd>
+    <a rel="nofollow" href="javascript:if(confirm(%27http://i.youku.com/u/UMzYzODc5NzEy  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?%27))window.location=%27http://i.youku.com/u/UMzYzODc5NzEy%27" tppabs="http://i.youku.com/u/UMzYzODc5NzEy" target="_blank" data-tab="1422512265605"><img src="b8da45f24104dd756c17b590535911151322349e.png-1426562338.png#w" tppabs="http://cdnec.sasa.com/public/images/91/5b/a1/b8da45f24104dd756c17b590535911151322349e.png?1426562338#w" alt="优酷视频"  height="13" width="17">优酷视频</a></dd>
+    </dt>
+  <dd data-tab="1422512260967" style="display:none;"><img src="41cdc545e91572b5cedf371c9377e36625034860.jpg-1426584556.jpg#h" tppabs="http://cdnec.sasa.com/public/images/0d/50/d0/41cdc545e91572b5cedf371c9377e36625034860.jpg?1426584556#h" alt="新浪微博"  width="100px" height="100px"></dd><dd data-tab="1422512261732" style="display:none;"><img src="ad354296c39a4c6b0cd5a0a80e94b5db3fe12f77.jpg-1426584564.jpg#h" tppabs="http://cdnec.sasa.com/public/images/d8/28/72/ad354296c39a4c6b0cd5a0a80e94b5db3fe12f77.jpg?1426584564#h" alt="莎莎微信"  width="100px" height="100px"></dd><dd data-tab="1422512265605" style="display:none;"><img src="2274f52e2d5fed2cebda07e0e26638f1344c0420.jpg-1426584571.jpg#h" tppabs="http://cdnec.sasa.com/public/images/77/ed/17/2274f52e2d5fed2cebda07e0e26638f1344c0420.jpg?1426584571#h" alt="优酷视频"  width="100px" height="100px"></dd></dl>
+
+<script type="text/javascript"> 
+// 设置为主页 SetHome(this,window.location)
+function SetHome(obj){
+  var vrl = window.location.href;
+  try{
+    obj.style.behavior='url(#default#homepage)';obj.setHomePage(vrl);
+  }
+  catch(e){
+    if(window.netscape) {
+      try {
+        netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+      }
+      catch (e){
+        Dialog.alert("此操作被浏览器拒绝！\n请在浏览器地址栏输入“about:config”并回车\n然后将 [signed.applets.codebase_principal_support]的值设置为'true',双击即可。");
+      }
+      var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefBranch);
+      prefs.setCharPref('browser.startup.homepage',vrl);
+    }else{
+      Dialog.alert("您的浏览器不支持，请按照下面步骤操作：1.打开浏览器设置。2.点击设置网页。3.输入："+vrl+"点击确定。");
+    }
+  }
+}
+// 加入收藏 兼容360和IE6 setFavorite(document.title,window.location)
+function setFavorite(obj){
+  var sTitle = document.title;
+  var sURL = window.location.href;
+//  try{
+//    window.external.addFavorite(sURL, sTitle);
+//  }catch (e){
+//    try{
+//      window.sidebar.addPanel(sTitle, sURL, "");
+//    }catch (e){
+//      if(navigator.userAgent.indexOf('Firefox') >= 0){
+//        //
+//      }else{
+//        Dialog.alert("加入收藏失败，请使用Ctrl+D进行添加");
+//      }
+//    }
+//  }
+  (("ActiveXObject" in window)||JQ.browser.msie)?window.external.addFavorite(sURL,sTitle):(JQ.browser.mozilla?window.sidebar.addPanel(sTitle,sURL,""):Dialog.alert("您的浏览器不支持点击收藏，请按快捷键Ctrl+D收藏莎莎网"));
+  //JQ.browser.mozilla?window.sidebar.addPanel(sTitle,sURL,""):JQ.browser.msie?window.external.addFavorite(sURL,sTitle):Dialog.alert("您的浏览器不支持点击收藏，请按快捷键Ctrl+D收藏莎莎网");
+}
+window.addEvent('domready',function(){
+  $$('#us_246 dt a').addEvents({
+     'mouseenter':function(e){
+          $$('#us_246 dd').setStyle('display','none');
+          var tab = $(e.target).get('data-tab');
+          if(!$$('#us_246 dd[data-tab='+tab+']').length)$$('#us_246').setStyle('width','86px');
+          else $$('#us_246').setStyle('width','210px');
+          $$('#us_246 dd[data-tab='+tab+']').setStyle('display','block');
+      }
+  });
+  $$('#us_246').addEvents({
+      'mouseleave':function(){
+          $$('#us_246 dd').setStyle('display','none');
+          $$('#us_246').setStyle('width','86px');
+      }
+  });
+});
+
+
+var mouseover_246;
+var mouseout_246;
+JQ('#us_h4_246').parent('li').hover(
+    function(){
+      clearTimeout(mouseout_246); 
+      mouseover_246 = setTimeout(function() {
+       JQ('#us_246').slideDown(200);
+      }, 200);
+    },
+    function(){
+      clearTimeout(mouseover_246);
+      mouseout_246 = setTimeout(function() {
+         JQ('#us_246').slideUp(200);
+      }, 200); 
+    }
+  );
+</script> </li>
+                      </ul>
+                </div>
+          </div>
+</div><div style='display:none;' id='index_page_outer'>
+<div class="overlay tc">
+        <img src="overlay-banner.png" tppabs="http://cdnec.sasa.com/themes/default/pic/overlay-banner.png" border="0" usemap="#Map">
+        <map name="Map">
+          <area shape="rect" coords="682,0,734,65" >
+        </map>
+</div>
+<div  class="page_outer"></div>
+</div>
+
+<script>
+ if(navigator.appName == "Microsoft Internet Explorer")
+{
+
+  if(navigator.userAgent.indexOf(" MSIE 6.0" ) >0 ||
+     navigator.userAgent.indexOf(" MSIE 7.0" ) >0
+
+     )
+  {
+    $('index_page_outer').setStyle('display','');
+    if($$('area',$('index_page_outer'))){
+      $$('area',$('index_page_outer')).setStyle('cursor','pointer');
+      $$('area',$('index_page_outer')).addEvent('click', function(e){
+         $('index_page_outer').setStyle('display','none');
+      });
+    }
+  }
+}
+
+</script>
+<div class="header-main">
+  <div class="page">
+    <div class="sotelogo">
+      <a href="javascript:if(confirm(%27http://www.sasa.com/  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/%27" tppabs="http://www.sasa.com/">
+    <img alt="欢迎光临莎莎网" src="de63e200c54345ad02ff3d6de8ce4eb97fafdf87.png-1470039646.png#w" tppabs="http://cdnec.sasa.com/public/images/d2/a9/ab/de63e200c54345ad02ff3d6de8ce4eb97fafdf87.png?1470039646#w" border="0"/>
+</a>    </div>
+    <div class="search clearfix">
+      <form action="http://www.sasa.com/search-result.html" method="post" class="SearchBar  searchBar_219" id="searchbar_219" async="false" >
+    <div class="search-input">
+        <input type="text" name="search_keywords" placeholder="面膜" autocompleter="associate_autocomplete_goods:name,goods_id" ac_options="{}" class="key" value="" autocomplete="off"/>
+    </div>
+    <button type="submit" class="btn btn-search submit-btn">搜索</button>
+</form>
+<div class="hot-keywords">
+        <a href="javascript:if(confirm(%27http://www.sasa.com/search-防晒.html  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/search-防晒.html%27" tppabs="http://www.sasa.com/search-防晒.html">防晒</a>
+        <a href="search-兰蔻.html" tppabs="http://www.sasa.com/search-兰蔻.html">兰蔻</a>
+        <a href="search-雅诗兰黛.html" tppabs="http://www.sasa.com/search-雅诗兰黛.html">雅诗兰黛</a>
+        <a href="javascript:if(confirm(%27http://www.sasa.com/search-兰芝.html  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/search-兰芝.html%27" tppabs="http://www.sasa.com/search-兰芝.html">兰芝</a>
+        <a href="javascript:if(confirm(%27http://www.sasa.com/search-眼霜.html  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/search-眼霜.html%27" tppabs="http://www.sasa.com/search-眼霜.html">眼霜</a>
+        <a href="javascript:if(confirm(%27http://www.sasa.com/search-保湿.html  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/search-保湿.html%27" tppabs="http://www.sasa.com/search-保湿.html">保湿</a>
+        <a href="javascript:if(confirm(%27http://www.sasa.com/search-迪奥.html  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/search-迪奥.html%27" tppabs="http://www.sasa.com/search-迪奥.html">迪奥</a>
+    </div>
+
+
+    </div>
+    <div class="topright fr" id="J_topCartBar">
+      <div class="cart-bar clearfix">
+        <div id="minicart_238" class="minicart">
+  <div class="js_minicart-title tc">
+    <a href="javascript:if(confirm(%27http://www.sasa.com/basket  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/basket%27" tppabs="http://www.sasa.com/basket">我的购物车</a>
+  </div>
+  <div class="MiniCarDetail minicart-cont">
+    <img class="loading" src="loading.gif" tppabs="http://www.sasa.com/themes/default/images/loading.gif"  height="32" width="32"/>
+  </div>
+</div>
+<!--<li class="icon2"><span><a href="/cart-checkout.html">去结账</a></span></li>-->
+
+      </div>
+    </div>
+  </div>
+</div>
+<div class="nav-bar">
+        <div class="page">
+            <ul class="navicon fr" id="index_navicon">
+                
+
+<li><img src="8c02203a299452b16cbb25114ef4455af582f59c.png-1426562426.png#w" tppabs="http://cdnec.sasa.com/public/images/7c/66/e2/8c02203a299452b16cbb25114ef4455af582f59c.png?1426562426#w" height="19" width="20"/><cp class="cp_accordion" style="visibility:hidden;">满￥249包邮</cp></li>
+ <li><img src="da673f95ad32e48151b42cf2604d8524bb683d58.png-1426562456.png#w" tppabs="http://cdnec.sasa.com/public/images/d8/05/13/da673f95ad32e48151b42cf2604d8524bb683d58.png?1426562456#w" height="19" width="21"/><cp class="cp_accordion" style="visibility:hidden;">正品保证</cp></li>
+ <li><img src="be0ac00be2ccf84dce0d798567412f45ac7a35c6.png-1426562469.png#w" tppabs="http://cdnec.sasa.com/public/images/37/1b/14/be0ac00be2ccf84dce0d798567412f45ac7a35c6.png?1426562469#w" height="18" width="25"/><cp class="cp_accordion" style="visibility:hidden;">香港直送</cp></li>
+ 
+
+            </ul>
+            <div class="nav fl"><ul class="nav-list clearfix">
+                <li class="nav-item"><div class="nav-text">
+				<a href="javascript:if(confirm(%27http://www.sasa.com/  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/%27" tppabs="http://www.sasa.com/" >首页</a>
+			</div></li>
+                        <li class="nav-item"><div class="nav-text">
+				<a href="javascript:if(confirm(%27http://www.sasa.com/facial-care  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/facial-care%27" tppabs="http://www.sasa.com/facial-care" >面部护肤</a>
+			</div></li>
+                        <li class="nav-item"><div class="nav-text">
+				<a href="javascript:if(confirm(%27http://www.sasa.com/makeup  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/makeup%27" tppabs="http://www.sasa.com/makeup" >彩妆</a>
+			</div></li>
+                        <li class="nav-item"><div class="nav-text">
+				<a href="javascript:if(confirm(%27http://www.sasa.com/flash-sales  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/flash-sales%27" tppabs="http://www.sasa.com/flash-sales" >限时特卖</a>
+			</div></li>
+                        <li class="nav-item"><div class="nav-text">
+				<a href="javascript:if(confirm(%27http://www.sasa.com/vip/exclusive  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/vip/exclusive%27" tppabs="http://www.sasa.com/vip/exclusive" >贵宾专享</a>
+			</div></li>
+                        <li class="nav-item nav-item-more" id="nav-item-more_276">
+                <div class="nav-text"><a href="javascript:if(confirm(%27http://www.sasa.com/brand  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/brand%27" tppabs="http://www.sasa.com/brand" target="_blank">所有品牌<i class="iconfont">&#xe633;</i></a></div>
+                <div class="nav-itembox" id="nav-itembox_276" style="visibility:hidden;">
+                      <div class="navtip-arr"><i class="iconfont">&#xe63a;</i></div>
+                      <div class="navtip-text">热门品牌</div>
+                      <div class="clb">
+                           <div class="nav-brandtext fl">
+                                 <ul class="scroll-pane-arrows" id="scroll-pane-arrows">
+                                                                         <li>
+                                        <a href="javascript:if(confirm(%27http://www.sasa.com/brand/sam-tin  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/brand/sam-tin%27" tppabs="http://www.sasa.com/brand/sam-tin" target="_blank">
+                                        森田药妆&nbsp;
+                                        SAM TIN 
+                                        </a>
+                                    </li>
+                                                                          <li>
+                                        <a href="javascript:if(confirm(%27http://www.sasa.com/brand/sisley  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/brand/sisley%27" tppabs="http://www.sasa.com/brand/sisley" target="_blank">
+                                        希思黎&nbsp;
+                                        Sisley 
+                                        </a>
+                                    </li>
+                                                                          <li>
+                                        <a href="javascript:if(confirm(%27http://www.sasa.com/brand/estee-lauder  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/brand/estee-lauder%27" tppabs="http://www.sasa.com/brand/estee-lauder" target="_blank">
+                                        雅诗兰黛&nbsp;
+                                        Estee Lauder 
+                                        </a>
+                                    </li>
+                                                                          <li>
+                                        <a href="javascript:if(confirm(%27http://www.sasa.com/brand/lancome  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/brand/lancome%27" tppabs="http://www.sasa.com/brand/lancome" target="_blank">
+                                        兰蔻&nbsp;
+                                        Lancome 
+                                        </a>
+                                    </li>
+                                                                          <li>
+                                        <a href="javascript:if(confirm(%27http://www.sasa.com/brand/sk-ii  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/brand/sk-ii%27" tppabs="http://www.sasa.com/brand/sk-ii" target="_blank">
+                                        SK-II 
+                                        </a>
+                                    </li>
+                                                                          <li>
+                                        <a href="javascript:if(confirm(%27http://www.sasa.com/brand/shiseido  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/brand/shiseido%27" tppabs="http://www.sasa.com/brand/shiseido" target="_blank">
+                                        资生堂&nbsp;
+                                        Shiseido 
+                                        </a>
+                                    </li>
+                                                                          <li>
+                                        <a href="javascript:if(confirm(%27http://www.sasa.com/brand/kose  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/brand/kose%27" tppabs="http://www.sasa.com/brand/kose" target="_blank">
+                                        高丝&nbsp;
+                                        Kose 
+                                        </a>
+                                    </li>
+                                                                          <li>
+                                        <a href="javascript:if(confirm(%27http://www.sasa.com/brand/avene  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/brand/avene%27" tppabs="http://www.sasa.com/brand/avene" target="_blank">
+                                        雅漾&nbsp;
+                                        Avene 
+                                        </a>
+                                    </li>
+                                                                      </ul>
+                                 <a href="javascript:if(confirm(%27http://www.sasa.com/brand  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/brand%27" tppabs="http://www.sasa.com/brand" class="nav-brandmore" target="_blank"><b>查看全部品牌</b></a>
+                            
+                                <script src="jquery.jscrollpane.min.js-20160818.js" tppabs="http://cdnec.sasa.com/public/app/gift/statics/js_mini/jquery.jscrollpane.min.js?20160818"></script><link href="jquery.jscrollpane.min.css-20160825.css" tppabs="http://cdnec.sasa.com/public/app/b2c/statics/css_mini/jquery.jscrollpane.min.css?20160825" rel="stylesheet" media="screen, projection" />                            
+                           </div>
+                           <div class="nav-brandpic fr">
+                                 <ul>
+                                                                          <li><a href="javascript:if(confirm(%27http://www.sasa.com/brand/suisse-programme  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/brand/suisse-programme%27" tppabs="http://www.sasa.com/brand/suisse-programme">
+                                        <img src="2c2998057ebcbcf03cf2ba4d5f52addd23750798.jpg-1430815397.jpg#w" tppabs="http://cdnec.sasa.com/public/images/9a/b6/15/2c2998057ebcbcf03cf2ba4d5f52addd23750798.jpg?1430815397#w"></a>
+                                     </li>
+                                                                          <li><a href="javascript:if(confirm(%27http://www.sasa.com/brand/methode-swiss  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/brand/methode-swiss%27" tppabs="http://www.sasa.com/brand/methode-swiss">
+                                        <img src="c74ff89d7509b000e730cfd80a31812153aa4d0c.jpg-1423812573.jpg#w" tppabs="http://cdnec.sasa.com/public/images/5d/f3/39/c74ff89d7509b000e730cfd80a31812153aa4d0c.jpg?1423812573#w"></a>
+                                     </li>
+                                                                          <li><a href="javascript:if(confirm(%27http://www.sasa.com/brand/elizabeth-arden  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/brand/elizabeth-arden%27" tppabs="http://www.sasa.com/brand/elizabeth-arden">
+                                        <img src="d8362557af48e82ddb8deaeeefc343178930641e.jpg-1441706671.jpg#w" tppabs="http://cdnec.sasa.com/public/images/23/20/3b/d8362557af48e82ddb8deaeeefc343178930641e.jpg?1441706671#w"></a>
+                                     </li>
+                                                                          <li><a href="javascript:if(confirm(%27http://www.sasa.com/brand/HARUHADA  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/brand/HARUHADA%27" tppabs="http://www.sasa.com/brand/HARUHADA">
+                                        <img src="c3e4f114b2c88a494e0da8c07b98b5c0111ecfb6.jpg-1423812606.jpg#w" tppabs="http://cdnec.sasa.com/public/images/7e/0f/3b/c3e4f114b2c88a494e0da8c07b98b5c0111ecfb6.jpg?1423812606#w"></a>
+                                     </li>
+                                                                          <li><a href="javascript:if(confirm(%27http://www.sasa.com/brand/snp  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/brand/snp%27" tppabs="http://www.sasa.com/brand/snp">
+                                        <img src="627d973918144917275db457b24e93f0cc36b924.jpg-1432110089.jpg#w" tppabs="http://cdnec.sasa.com/public/images/8c/4c/a4/627d973918144917275db457b24e93f0cc36b924.jpg?1432110089#w"></a>
+                                     </li>
+                                                                          <li><a href="javascript:if(confirm(%27http://www.sasa.com/brand/dr-jart  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/brand/dr-jart%27" tppabs="http://www.sasa.com/brand/dr-jart">
+                                        <img src="2a1ce522f89c223882fc6f6b19548b8206aef704.jpg-1423812626.jpg#w" tppabs="http://cdnec.sasa.com/public/images/ba/08/e8/2a1ce522f89c223882fc6f6b19548b8206aef704.jpg?1423812626#w"></a>
+                                     </li>
+                                                                          <li><a href="javascript:if(confirm(%27http://www.sasa.com/brand/hadatuko  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/brand/hadatuko%27" tppabs="http://www.sasa.com/brand/hadatuko">
+                                        <img src="1310c51598fecdb759bbfb1a5de0cb6075b1ed90.jpg-1423812636.jpg#w" tppabs="http://cdnec.sasa.com/public/images/a5/97/23/1310c51598fecdb759bbfb1a5de0cb6075b1ed90.jpg?1423812636#w"></a>
+                                     </li>
+                                                                          <li><a href="javascript:if(confirm(%27http://www.sasa.com/brand/cyber-colors  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/brand/cyber-colors%27" tppabs="http://www.sasa.com/brand/cyber-colors">
+                                        <img src="c39c6706e95d144a3107483c8338b3fcc712c5c9.jpg-1423812644.jpg#w" tppabs="http://cdnec.sasa.com/public/images/f4/85/21/c39c6706e95d144a3107483c8338b3fcc712c5c9.jpg?1423812644#w"></a>
+                                     </li>
+                                                                      </ul>
+                           </div>
+                      </div>
+                </div>
+            </li>
+        
+    
+</ul>
+
+</div>
+        </div>
+</div>
+<div class="nav-category">
+  <div class="page">
+    <div class="all-category">
+      <div id="cat_269">
+  <div class="category-handle">
+    所有分类
+  </div>
+  <div class="category-box" style="visibility: hidden;">
+    <ul class="cat-ex-vertical">
+            <li class="cat-item first">
+        <div class="cat-root-box">
+          <img src="69592fb9fedc9de4342dc9a4c74bf417100632ff.png-1423743339.png#h" tppabs="http://cdnec.sasa.com/public/images/5b/fb/e3/69592fb9fedc9de4342dc9a4c74bf417100632ff.png?1423743339#h" class="icon" alt="热门功效">          <div class="cat-text"><a href="javascript:void(0);" >热门功效</a></div>
+                    <div class="cat-redundancy">
+            <a href="javascript:if(confirm(%27http://www.sasa.com/search-保湿.html  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/search-保湿.html%27" tppabs="http://www.sasa.com/search-保湿.html" type="url" title="保湿">保湿</a> 
+<a href="javascript:if(confirm(%27http://www.sasa.com/search-美白提亮.html  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/search-美白提亮.html%27" tppabs="http://www.sasa.com/search-美白提亮.html" type="url" title="美白提亮">美白提亮</a>
+ <a href="javascript:if(confirm(%27http://www.sasa.com/search-提亮祛斑.html  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/search-提亮祛斑.html%27" tppabs="http://www.sasa.com/search-提亮祛斑.html" type="url" title="提亮祛斑">提亮祛斑</a>
+&nbsp;<a href="javascript:if(confirm(%27http://www.sasa.com/search-收毛孔.html  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/search-收毛孔.html%27" tppabs="http://www.sasa.com/search-收毛孔.html" type="url" title="收毛孔">收毛孔</a><div style="clear:both"></div>          </div>
+                    <div class="cat-children-box">
+            <dl><dt><a href="javacript:void(0);">热门功效</a></dt> 
+<a href="javascript:if(confirm(%27http://www.sasa.com/search-保湿.html  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/search-保湿.html%27" tppabs="http://www.sasa.com/search-保湿.html" type="url" title="保湿">保湿</a>
+ &nbsp;<a href="javascript:if(confirm(%27http://www.sasa.com/search-美白提亮.html  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/search-美白提亮.html%27" tppabs="http://www.sasa.com/search-美白提亮.html" type="url" title="美白提亮">美白提亮</a>
+ <br/><a href="javascript:if(confirm(%27http://www.sasa.com/search-祛斑.html  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/search-祛斑.html%27" tppabs="http://www.sasa.com/search-祛斑.html" type="url" title="祛斑">祛斑</a>
+ &nbsp;<a href="javascript:if(confirm(%27http://www.sasa.com/search-舒缓/抗敏感.html  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/search-舒缓/抗敏感.html%27" tppabs="http://www.sasa.com/search-舒缓/抗敏感.html" type="url" title="舒缓/抗敏感">舒缓/抗敏感</a> <br/>
+<a href="javascript:if(confirm(%27http://www.sasa.com/search-收毛孔.html  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/search-收毛孔.html%27" tppabs="http://www.sasa.com/search-收毛孔.html" type="url" title="收毛孔">收毛孔</a>
+ &nbsp;<a href="javascript:if(confirm(%27http://www.sasa.com/search-提拉紧致.html  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/search-提拉紧致.html%27" tppabs="http://www.sasa.com/search-提拉紧致.html" type="url" title="提拉紧致">提拉紧致</a> <br/>
+<a href="javascript:if(confirm(%27http://www.sasa.com/search-抗皱.html  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/search-抗皱.html%27" tppabs="http://www.sasa.com/search-抗皱.html" type="url" title="抗皱">抗皱</a>
+ &nbsp;<a href="javascript:if(confirm(%27http://www.sasa.com/search-去黑眼圈.html  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/search-去黑眼圈.html%27" tppabs="http://www.sasa.com/search-去黑眼圈.html" type="url" title="去黑眼圈">去黑眼圈</a> <br/>
+<a href="javascript:if(confirm(%27http://www.sasa.com/search-去干纹.html  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/search-去干纹.html%27" tppabs="http://www.sasa.com/search-去干纹.html" type="url" title="去干纹">去干纹</a>
+ &nbsp;<a href="javascript:if(confirm(%27http://www.sasa.com/search-防晒.html  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/search-防晒.html%27" tppabs="http://www.sasa.com/search-防晒.html" type="url" title="防晒">防晒</a></dl>          </div>
+                  </div>
+        
+      </li>
+            <li class="cat-item ">
+        <div class="cat-root-box">
+          <img src="6965a581ece31fe76cad6ac1371bcd04da4fb19b.png-1423743377.png#h" tppabs="http://cdnec.sasa.com/public/images/5b/ee/4e/6965a581ece31fe76cad6ac1371bcd04da4fb19b.png?1423743377#h" class="icon" alt="面部护肤">          <div class="cat-text"><a href="javascript:if(confirm(%27http://www.sasa.com/facial-care  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/facial-care%27" tppabs="http://www.sasa.com/facial-care" >面部护肤</a></div>
+                    <div class="cat-redundancy">
+            <a href="javascript:if(confirm(%27http://www.sasa.com/facial-care/cleanser  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/facial-care/cleanser%27" tppabs="http://www.sasa.com/facial-care/cleanser" type="url">洁面</a><a href="javascript:if(confirm(%27http://www.sasa.com/facial-care/toner  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/facial-care/toner%27" tppabs="http://www.sasa.com/facial-care/toner" type="url">化妆水</a><a href="javascript:if(confirm(%27http://www.sasa.com/facial-care/essence  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/facial-care/essence%27" tppabs="http://www.sasa.com/facial-care/essence" type="url">精华</a><a></a><a href="javascript:if(confirm(%27http://www.sasa.com/facial-care/cream  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/facial-care/cream%27" tppabs="http://www.sasa.com/facial-care/cream" type="url">面霜</a><a href="javascript:if(confirm(%27http://www.sasa.com/facial-care/mask  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/facial-care/mask%27" tppabs="http://www.sasa.com/facial-care/mask" type="url">面膜</a><div style="clear:both"></div>          </div>
+                    <div class="cat-children-box">
+            <dl><dt><a>基本护理</a></dt> <a href="javascript:if(confirm(%27http://www.sasa.com/facial-care/cleanser  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/facial-care/cleanser%27" tppabs="http://www.sasa.com/facial-care/cleanser" type="url" title="洁面">洁面</a> &nbsp;<a href="javascript:if(confirm(%27http://www.sasa.com/facial-care/exfoliator  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/facial-care/exfoliator%27" tppabs="http://www.sasa.com/facial-care/exfoliator" type="url" title="磨砂">磨砂</a> &nbsp;<a href="javascript:if(confirm(%27http://www.sasa.com/facial-care/makeup-remover  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/facial-care/makeup-remover%27" tppabs="http://www.sasa.com/facial-care/makeup-remover" type="url" title="卸妆">卸妆</a><br/><a href="javascript:if(confirm(%27http://www.sasa.com/facial-care/toner  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/facial-care/toner%27" tppabs="http://www.sasa.com/facial-care/toner" type="url" title="化妆水">化妆水</a> &nbsp;<a href="javascript:if(confirm(%27http://www.sasa.com/facial-care/essence  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/facial-care/essence%27" tppabs="http://www.sasa.com/facial-care/essence" type="url" title="精华">精华</a><br/><a href="javascript:if(confirm(%27http://www.sasa.com/facial-care/cream  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/facial-care/cream%27" tppabs="http://www.sasa.com/facial-care/cream" type="url" title="面霜">面霜</a> &nbsp;<a href="javascript:if(confirm(%27http://www.sasa.com/facial-care/mask  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/facial-care/mask%27" tppabs="http://www.sasa.com/facial-care/mask" type="url" title="面膜">面膜</a></dl> <dl><dt><a>特别护理</a></dt> <a href="javascript:if(confirm(%27http://www.sasa.com/facial-care/neck-care  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/facial-care/neck-care%27" tppabs="http://www.sasa.com/facial-care/neck-care" type="url" title="颈部护理">颈部护理</a> &nbsp;<a href="javascript:if(confirm(%27http://www.sasa.com/facial-care/eye-care  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/facial-care/eye-care%27" tppabs="http://www.sasa.com/facial-care/eye-care" type="url" title="眼部护理">眼部护理</a><br/><a href="javascript:if(confirm(%27http://www.sasa.com/facial-care/acne-care  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/facial-care/acne-care%27" tppabs="http://www.sasa.com/facial-care/acne-care" type="url" title="暗疮护理">暗疮护理</a> &nbsp;<a href="javascript:if(confirm(%27http://www.sasa.com/facial-care/lip-care  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/facial-care/lip-care%27" tppabs="http://www.sasa.com/facial-care/lip-care" type="url" title="唇部护理 ">唇部护理</a> <br/><a href="javascript:if(confirm(%27http://www.sasa.com/facial-care/sunscreen  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/facial-care/sunscreen%27" tppabs="http://www.sasa.com/facial-care/sunscreen" type="url" title="防晒护理">防晒护理</a></dl> <dl><dt><a>其他</a></dt> <a href="javascript:if(confirm(%27http://www.sasa.com/facial-care/beauty-equipment  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/facial-care/beauty-equipment%27" tppabs="http://www.sasa.com/facial-care/beauty-equipment" type="url" title="高端美容仪器">高端美容仪器</a> <br/><a href="javascript:if(confirm(%27http://www.sasa.com/facial-care/beauty-tools  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/facial-care/beauty-tools%27" tppabs="http://www.sasa.com/facial-care/beauty-tools" type="url" title="美容工具">美容工具</a>&nbsp;&nbsp;<a href="javascript:if(confirm(%27http://www.sasa.com/sample  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/sample%27" tppabs="http://www.sasa.com/sample" type="url" title="小样">小样</a>&nbsp;<br/><a href="javascript:if(confirm(%27http://www.sasa.com/facial-care/set  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/facial-care/set%27" tppabs="http://www.sasa.com/facial-care/set" type="url" title="套装">套装</a></dl>          </div>
+                  </div>
+        
+      </li>
+            <li class="cat-item ">
+        <div class="cat-root-box">
+          <img src="332882593835232b68799458804805279d8d61ff.png-1423743400.png#h" tppabs="http://cdnec.sasa.com/public/images/e8/48/cd/332882593835232b68799458804805279d8d61ff.png?1423743400#h" class="icon" alt="彩妆">          <div class="cat-text"><a href="javascript:if(confirm(%27http://www.sasa.com/makeup  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/makeup%27" tppabs="http://www.sasa.com/makeup" >彩妆</a></div>
+                    <div class="cat-redundancy">
+            <a href="javascript:if(confirm(%27http://www.sasa.com/makeup/bb-cream  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/makeup/bb-cream%27" tppabs="http://www.sasa.com/makeup/bb-cream" type="url" title="BB霜">BB霜</a><a></a><a href="javascript:if(confirm(%27http://www.sasa.com/makeup/mascara  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/makeup/mascara%27" tppabs="http://www.sasa.com/makeup/mascara" type="url" title="睫毛膏">睫毛膏</a><a href="javascript:if(confirm(%27http://www.sasa.com/makeup/lipstick  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/makeup/lipstick%27" tppabs="http://www.sasa.com/makeup/lipstick" type="url" title="美唇">美唇</a><a></a><a href="javascript:if(confirm(%27http://www.sasa.com/makeup/foundation  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/makeup/foundation%27" tppabs="http://www.sasa.com/makeup/foundation" type="url" title="粉底">粉底</a><div style="clear:both"></div>          </div>
+                    <div class="cat-children-box">
+            <dl><dt><a>面部彩妝</a></dt> <a href="javascript:if(confirm(%27http://www.sasa.com/makeup/primer-liquid  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/makeup/primer-liquid%27" tppabs="http://www.sasa.com/makeup/primer-liquid" type="url" title="隔離霜">隔離霜</a> &nbsp;<a href="javascript:if(confirm(%27http://www.sasa.com/makeup/foundation  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/makeup/foundation%27" tppabs="http://www.sasa.com/makeup/foundation" type="url" title="粉底">粉底</a> &nbsp;<a href="javascript:if(confirm(%27http://www.sasa.com/makeup/concealer  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/makeup/concealer%27" tppabs="http://www.sasa.com/makeup/concealer" type="url" title="遮瑕">遮瑕</a><br/><a href="javascript:if(confirm(%27http://www.sasa.com/makeup/bb-cream  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/makeup/bb-cream%27" tppabs="http://www.sasa.com/makeup/bb-cream" type="url" title="BB霜">BB霜</a> &nbsp;<a href="javascript:if(confirm(%27http://www.sasa.com/makeup/cc-cream_cream  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/makeup/cc-cream_cream%27" tppabs="http://www.sasa.com/makeup/cc-cream_cream" type="url" title="CC霜">CC霜</a> &nbsp;<a href="javascript:if(confirm(%27http://www.sasa.com/makeup/rouge  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/makeup/rouge%27" tppabs="http://www.sasa.com/makeup/rouge" type="url" title="胭脂">胭脂</a></dl> <dl><dt><a>眼部彩妝</a></dt> <a href="javascript:if(confirm(%27http://www.sasa.com/makeup/eyebrow  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/makeup/eyebrow%27" tppabs="http://www.sasa.com/makeup/eyebrow" type="url" title="眉筆/眉粉">眉筆/眉粉</a> &nbsp;<a href="javascript:if(confirm(%27http://www.sasa.com/makeup/eyeshadow  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/makeup/eyeshadow%27" tppabs="http://www.sasa.com/makeup/eyeshadow" type="url" title="眼影">眼影</a><br/><a href="javascript:if(confirm(%27http://www.sasa.com/makeup/eye-liner  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/makeup/eye-liner%27" tppabs="http://www.sasa.com/makeup/eye-liner" type="url" title="眼線">眼線</a> &nbsp;<a href="javascript:if(confirm(%27http://www.sasa.com/makeup/mascara  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/makeup/mascara%27" tppabs="http://www.sasa.com/makeup/mascara" type="url" title="睫毛膏">睫毛膏</a></dl> <dl><dt><a>其他</a></dt> <a href="javascript:if(confirm(%27http://www.sasa.com/makeup/lipstick  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/makeup/lipstick%27" tppabs="http://www.sasa.com/makeup/lipstick" type="url" title="美唇">美唇</a> &nbsp;<a href="javascript:if(confirm(%27http://www.sasa.com/makeup/makeup-pallete_pallete-or-sets  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/makeup/makeup-pallete_pallete-or-sets%27" tppabs="http://www.sasa.com/makeup/makeup-pallete_pallete-or-sets" type="url" title="彩妝盒/套裝">彩妝盒/套裝</a><br/><a href="javascript:if(confirm(%27http://www.sasa.com/makeup/makeup-brush  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/makeup/makeup-brush%27" tppabs="http://www.sasa.com/makeup/makeup-brush" type="url" title="化妝掃">化妝掃</a> &nbsp;<a href="javascript:if(confirm(%27http://www.sasa.com/makeup/makeup-tools  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/makeup/makeup-tools%27" tppabs="http://www.sasa.com/makeup/makeup-tools" type="url" title="化妝工具">化妝工具</a><br/><a href="javascript:if(confirm(%27http://www.sasa.com/makeup/nail-polish  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/makeup/nail-polish%27" tppabs="http://www.sasa.com/makeup/nail-polish" type="url" title="美甲">美甲</a></dl>          </div>
+                  </div>
+        
+      </li>
+            <li class="cat-item ">
+        <div class="cat-root-box">
+          <img src="48ae6e5202ad13301a0d1201823e8ffa2d6f1953.png-1423743422.png#h" tppabs="http://cdnec.sasa.com/public/images/08/18/7b/48ae6e5202ad13301a0d1201823e8ffa2d6f1953.png?1423743422#h" class="icon" alt="香水">          <div class="cat-text"><a href="javascript:if(confirm(%27http://www.sasa.com/fragrance  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/fragrance%27" tppabs="http://www.sasa.com/fragrance" >香水</a></div>
+                    <div class="cat-redundancy">
+            <a href="javascript:if(confirm(%27http://www.sasa.com/fragrance/ladies-fragrance  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/fragrance/ladies-fragrance%27" tppabs="http://www.sasa.com/fragrance/ladies-fragrance" type="url" title="女士香水">女士香水</a><a href="javascript:if(confirm(%27http://www.sasa.com/fragrance/fragrance-sets  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/fragrance/fragrance-sets%27" tppabs="http://www.sasa.com/fragrance/fragrance-sets" type="url">香水套裝</a><div style="clear:both"></div>          </div>
+                    <div class="cat-children-box">
+            <dl><dt><a>香水</a></dt> <a href="javascript:if(confirm(%27http://www.sasa.com/fragrance/ladies-fragrance  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/fragrance/ladies-fragrance%27" tppabs="http://www.sasa.com/fragrance/ladies-fragrance" type="url" title="女士香水">女士香水</a> &nbsp;<a href="javascript:if(confirm(%27http://www.sasa.com/fragrance/mens-fragrance  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/fragrance/mens-fragrance%27" tppabs="http://www.sasa.com/fragrance/mens-fragrance" type="url" title="男士香水">男士香水</a><br/><a href="javascript:if(confirm(%27http://www.sasa.com/fragrance/fragrance-sets  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/fragrance/fragrance-sets%27" tppabs="http://www.sasa.com/fragrance/fragrance-sets" type="url" title="香水套裝">香水套裝</a> &nbsp;<a href="javascript:if(confirm(%27http://www.sasa.com/fragrance/fragrance-tools  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/fragrance/fragrance-tools%27" tppabs="http://www.sasa.com/fragrance/fragrance-tools" type="url" title="香水工具">香水工具</a></dl>          </div>
+                  </div>
+        
+      </li>
+            <li class="cat-item ">
+        <div class="cat-root-box">
+          <img src="6ad2b75df12c1da5e4fe85cb9983c75e700a4548.png-1423743433.png#h" tppabs="http://cdnec.sasa.com/public/images/ab/85/a0/6ad2b75df12c1da5e4fe85cb9983c75e700a4548.png?1423743433#h" class="icon" alt="健康美肌">          <div class="cat-text"><a href="javascript:if(confirm(%27http://www.sasa.com/health  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/health%27" tppabs="http://www.sasa.com/health" >健康美肌</a></div>
+                    <div class="cat-redundancy">
+            <a href="javascript:if(confirm(%27http://www.sasa.com/health/beauty-supplements  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/health/beauty-supplements%27" tppabs="http://www.sasa.com/health/beauty-supplements" type="url">美容补充品</a><a href="javascript:if(confirm(%27http://www.sasa.com/health/otc-drug  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/health/otc-drug%27" tppabs="http://www.sasa.com/health/otc-drug" type="url">非处方药品</a>          </div>
+                    <div class="cat-children-box">
+            <dl><dt><a>健康美肌</a></dt> <a href="javascript:if(confirm(%27http://www.sasa.com/health/beauty-supplements  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/health/beauty-supplements%27" tppabs="http://www.sasa.com/health/beauty-supplements" type="url" title="美容补充品">美容补充品</a> &nbsp;<a href="javascript:if(confirm(%27http://www.sasa.com/health/supplements  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/health/supplements%27" tppabs="http://www.sasa.com/health/supplements" type="url" title="保健品">保健品</a><br/><a href="javascript:if(confirm(%27http://www.sasa.com/health/otc-drug  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/health/otc-drug%27" tppabs="http://www.sasa.com/health/otc-drug" type="url" title="非处方药品">非处方药品</a><br/><a href="javascript:if(confirm(%27http://www.sasa.com/health/healthy-snacks  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/health/healthy-snacks%27" tppabs="http://www.sasa.com/health/healthy-snacks" type="url" title="健康零食">健康零食</a><br/><a href="javascript:if(confirm(%27http://www.sasa.com/health/herbal-products  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/health/herbal-products%27" tppabs="http://www.sasa.com/health/herbal-products" type="url" title="天然草本茶">天然草本茶</a></dl>          </div>
+                  </div>
+        
+      </li>
+            <li class="cat-item ">
+        <div class="cat-root-box">
+          <img src="f040aedf7ef539c49cafe4d4b6f4651cf83d51c6.png-1423743445.png#h" tppabs="http://cdnec.sasa.com/public/images/b9/e6/80/f040aedf7ef539c49cafe4d4b6f4651cf83d51c6.png?1423743445#h" class="icon" alt="纤体美胸">          <div class="cat-text"><a href="javascript:if(confirm(%27http://www.sasa.com/body-and-bust  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/body-and-bust%27" tppabs="http://www.sasa.com/body-and-bust" >纤体美胸</a></div>
+                    <div class="cat-redundancy">
+            <div style="clear:both"></div>          </div>
+                    <div class="cat-children-box">
+            <dl><dt><a>纤体美胸</a></dt> <a href="javascript:if(confirm(%27http://www.sasa.com/body-and-bust  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/body-and-bust%27" tppabs="http://www.sasa.com/body-and-bust" type="url" title="纤体护理">纤体护理</a> &nbsp;<a href="javascript:if(confirm(%27http://www.sasa.com/body-and-bust/slim-food  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/body-and-bust/slim-food%27" tppabs="http://www.sasa.com/body-and-bust/slim-food" type="url" title="纤体食品">纤体食品</a><br/><a href="javascript:if(confirm(%27http://www.sasa.com/body-and-bust/slimming-accessories  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/body-and-bust/slimming-accessories%27" tppabs="http://www.sasa.com/body-and-bust/slimming-accessories" type="url" title="纤体工具">纤体工具</a> &nbsp;<a href="javascript:if(confirm(%27http://www.sasa.com/body-and-bust/slimming-suit  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/body-and-bust/slimming-suit%27" tppabs="http://www.sasa.com/body-and-bust/slimming-suit" type="url" title="纤体套装">纤体套装</a><br/><a href="javascript:if(confirm(%27http://www.sasa.com/body-and-bust/bust-beauty  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/body-and-bust/bust-beauty%27" tppabs="http://www.sasa.com/body-and-bust/bust-beauty" type="url" title="美胸用品">美胸用品</a></dl>          </div>
+                  </div>
+        
+      </li>
+            <li class="cat-item ">
+        <div class="cat-root-box">
+          <img src="870b7dc9bce7ee7da870c9961ca36180f26e5b09.png-1423743454.png#h" tppabs="http://cdnec.sasa.com/public/images/8a/c8/21/870b7dc9bce7ee7da870c9961ca36180f26e5b09.png?1423743454#h" class="icon" alt="个人护理">          <div class="cat-text"><a href="javascript:if(confirm(%27http://www.sasa.com/personal-care  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/personal-care%27" tppabs="http://www.sasa.com/personal-care" >个人护理</a></div>
+                    <div class="cat-redundancy">
+            <div style="clear:both"></div>          </div>
+                    <div class="cat-children-box">
+            <dl><dt><a>身体护理</a></dt> <a href="javascript:if(confirm(%27http://www.sasa.com/personal-care/bath-and-moisturizer  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/personal-care/bath-and-moisturizer%27" tppabs="http://www.sasa.com/personal-care/bath-and-moisturizer" type="url" title="沐浴/润肤">沐浴/润肤</a><br/><a href="javascript:if(confirm(%27http://www.sasa.com/personal-care/shampoo-and-conditioner  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/personal-care/shampoo-and-conditioner%27" tppabs="http://www.sasa.com/personal-care/shampoo-and-conditioner" type="url" title="洗发/护发">洗发/护发</a><br/><a href="javascript:if(confirm(%27http://www.sasa.com/personal-care/hairstyling  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/personal-care/hairstyling%27" tppabs="http://www.sasa.com/personal-care/hairstyling" type="url" title="头发造型">头发造型</a><br/><a href="javascript:if(confirm(%27http://www.sasa.com/personal-care/hands-and-feet  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/personal-care/hands-and-feet%27" tppabs="http://www.sasa.com/personal-care/hands-and-feet" type="url" title="手足部护理">手足部护理</a><br/><a href="javascript:if(confirm(%27http://www.sasa.com/personal-care/hair-removal  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/personal-care/hair-removal%27" tppabs="http://www.sasa.com/personal-care/hair-removal" type="url" title="脱毛用品">脱毛用品</a> &nbsp;<a href="javascript:if(confirm(%27http://www.sasa.com/personal-care/women-care  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/personal-care/women-care%27" tppabs="http://www.sasa.com/personal-care/women-care" type="url" title="女性护理">女性护理</a><br/><a href="javascript:if(confirm(%27http://www.sasa.com/personal-care/deodorants  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/personal-care/deodorants%27" tppabs="http://www.sasa.com/personal-care/deodorants" type="url" title="止汗香体">止汗香体</a></dl> <dl><dt><a>其他&nbsp;</a></dt> <a href="javascript:if(confirm(%27http://www.sasa.com/personal-care/contact-lenses  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/personal-care/contact-lenses%27" tppabs="http://www.sasa.com/personal-care/contact-lenses" type="url" title="隐形眼镜">隐形眼镜</a> &nbsp;<a href="javascript:if(confirm(%27http://www.sasa.com/personal-care/oral-care  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/personal-care/oral-care%27" tppabs="http://www.sasa.com/personal-care/oral-care" type="url" title="口腔护理">口腔护理</a><br/><a href="javascript:if(confirm(%27http://www.sasa.com/personal-care/household-items  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/personal-care/household-items%27" tppabs="http://www.sasa.com/personal-care/household-items" type="url" title="家居用品">家居用品</a> &nbsp;<a href="javascript:if(confirm(%27http://www.sasa.com/personal-care/accessories  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/personal-care/accessories%27" tppabs="http://www.sasa.com/personal-care/accessories" type="url" title="头饰/饰物">头饰/饰物</a></dl>          </div>
+                  </div>
+        
+      </li>
+            <li class="cat-item ">
+        <div class="cat-root-box">
+          <img src="ba8c4d59df4ccd64c39db3aee364cac4e7c902f0.png-1423743464.png#h" tppabs="http://cdnec.sasa.com/public/images/ea/7c/86/ba8c4d59df4ccd64c39db3aee364cac4e7c902f0.png?1423743464#h" class="icon" alt="男士专区">          <div class="cat-text"><a href="javascript:if(confirm(%27http://www.sasa.com/for-him  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/for-him%27" tppabs="http://www.sasa.com/for-him" >男士专区</a></div>
+                    <div class="cat-redundancy">
+            <div style="clear:both"></div>          </div>
+                    <div class="cat-children-box">
+            <dl><dt><a>男士专区</a></dt> <a href="javascript:if(confirm(%27http://www.sasa.com/for-him/facial-wash  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/for-him/facial-wash%27" tppabs="http://www.sasa.com/for-him/facial-wash" type="url" title="男士洁面">男士洁面</a> &nbsp;<a href="javascript:if(confirm(%27http://www.sasa.com/for-him/skin-care  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/for-him/skin-care%27" tppabs="http://www.sasa.com/for-him/skin-care" type="url" title="男士护肤">男士护肤</a><br/><a href="javascript:if(confirm(%27http://www.sasa.com/for-him/shaving  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/for-him/shaving%27" tppabs="http://www.sasa.com/for-him/shaving" type="url" title="剃须护理">剃须护理</a><br/><a href="javascript:if(confirm(%27http://www.sasa.com/for-him/hair-care  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/for-him/hair-care%27" tppabs="http://www.sasa.com/for-him/hair-care" type="url" title="男士头部护理">男士头部护理</a></dl>          </div>
+                  </div>
+        
+      </li>
+            <li class="cat-item last">
+        <div class="cat-root-box">
+          <img src="a5fd30fc63a5cb9cd7d750ae59abe85d8dd097a4.png-1423743472.png#h" tppabs="http://cdnec.sasa.com/public/images/cb/4c/41/a5fd30fc63a5cb9cd7d750ae59abe85d8dd097a4.png?1423743472#h" class="icon" alt="孕婴护理">          <div class="cat-text"><a href="javascript:if(confirm(%27http://www.sasa.com/mother-baby-care  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/mother-baby-care%27" tppabs="http://www.sasa.com/mother-baby-care" >孕婴护理</a></div>
+                    <div class="cat-redundancy">
+            <div style="clear:both"></div>          </div>
+                    <div class="cat-children-box">
+            <dl><dt><a>孕婴护理</a></dt> <font color="#ec3e7d"><strong><a href="javascript:if(confirm(%27http://www.sasa.com/promo/babynmum  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/promo/babynmum%27" tppabs="http://www.sasa.com/promo/babynmum" type="url" title="母婴团">母婴团</a></strong></font><a></a> <a href="javascript:if(confirm(%27http://www.sasa.com/mother-baby-care/baby-bath  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/mother-baby-care/baby-bath%27" tppabs="http://www.sasa.com/mother-baby-care/baby-bath" type="url" title="婴儿沐浴">婴儿沐浴</a> &nbsp;<a href="javascript:if(confirm(%27http://www.sasa.com/mother-baby-care/baby-skincare  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/mother-baby-care/baby-skincare%27" tppabs="http://www.sasa.com/mother-baby-care/baby-skincare" type="url" title="婴儿护肤">婴儿护肤</a><br/><a href="javascript:if(confirm(%27http://www.sasa.com/mother-baby-care/baby-food  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/mother-baby-care/baby-food%27" tppabs="http://www.sasa.com/mother-baby-care/baby-food" type="url" title="婴儿食品">婴儿食品</a> &nbsp;<a href="javascript:if(confirm(%27http://www.sasa.com/mother-baby-care/pregnancy-skincare  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/mother-baby-care/pregnancy-skincare%27" tppabs="http://www.sasa.com/mother-baby-care/pregnancy-skincare" type="url" title="孕妇护肤">孕妇护肤</a><br/><a href="javascript:if(confirm(%27http://www.sasa.com/mother-baby-care/pregnancy-food  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/mother-baby-care/pregnancy-food%27" tppabs="http://www.sasa.com/mother-baby-care/pregnancy-food" type="url" title="孕妇食品">孕妇食品</a><br/><a href="javascript:if(confirm(%27http://www.sasa.com/mother-baby-care/pregnancy-tools  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/mother-baby-care/pregnancy-tools%27" tppabs="http://www.sasa.com/mother-baby-care/pregnancy-tools" type="url" title="其他孕婴工具">其他孕婴工具</a></dl>          </div>
+                  </div>
+        
+      </li>
+          </ul>
+  </div>
+</div>
+
+
+    </div>
+    <div class="tj-category">
+      
+<ul id="sub_nav_244">
+       <li >
+	<a style='cursor:pointer;font-size: 14px;font-weight: normal;display: block;'  href="javascript:if(confirm(%27http://www.sasa.com/gallery.html?scontent=n&gTag[]=12&ishome=1&order=5  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/gallery.html?scontent=n&gTag[]=12&ishome=1&order=5%27" tppabs="http://www.sasa.com/gallery.html?scontent=n&gTag[]=12&ishome=1&order=5" >新品上市</a>
+	</li>
+	    <li >
+	<a style='cursor:pointer;font-size: 14px;font-weight: normal;display: block;'  href="javascript:if(confirm(%27http://www.sasa.com/public/weekly/  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/public/weekly/%27" tppabs="http://www.sasa.com/public/weekly/" >本周促销</a>
+	</li>
+	    <li >
+	<a style='cursor:pointer;font-size: 14px;font-weight: normal;display: block;'  href="javascript:if(confirm(%27http://www.sasa.com/korea-popular  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/korea-popular%27" tppabs="http://www.sasa.com/korea-popular" >韩国热卖</a>
+	</li>
+	    <li >
+	<a style='cursor:pointer;font-size: 14px;font-weight: normal;display: block;'  href="javascript:if(confirm(%27http://www.sasa.com/mask-special  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/mask-special%27" tppabs="http://www.sasa.com/mask-special" >面膜专区</a>
+	</li>
+	    <li >
+	<a style='cursor:pointer;font-size: 14px;font-weight: normal;display: block;'  href="javascript:if(confirm(%27http://www.sasa.com/gallery.html?scontent=n&clearance=1  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/gallery.html?scontent=n&clearance=1%27" tppabs="http://www.sasa.com/gallery.html?scontent=n&clearance=1" >清货特卖</a>
+	</li>
+	    <li >
+	<a style='cursor:pointer;font-size: 14px;font-weight: normal;display: block;' ></a>
+	</li>
+	</ul>
+    </div>
+  </div>
+</div>
+<script>
+  (function(){
+    addEvent('domready',function(){
+      function resize(){
+        var b = $$('body')[0];
+        if($(window).getWidth() < 1225){
+          b.addClass('min-page');
+        }else{
+          b.removeClass('min-page');
+        }
+      }
+      addEvent('resize',resize);
+      resize();
+    });
+  })();
+</script>
+<div class="artad-banner tc clb">
+    <div class="page">
+      	<a  href='javascript:void(0);' >
+		<img src="e1eaa7b14db9aea17a84252428169153991f9d18.png-1427457007.png#w" tppabs="http://cdnec.sasa.com/public/images/c3/c7/d9/e1eaa7b14db9aea17a84252428169153991f9d18.png?1427457007#w" alt=""  />
+	</a>
+
+    </div>
+</div>
+<div class="page">
+      <div class="lsidebar"><div class="news">
+    <div class="gray-title">
+        
+        帮助中心        
+    </div>
+    <ul class="gray-box l_aone m">
+                <li class="js_article ahover" onclick="">
+            <i></i>
+            <span><ins class="iconfont">&#xe66f;</ins><a href="javascript:void(0);">特别公告</a></span>
+            <ul class="l_btwo hide">
+                                <li>
+                    
+                    <a href="customer_notice.htm" tppabs="http://www.sasa.com/customer_notice" title="消费者告知书" >消费者告知书</a>
+                    
+                </li>
+                                <li>
+                    
+                    <a href="javascript:if(confirm(%27http://www.sasa.com/notice/declaration  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/notice/declaration%27" tppabs="http://www.sasa.com/notice/declaration" title="特别通知声明" >特别通知声明</a>
+                    
+                </li>
+                                <li>
+                    
+                    <a href="javascript:if(confirm(%27http://www.sasa.com/notice/delivery  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/notice/delivery%27" tppabs="http://www.sasa.com/notice/delivery" title="物流提示" >物流提示</a>
+                    
+                </li>
+                            </ul>
+        </li>
+                <li class="js_article ahover" onclick="">
+            <i></i>
+            <span><ins class="iconfont">&#xe600;</ins><a href="javascript:void(0);">新手上路</a></span>
+            <ul class="l_btwo hide">
+                                <li>
+                    
+                    <a href="javascript:if(confirm(%27http://www.sasa.com/help/getting-started_purchase-flow  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/help/getting-started_purchase-flow%27" tppabs="http://www.sasa.com/help/getting-started_purchase-flow" title="购物流程" >购物流程</a>
+                    
+                </li>
+                                <li>
+                    
+                    <a href="javascript:if(confirm(%27http://www.sasa.com/help/getting-started_coupon  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/help/getting-started_coupon%27" tppabs="http://www.sasa.com/help/getting-started_coupon" title="优惠券说明" >优惠券说明</a>
+                    
+                </li>
+                                <li>
+                    
+                    <a href="javascript:if(confirm(%27http://www.sasa.com/help/getting-started_faq  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/help/getting-started_faq%27" tppabs="http://www.sasa.com/help/getting-started_faq" title="常见问题" >常见问题</a>
+                    
+                </li>
+                                <li>
+                    
+                    <a href="javascript:if(confirm(%27http://www.sasa.com/cs  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/cs%27" tppabs="http://www.sasa.com/cs" title="联络我们" >联络我们</a>
+                    
+                </li>
+                            </ul>
+        </li>
+                <li class="js_article ahover" onclick="">
+            <i></i>
+            <span><ins class="iconfont">&#xe604;</ins><a href="javascript:void(0);">付款方式</a></span>
+            <ul class="l_btwo hide">
+                                <li>
+                    
+                    <a href="javascript:if(confirm(%27http://www.sasa.com/help/payment_online  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/help/payment_online%27" tppabs="http://www.sasa.com/help/payment_online" title="在线支付" >在线支付</a>
+                    
+                </li>
+                                <li>
+                    
+                    <a href="javascript:if(confirm(%27http://www.sasa.com/help/payment_point  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/help/payment_point%27" tppabs="http://www.sasa.com/help/payment_point" title="积分支付" >积分支付</a>
+                    
+                </li>
+                            </ul>
+        </li>
+                <li class="js_article ahover" onclick="">
+            <i></i>
+            <span><ins class="iconfont">&#xe616;</ins><a href="javascript:void(0);">配送方式</a></span>
+            <ul class="l_btwo hide">
+                                <li>
+                    
+                    <a href="javascript:if(confirm(%27http://www.sasa.com/help/delivery_information  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/help/delivery_information%27" tppabs="http://www.sasa.com/help/delivery_information" title="配送说明" >配送说明</a>
+                    
+                </li>
+                                <li>
+                    
+                    <a href="javascript:if(confirm(%27http://www.sasa.com/help/delivery_tracking  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/help/delivery_tracking%27" tppabs="http://www.sasa.com/help/delivery_tracking" title="追踪订单" >追踪订单</a>
+                    
+                </li>
+                            </ul>
+        </li>
+                <li class="js_article ahover" onclick="">
+            <i></i>
+            <span><ins class="iconfont">&#xe65f;</ins><a href="javascript:void(0);">售后服务</a></span>
+            <ul class="l_btwo hide">
+                                <li>
+                    
+                    <a href="javascript:if(confirm(%27http://www.sasa.com/help/orders_quality  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/help/orders_quality%27" tppabs="http://www.sasa.com/help/orders_quality" title="正品保证" >正品保证</a>
+                    
+                </li>
+                                <li>
+                    
+                    <a href="javascript:if(confirm(%27http://www.sasa.com/help/orders_price  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/help/orders_price%27" tppabs="http://www.sasa.com/help/orders_price" title="价格承诺" >价格承诺</a>
+                    
+                </li>
+                                <li>
+                    
+                    <a href="javascript:if(confirm(%27http://www.sasa.com/help/orders_30days_return  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/help/orders_30days_return%27" tppabs="http://www.sasa.com/help/orders_30days_return" title="30日退换保证" >30日退换保证</a>
+                    
+                </li>
+                                <li>
+                    
+                    <a href="javascript:if(confirm(%27http://www.sasa.com/help/orders_return_process  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/help/orders_return_process%27" tppabs="http://www.sasa.com/help/orders_return_process" title="退款程序" >退款程序</a>
+                    
+                </li>
+                                <li>
+                    
+                    <a href="javascript:if(confirm(%27http://www.sasa.com/help/orders_change  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/help/orders_change%27" tppabs="http://www.sasa.com/help/orders_change" title="更改订单" >更改订单</a>
+                    
+                </li>
+                            </ul>
+        </li>
+                <li class="js_article ahover" onclick="">
+            <i></i>
+            <span><ins class="iconfont"></ins><a href="javascript:void(0);">莎莎会员</a></span>
+            <ul class="l_btwo hide">
+                                <li>
+                    
+                    <a href="javascript:if(confirm(%27http://www.sasa.com/help/membership_loyalty-point  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/help/membership_loyalty-point%27" tppabs="http://www.sasa.com/help/membership_loyalty-point" title="积分奖赏" >积分奖赏</a>
+                    
+                </li>
+                                <li>
+                    
+                    <a href="javascript:if(confirm(%27http://www.sasa.com/help/membership_members  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/help/membership_members%27" tppabs="http://www.sasa.com/help/membership_members" title="会员计划" >会员计划</a>
+                    
+                </li>
+                            </ul>
+        </li>
+            </ul>
+</div>
+</div>
+      <div class="right-main">
+               <div class="maincont_helpc fr detail-content"> <div class="member-title"> <h2>消费者告知书</h2> </div> <p> <!-- Tab --> </p>
+ <p>尊敬的客户： <br/><br/> 在您选购境外商品前，麻烦您仔细阅读此文，同意本文所告知内容後再进行下单购买:<br/><br/> 1、 您在本(公司)网站上购买的境外商品为产地直销商品，仅限个人自用不得进行销售，商品本身可能无中文标签，您可以查看网站的翻译或在线联系我们的客服。<br/> 2、 您购买的境外商品适用的品质丶健康丶标识等项目适用标准或与我国标准有所不同，所以在使用过程中由此可能产生的危害或损失以及其他风险，将由你个人承担。<br/> <br/> 谢谢！ </p>
+ </div>      </div>
+</div>
+<div class="footer">
+    <div class="helper">
+        <div class="page">
+            <div class="btom-code">
+                <img src="8675e60566f0bb766588acb01d5789554b94c11a.png-1432283093.png#h" tppabs="http://cdnec.sasa.com/public/images/cb/b9/c4/8675e60566f0bb766588acb01d5789554b94c11a.png?1432283093#h" alt="莎莎官方微信" height="114" width="88">            </div>
+            <div class="btom-code">
+                <a href="javascript:if(confirm(%27http://www.weibo.com/sasahongkong  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.weibo.com/sasahongkong%27" tppabs="http://www.weibo.com/sasahongkong" target="_blank" rel="nofollow"> 
+<img src="842a0a1bcd7b9fca9ce486c660964df9a9f1adea.png" tppabs="http://www.sasa.com/public/images/13/bb/51/842a0a1bcd7b9fca9ce486c660964df9a9f1adea.png" alt="莎莎官方微博" height="114" width="88"></a>            </div>
+            <div class="btom-info">
+                <h3 class="logo"></h3>
+  <p class="tel"></p>            </div>
+            <div class="helper-item">
+                <dl class="content-list">
+        <dt class="content-title" style='color:#ec3e7d'>
+    新手上路    </dt>
+    <li class='article-index-list'><ul><dd class="article-index lv-1 content-item">
+    <a href="javascript:if(confirm(%27http://www.sasa.com/help/getting-started_purchase-flow  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/help/getting-started_purchase-flow%27" tppabs="http://www.sasa.com/help/getting-started_purchase-flow" title="购物流程" rel="nofollow">购物流程</a>
+</dd> <dd class="article-index lv-1 content-item">
+    <a href="javascript:if(confirm(%27http://www.sasa.com/help/getting-started_coupon  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/help/getting-started_coupon%27" tppabs="http://www.sasa.com/help/getting-started_coupon" title="优惠券说明" rel="nofollow">优惠券说明</a>
+</dd> <dd class="article-index lv-1 content-item">
+    <a href="javascript:if(confirm(%27http://www.sasa.com/help/getting-started_faq  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/help/getting-started_faq%27" tppabs="http://www.sasa.com/help/getting-started_faq" title="常见问题" rel="nofollow">常见问题</a>
+</dd> <dd class="article-index lv-1 content-item">
+    <a href="javascript:if(confirm(%27http://www.sasa.com/cs  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/cs%27" tppabs="http://www.sasa.com/cs" title="联络我们" rel="nofollow">联络我们</a>
+</dd></dl>
+            </div>
+            <div class="helper-item">
+                <dl class="content-list">
+        <dt class="content-title" style='color:#ec3e7d'>
+    付款方式    </dt>
+    <li class='article-index-list'><ul><dd class="article-index lv-1 content-item">
+    <a href="javascript:if(confirm(%27http://www.sasa.com/help/payment_online  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/help/payment_online%27" tppabs="http://www.sasa.com/help/payment_online" title="在线支付" rel="nofollow">在线支付</a>
+</dd> <dd class="article-index lv-1 content-item">
+    <a href="javascript:if(confirm(%27http://www.sasa.com/help/payment_point  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/help/payment_point%27" tppabs="http://www.sasa.com/help/payment_point" title="积分支付" rel="nofollow">积分支付</a>
+</dd></dl>
+            </div>
+            <div class="helper-item">
+                <dl class="content-list">
+        <dt class="content-title" style='color:#ec3e7d'>
+    配送方式    </dt>
+    <li class='article-index-list'><ul><dd class="article-index lv-1 content-item">
+    <a href="javascript:if(confirm(%27http://www.sasa.com/help/delivery_information  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/help/delivery_information%27" tppabs="http://www.sasa.com/help/delivery_information" title="配送说明" rel="nofollow">配送说明</a>
+</dd> <dd class="article-index lv-1 content-item">
+    <a href="javascript:if(confirm(%27http://www.sasa.com/help/delivery_tracking  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/help/delivery_tracking%27" tppabs="http://www.sasa.com/help/delivery_tracking" title="追踪订单" rel="nofollow">追踪订单</a>
+</dd></dl>
+            </div>
+            <div class="helper-item">
+                <dl class="content-list">
+        <dt class="content-title" style='color:#ec3e7d'>
+    售后服务    </dt>
+    <li class='article-index-list'><ul><dd class="article-index lv-1 content-item">
+    <a href="javascript:if(confirm(%27http://www.sasa.com/help/orders_quality  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/help/orders_quality%27" tppabs="http://www.sasa.com/help/orders_quality" title="正品保证" rel="nofollow">正品保证</a>
+</dd> <dd class="article-index lv-1 content-item">
+    <a href="javascript:if(confirm(%27http://www.sasa.com/help/orders_price  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/help/orders_price%27" tppabs="http://www.sasa.com/help/orders_price" title="价格承诺" rel="nofollow">价格承诺</a>
+</dd> <dd class="article-index lv-1 content-item">
+    <a href="javascript:if(confirm(%27http://www.sasa.com/help/orders_30days_return  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/help/orders_30days_return%27" tppabs="http://www.sasa.com/help/orders_30days_return" title="30日退换保证" rel="nofollow">30日退换保证</a>
+</dd> <dd class="article-index lv-1 content-item">
+    <a href="javascript:if(confirm(%27http://www.sasa.com/help/orders_return_process  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/help/orders_return_process%27" tppabs="http://www.sasa.com/help/orders_return_process" title="退款程序" rel="nofollow">退款程序</a>
+</dd> <dd class="article-index lv-1 content-item">
+    <a href="javascript:if(confirm(%27http://www.sasa.com/help/orders_change  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/help/orders_change%27" tppabs="http://www.sasa.com/help/orders_change" title="更改订单" rel="nofollow">更改订单</a>
+</dd></ul></li></dl>
+            </div>
+            <div class="helper-item">
+                <dl class="content-list">
+        <dt class="content-title" style='color:#ec3e7d'>
+    莎莎会员    </dt>
+    <li class='article-index-list'><ul><dd class="article-index lv-1 content-item">
+    <a href="javascript:if(confirm(%27http://www.sasa.com/help/membership_loyalty-point  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/help/membership_loyalty-point%27" tppabs="http://www.sasa.com/help/membership_loyalty-point" title="积分奖赏" rel="nofollow">积分奖赏</a>
+</dd> <dd class="article-index lv-1 content-item">
+    <a href="javascript:if(confirm(%27http://www.sasa.com/help/membership_members  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/help/membership_members%27" tppabs="http://www.sasa.com/help/membership_members" title="会员计划" rel="nofollow">会员计划</a>
+</dd></dl>
+            </div>
+        </div>
+        <div class="btom_link tc clb">
+    <a href="javascript:if(confirm(%27http://www.sasa.com/about  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/about%27" tppabs="http://www.sasa.com/about" rel="nofollow">关于莎莎</a>
+    <a href="javascript:if(confirm(%27http://www.sasa.com/terms  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/terms%27" tppabs="http://www.sasa.com/terms" rel="nofollow">使用条款</a>
+    <a href="javascript:if(confirm(%27http://www.sasa.com/privacy-policy  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/privacy-policy%27" tppabs="http://www.sasa.com/privacy-policy" rel="nofollow">私隐政策</a>
+    <a href="javascript:if(confirm(%27http://www.sasa.com/business  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/business%27" tppabs="http://www.sasa.com/business" rel="nofollow">招商合作</a>
+    <a href="javascript:if(confirm(%27http://www.sasa.com/notice/declaration  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/notice/declaration%27" tppabs="http://www.sasa.com/notice/declaration" rel="nofollow">帮助中心</a>
+    <a href="javascript:if(confirm(%27http://www.sasa.com/promotion  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/promotion%27" tppabs="http://www.sasa.com/promotion" rel="nofollow">港澳店铺推广</a>
+    <a href="javascript:if(confirm(%27http://www.sasa.com/recruit  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/recruit%27" tppabs="http://www.sasa.com/recruit" rel="nofollow">人才招聘</a>
+    <a href="javascript:if(confirm(%27http://www.sasa.com/cs  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/cs%27" tppabs="http://www.sasa.com/cs" rel="nofollow">联络我们</a>
+    <a href="javascript:if(confirm(%27http://www.sasa.com/sitemap.html  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.sasa.com/sitemap.html%27" tppabs="http://www.sasa.com/sitemap.html" rel="nofollow">网站地图</a>
+    <a href="javascript:if(confirm(%27http://web1.sasa.com/SasaWeb/splash.jsp  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?%27))window.location=%27http://web1.sasa.com/SasaWeb/splash.jsp%27" tppabs="http://web1.sasa.com/SasaWeb/splash.jsp" rel="nofollow">其他送货地区</a>
+  </div><script src="widgetsproinstance-get_js-default-YXJ0aWNsZS0oMSkuaHRtbA==.html-20160818.js" tppabs="http://www.sasa.com/widgetsproinstance-get_js-default-YXJ0aWNsZS0oMSkuaHRtbA==.html?20160818"></script>
+<script type="text/javascript" data-main='require_main' src="require.js-123456.js" tppabs="http://cdnec.sasa.com/public/app/site/statics/requirejs_lib/require.js?123456"></script>
+<!--Hai不可以用模板引用的方式 因为定义不了data-main 这样会导致requirejs无法使用.-->
+
+<script>
+var shopDefine={"url":{"region":"\/tools-selRegion.html","placeholder":"http:\/\/cdnec.sasa.com\/public\/app\/b2c\/statics\/images\/imglazyload.gif"}},smartyNow=1473260053,memo1='正在加入购物车',memo2='提醒',memo3='提醒',memo4='加入购物车失败。',memo5='可能库存不足或提交信息不完整。';
+var link1='cart-ajax_getcarthtml.html'/*tpa=http://www.sasa.com/cart-ajax_getcarthtml.html*/,link2='http://www.sasa.com/product-ajax_get_mix_product_name.html',link3='http://www.sasa.com/product-ajax_get_product_price_by_sku.html',link4='http://www.sasa.com/product-ajax_get_product_price_by_sku.html',link5='http://www.sasa.com/product-ajax_get_product_price_by_sku.html';
+</script>
+
+    <script src="footer.min.js-20160818.js" tppabs="http://cdnec.sasa.com/public/app/site/statics/js_mini/footer.min.js?20160818"></script>
+<script id="popup_template" type="text/template">
+  <div class="{body}">
+     <div class="{header} clearfix">
+        <h2>{title}</h2>
+        <span><button type="button" title="关闭" class="{close}" hidefocus><i>×</i></button></span>
+    </div>
+    <div class="{content} clearfix">{main}</div>
+  </div>
+</script>
+<script id="message_template" type="text/template">
+  <div class="{body} clearfix">
+    <div class="icon">{icon}</div>
+    <div class="{content}">{main}</div>
+  </div>
+</script>
+<script id="dropmenu_template" type="text/template">
+  <div class="{body}">
+    <div class="{content} clearfix">{main}</div>
+  </div>
+</script>
+
+<script type="text/javascript">
+    //全站
+            var _py = _py || [];
+        _py.push(['a', 'pr..W_Uy3LqOQCONDJGYeonk7P']);
+        _py.push(['domain','http://www.sasa.com/stats.ipinyou.com']);
+        _py.push(['e','']);
+        -function(d) {
+            var s = d.createElement('script'),
+            e = d.body.getElementsByTagName('script')[0]; e.parentNode.insertBefore(s, e),
+            //f = 'https:' == location.protocol;
+            //s.src = (f ? 'https' : 'http') + '://'+(f?'http://www.sasa.com/fm.ipinyou.com':'http://www.sasa.com/fm.p0y.cn')+'/j/adv.js';
+            s.src = 'adv.js'/*tpa=http://cdnec.sasa.com/public/app/b2c/statics/js/adv.js*/;
+        }(document);
+    </script>
+<noscript><img src="adv.gif-a=pr..W_Uy3LqOQCONDJGYeonk7P&e=.gif" tppabs="http://stats.ipinyou.com/adv.gif?a=pr..W_Uy3LqOQCONDJGYeonk7P&e=" style="display:none;"/></noscript>
+<script type="text/javascript">
+	_satellite.pageBottom();
+</script>
+
+<!-- MediaV DSP:begin(add by shelby) -->
+<script type="text/javascript">var _mvq=_mvq || [];_mvq.push(['$setAccount','m-199115-0']);_mvq.push(['$logConversion']);(function() {var mvl=document.createElement('script');mvl.type='text/javascript';mvl.async=true;mvl.src=('https:'==document.location.protocol ? 'https://static-ssl.mediav.com/mvl.js' : 'mvl.js'/*tpa=http://static.mediav.com/mvl.js*/);var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(mvl,s);})();</script>
+<!-- MediaV DSP:end(add by shelby) -->
+
+<!-- veinteractive:begin(add by shelby) -->
+<script type="text/javascript">!function(){var a=document.createElement("script");a.type="text/javascript",a.async=!0,a.src="tag.js"/*tpa=http://configch2.veinteractive.com/tags/B0166972/AA73/4D7F/AC71/8F7A94F68838/tag.js*/;var b=document.getElementsByTagName("head")[0];if(b)b.appendChild(a,b);else{var b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(a,b)}}();</script>
+<!-- veinteractive:end(add by shelby) --><div class="theme-footer"><p style="text-align: center;"><font face="Helvetica Neue, Helvetica, Tahoma, Arial, sans-serif"><span style="font-size: 13px; line-height: 20px;"><font color="#999999">© Copyright 2000-2016 Sa Sa dot Com Limited 版权所有。 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 莎莎国际控股有限公司成员</font></span></font></p>
+ </div>    </div>
+</div>
+
+
+<script type="text/javascript">
+var google_tag_params = {ecomm_prodid:[],ecomm_pagetype:"other",ecomm_totalvalue:[]};
+</script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 1072250739;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="conversion.js" tppabs="http://www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="-value=0&guid=ON&script=0.gif" tppabs="http://googleads.g.doubleclick.net/pagead/viewthroughconversion/1072250739/?value=0&guid=ON&script=0"/>
+</div>
+</noscript>    
+</body>
+</html>

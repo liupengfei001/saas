@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>香港莎莎官网 - 正品美妆海淘商城,化妆品护肤品海外购首选</title>
+		<link rel="Shortcut Icon" href="images/favicon.ico.png" />
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="icon/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="css/topBar.css"/>
+		<link rel="stylesheet" type="text/css" href="css/top_main.css"/>
+		<link rel="stylesheet" type="text/css" href="css/footer.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index_checkMust.css"/>
+		<link rel="stylesheet" type="text/css" href="css/fixed.css"/>
+		<script src="libs/jquery-1.11.3.js"></script>
+		<script src="js/header.js"></script>
+		<script src="js/indexMain.js"></script>
+		<script src="js/checkMust.js"></script>
+		<script src="js/fixed.js"></script>
+		<script src="js/jquery.cookie.js"></script>
+		<script src="js/product_buycar.js"></script>
+		<script>
+			$(function(){
+				
+				//console.log(1);//jq加载成功
+				
+				$("#topBar_load").load("header.html #topBar",header_callback);
+				$("#sideBar_load").load("product_buycar.html",sideBar_callBack);
+				topCallBack();
+			})
+		</script>
+	</head>
+	<body>
+		<!--加载topBar-->
+		<div id="topBar_load"></div>
+		<!--logo和搜索框部分-->
+		<div id="top_main_wrap">
+			<div class="top_main">
+				<!--sasalogo-->
+				<div class="sasa_logo">
+					<h1><a href ="index.html">莎莎网sasa.com</a></h1>
+				</div>
+				<!--顶部的搜索框-->
+				<div class="top_search">
+				
+					<div class="search_wrap">
+						<input type="text" placeholder="面膜" class="search"/>
+						<input type="button" value="搜索" class="btn_search_top"/>
+					</div>
+					
+					<div class="aList">
+							<a style="border-left:none;padding-left:0;" href="javascript:void(0);">防晒</a>
+							<a href="javascript:void(0);">兰蔻</a>
+							<a href="javascript:void(0);">雅诗兰黛</a>
+							<a href="javascript:void(0);">兰芝</a>
+							<a href="javascript:void(0);">眼霜</a>
+							<a href="javascript:void(0);">保湿</a>
+							<a href="javascript:void(0);">迪奥</a>
+					</div>
+				</div>
+				<!--顶部的搜索框结束-->
+				<!--顶部的购物车-->	
+				<div class="top_buycar">
+					<p class="iconfont car">&#xe606;</p>
+					<div class="link_buyCar">
+						<a href="basket.html" target="_blank">我的购物车</a>
+						<div id="buyCar_po">
+							<p>购物车中还没有商品，<br />快去挑选心爱的商品吧</p>
+						</div>
+					</div>
+				</div>
+				<!--顶部的购物车结束-->	
+			</div>
+		</div>
+		<!--logo和搜索框部分结束-->
+		
+		<!--顶部的导航-->
+		<div id="nav_Bar_Wrap">
+			<div class="nav_Bar">
+				<div class="nav_Bar_L clear">
+					<ul class="n_B_L_Ul">
+						<li class="nav_text"><a class="H" href="index.html" target="_blank">首页</a></li>
+						<li class="nav_text"><a class="H" href="javascript:;">面部护肤</a></li>
+						<li class="nav_text"><a class="H" href="javascript:;">彩妆</a></li>
+						<li class="nav_text"><a class="H" href="javascript:;">限时特卖</a></li>
+						<li class="nav_text"><a class="H" href="javascript:;">贵宾专享</a></li>
+						<li class="nav_text MENU">
+								<a class="H" href="javascript:;">所有品牌</a>
+								<div class="nav_two">
+									<p class="nav_t_title">热门品牌</p>
+									<div class="nav_two_left">
+										<ul class="brandName clear">
+											<li><a href="javascript:;">森田药妆&nbsp;SAM TIN</a></li>
+											<li><a href="javascript:;">希思黎&nbsp;Sisley</a></li>
+											<li><a href="javascript:;">雅诗兰黛&nbsp;Estee lauder</a></li>
+											<li><a href="javascript:;">兰蔻&nbsp;Lancome</a></li>
+											<li><a href="javascript:;">SK-II</a></li>
+											<li><a href="javascript:;">资生堂&nbsp;Shiseido</a></li>
+											<li><a href="javascript:;">高丝&nbsp;Kose</a></li>
+											<li><a href="javascript:;">雅漾&nbsp;Avene</a></li>
+										</ul>
+										<p><a href="javascript:;">查看全部品牌</a></p>
+									</div>
+									<ul class="brandImg">
+										<li><a href="javascript:;"><img src="images/top_nav_menu01.jpg" alt="" /></a></li>
+										<li><a href="javascript:;"><img src="images/top_nav_menu02.jpg" alt="" /></a></li>
+										<li><a href="javascript:;"><img src="images/top_nav_menu03.jpg" alt="" /></a></li>
+										<li><a href="javascript:;"><img src="images/top_nav_menu04.jpg" alt="" /></a></li>
+										<li><a href="javascript:;"><img src="images/top_nav_menu05.jpg" alt="" /></a></li>
+										<li><a href="javascript:;"><img src="images/top_nav_menu06.jpg" alt="" /></a></li>
+										<li><a href="javascript:;"><img src="images/top_nav_menu07.jpg" alt="" /></a></li>
+										<li><a href="javascript:;"><img src="images/top_nav_menu08.jpg" alt="" /></a></li>
+									</ul>
+								</div>
+							
+							<b class="nav_saojiao01"></b>
+							<b class="nav_saojiao02"></b>
+						</li>
+					</ul>
+				</div>
+				<div class="nav_Bar_R">
+					<!--导航的手风琴效果-->
+					<ul class="sfq">
+						<li style="width:115px;"><img src="images/plane.png" alt=""><p>满￥249包邮</p></img></li>
+						<li><img src="images/zhengpin.png" alt=""><p>正品保证</p></img></li>
+						<li><img src="images/huoche.png" alt=""><p>香港直送</p></img></li>
+					</ul>
+					<!--导航的手风琴效果结束-->
+				</div>
+			</div>
+		</div>
+		<!--顶部的导航结束-->
+		<!--商品分类导航-->
+		<div id="nav_category_wrap">
+			<div class="nav_category clear">
+				<div class="all_category">
+					<div class="category_title01">
+						<p class="category_title">所有分类</p>
+						<ul class="category_content" >
+							<!--<li>
+								<div class="oUl01">
+									<h3><a href="javascript">热门功效</a></h3>
+									<ul >
+										<li><a href="javascript:;">保湿</a></li>
+										<li><a href="javascript:;">美白提亮</a></li>
+										<li><a href="javascript:;">提亮祛斑</a></li>
+										<li><a href="javascript:;">收毛孔</a></li>
+									</ul>
+								</div>
+								<div class="oUl01_01">
+									<div >
+										<h3><a href="javascript:;">热门功效</a></h3>
+										<ul >
+											<li><a href="javascript:;">保湿</a></li>
+											<li><a href="javascript:;">美白提亮</a></li>
+											<li><a href="javascript:;">祛斑</a></li>
+											<li><a href="javascript:;">舒缓/抗敏感 </a></li>
+											<li><a href="javascript:;">收毛孔</a></li>
+											<li><a href="javascript:;">提拉紧致</a></li>
+											<li><a href="javascript:;">抗皱</a></li>
+											<li><a href="javascript:;">去黑眼圈</a></li>
+											<li><a href="javascript:;">去干纹</a></li>
+											<li><a href="javascript:;">防晒</a></li>
+										</ul>
+									</div>
+								</div>
+							</li>-->
+	
+						</ul>
+					</div>
+				</div>
+				<ul class="other_category">
+					<li><a href="javascript:;">新品上市</a></li>
+					<li><a href="javascript:;">本周促销</a></li>
+					<li><a href="javascript:;">韩国热卖</a></li>
+					<li><a href="javascript:;">面膜专区</a></li>
+					<li><a href="javascript:;">清货特卖</a></li>
+					<li class="line_move"></li>
+				</ul>
+			</div>
+		</div>
+		<!--banner图开始-->
+		<div id="banner_wrap">
+			<div class="banner">
+				<!--<a href="javascript:;">
+					<div></div>
+				</a>-->
+			</div>
+			<div class="banner_btn_po">
+				<ul class="banner_btn">
+					<li class="activeBtn"></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</div>
+		</div>
+		<!--banner图结束-->
+		
+	<!--每日必看  checkmust开始-->
+	
+	<div id="checkMust_wrap" class="louti">
+		<div class="checkMust clear">
+			<div class="checkM_title">
+				<span></span>
+			</div>
+			<!--左右两侧的背景图-->
+			<div class="checkBg_left"></div>
+			<div class="checkBg_right"></div>
+			<div class="checkM_Img_bg clear">
+				<!--中间的有border的图片-->
+				<ul class="checkM_Img clear">
+					<li class="bg_change"><a href="javascript:;"><img src="images/check_img01.jpg"/></a></li>
+					<li class="bg_change"><a href="javascript:;"><img src="images/check_img02.jpg"/></a></li>
+					<li class="bg_change"><a href="javascript:;"><img src="images/check_img03.jpg"/></a></li>
+					<li class="r_bor bg_change"><a href="javascript:;"><img src="images/check_img04.jpg"/></a></li>
+					<li class="b_bor"><a href="javascript:;"><img src="images/check_img05.jpg"/></a></li>
+					<li class="b_bor"><a href="javascript:;"><img src="images/check_img06.jpg"/></a></li>
+					<li class="b_bor"><a href="javascript:;"><img src="images/check_img07.jpg"/></a></li>
+					<li class="b_bor r_bor"><a href="javascript:;"><img src="images/check_img08.jpg"/></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!--每日必看  checkmust结束-->
+	
+	<!--more pic 开始-->
+	<!--limiteOffer中的6张图片-->
+	<div id="morePic_wrap" class="clear">
+		<div class="limiteOffer clear louti">
+				
+				<!--limiteOffer顶部的标题-->
+				<div class="limite_title">
+					<span></span>
+					<a href="productList.html" target="_blank">查看所有	&gt;</a>
+				</div>
+				
+				<!--limiteOffer中的6张可爱的图片-->
+				<div class="limiteImg_wrap">
+					<div class="limite_pic">
+						<ul class="limite">
+							<!--<li class="limite_children" style="margin-left:0;">
+								<a href="javascript:;">
+									<i class="count">
+										<b>2.8</b>
+									</i>
+									<div class="flashscal_pic">
+										<img src="images/flash_01.jpg" alt="金装双倍特强保湿水库针剂裸贴水凝胶面膜 (V3)"/>
+									</div>
+									<div class="scale_price clear">
+										<span class="buy_num">已售78件</span>
+										<span class="buy_price">￥88.0</span>
+										<span class="buy_del"><del>￥315.0</del></span>
+									</div>
+									<div class="flash_info">
+										<div class="des01">
+											<i class="douhao"></i>
+											含2倍以上的透明质酸和神经酰胺3，天然保湿因子 (N.M.F – Nutrient Moisturizing Factor) 及金缕梅、大马士革玫瑰水等多种保湿成份提炼而成高浓度保湿精华。
+										</div>
+										<div class="des02">美迪惠尔 MEDIHEAL NUDE GEL MASK </div>
+										<p class="des03">金装双倍特强保湿水库针剂裸贴水凝胶面膜 (V3)</p>
+										<p class="des04">30 克 x 10</p>
+										<p class="des05">
+											<i class="iconfont clock">&#xe600;</i>
+											剩余
+											<span class="days"></span>天
+											<span class="hours"></span>时
+											<span class="minutes"></span>分
+											<span class="second"></span>秒
+										</p>
+									</div>
+								</a>
+								<span class="comeBuy_bg"></span>
+							</li>-->
+							
+						</ul>
+					</div>
+				</div>
+			</div>
+		<!--limiteOffer中的6张图片结束-->
+		
+		
+		<!--new arrivals新品上市-->
+		<div id="newArr_wrap" class="louti">
+			<div class="newArr_title">
+				<span ></span>
+				<a href="javascript:;">查看所有	&gt;</a>
+			</div>
+			<!--小滑块跟随鼠标运动，宽度根据Li的宽度改变-->
+			<ul class="cus_tab">
+				<li><a href="javascript:;">面部护肤</a></li>
+				<li><a href="javascript:;">彩妆</a></li>
+				<li><a href="javascript:;">香水</a></li>
+				<li><a href="javascript:;">健康美肌</a></li>
+				<li><a href="javascript:;">纤体美胸</a></li>
+				<li><a href="javascript:;">个人护理</a></li>
+				<li><a href="javascript:;">男士专区</a></li>
+				<li><a href="javascript:;">孕婴护理</a></li>
+				<li><a href="javascript:;">化妆水</a></li>
+				<li class= "cus_line"></li>
+			</ul>
+			<!--上面小滑块滑到哪里哪个li就显示出来，不滑动的话不动，相当于tab选项卡-->
+			<ul id="newArr_tab">
+				<!--<li>
+					<div class="formall">
+						<div class="formall_cont">-->
+							<!--图片和定位的文字-->
+							<!--<div class="arr_pic">
+								<b>
+									<img src="images/arr_pic01.png" alt="" />
+								</b>
+								<span>
+									韩国品牌
+								</span>
+								<a href="javascript:;">
+									<img src="images/arr_prod.jpg" alt="" />
+								</a>
+							</div>-->
+							<!--价格-->
+							<!--<div class="scal_price">
+								<span class="now_price">￥166.1</span>
+								<span class="old_price"><del>￥207.6</del></span>
+								<span class="discout">8折</span>
+							</div>-->
+							<!--介绍部分-->
+							<!--<div class="arr_info">
+								<h3 class="arr_name"><a href="javascript:;">DR.ORACLE</a></h3>
+								<p class="arr_pr_info"><a href="javascript:;">MAKEUP BASE爱护理抗敏BB修饰霜SPF50+ PA+++</a></p>
+								<p class="volume">40 毫升  </p>
+							</div>-->
+							<!--加入购物车-->
+							<!--<div class="addBuyCar">
+								<a href="javascritp:;">加入购物车</a>
+							</div>
+						</div>
+						<!--定位的小图片-->
+						<!--<dl class="small_pic">
+							<dd><img style="border:4px solid #C89961;" src="images/arr_prod02.jpg" alt="" /></dd>
+							<dd><img src="images/arr_prod06.jpg" alt="" /></dd>
+							<dd><img src="images/arr_prod08.jpg" alt="" /></dd>
+						</dl>-->
+					<!--</div>
+				</li>-->
+				
+			</ul>
+		</div>
+		
+		
+		<!--hotbrands  热门品牌-->
+		
+		<div id="hotBrands_wrap" class="louti">
+			<div class="hotBrands_title" title="热门品牌">
+				<span></span>
+				<a href="javascript:;">查看所有	&gt;</a>
+			</div>
+			<!--小滑块跟随鼠标运动，宽度根据Li的宽度改变-->
+			<ul class="hot_tab">
+				<li><a href="javascript:;">欧美品牌</a></li>
+				<li><a href="javascript:;">台湾品牌</a></li>
+				<li><a href="javascript:;">澳洲品牌</a></li>
+				<li><a href="javascript:;">奢品美妆</a></li>
+				<li><a href="javascript:;">韩国品牌</a></li>
+				<li><a href="javascript:;">代理品牌</a></li>
+				<li class= "hot_line"></li>
+			</ul>
+			<div id="hot_pic">
+				<!--<ul>
+					<li>
+						<p >
+							<img src="images/hot_pic01.jpg" alt="" />
+							<a href="javascript:;"><img src="images/hot_picBg01.jpg" alt="" /></a>
+						</p>
+					</li>
+				</ul>-->
+			</div>
+		</div>
+	
+	</div>
+	
+	<!--footer 开始-->
+			<div id="helper">
+				<div class="foot_help">
+					<div class="content">
+						<div class="foot_logo"><a href="javascript:;"></a></div>
+						<dl>
+							<dt>新手上路</dt>
+							<dd><a href="shopProcess.html">购物流程</a></dd>
+							<dd><a href="javascript:;">优惠券说明</a></dd>
+							<dd><a href="javascript:;">常见问题</a></dd>
+							<dd><a href="javascript:;">联络我们</a></dd>
+						</dl>
+						<dl>
+							<dt>付款方式</dt>
+							<dd><a href="javascript:;">在线支付</a></dd>
+							<dd><a href="javascript:;">积分支付</a></dd>
+						</dl>
+						<dl>
+							<dt>配送方式</dt>
+							<dd><a href="javascript:;">配送说明</a></dd>
+							<dd><a href="javascript:;">追踪订单</a></dd>
+						</dl>
+						<dl>
+							<dt>售后服务</dt>
+							<dd><a href="javascript:;">正品保证</a></dd>
+							<dd><a href="javascript:;">价格承诺</a></dd>
+							<dd><a href="javascript:;">30日退换保证</a></dd>
+							<dd><a href="javascript:;">退款程序</a></dd>
+							<dd><a href="javascript:;">更改订单</a></dd>
+						</dl>
+						<dl>
+							<dt>莎莎会员</dt>
+							<dd><a href="javascript:;">积分奖赏</a></dd>
+							<dd><a href="javascript:;">会员计划</a></dd>
+						</dl>
+						<div class="weixin">
+							<span class="wx01"><a href="javascript:;"></a></span>
+							<span class="wx02"><a href="javascript:;"></a></span>
+						</div>
+					</div>
+					
+					<!--foot_link-->
+					<div class="foot_link">
+						<div class="margin_auto">
+							<a href="javascript:;">关于莎莎</a>
+							<a href="javascript:;">使用条款</a>
+							<a href="javascript:;">隐私政策</a>
+							<a href="javascript:;">招商合作</a>
+							<a href="javascript:;">帮助中心</a>
+							<a href="javascript:;">港澳店铺推广</a>
+							<a href="javascript:;">人才招聘</a>
+							<a href="javascript:;">联络我们</a>
+							<a href="javascript:;">网站地图</a>
+							<a href="javascript:;">其他送货地区</a>
+						</div>
+					</div>
+				</div>
+				<div id="login_foot">
+					<div class="footer">
+						<p class="left"><span>&copy;</span>Copyright 2000-2016 Sa Sa dot Com Limited 版权所有。</p>
+						<p class="right">莎莎国际控股有限公司成员</p>
+					</div>
+				</div>
+			</div>
+	<!--footer结束-->
+	<!--吸顶菜单-->
+	<div id="fix_menu">
+		<div class="bg000"></div>
+		<div class="width_1090">
+			<div class="fix_logo"><img src="images/fix_sasalogo.png" alt="" /></div>
+			<div class="fix_search">
+				<input type="text" class="search_box"/>
+				<input type="button" value="搜索" class="fix_btn"/>
+			</div>
+		</div>
+	</div>
+	<!--吸顶菜单结束-->
+	
+	<!--楼梯导航-->
+	<div id="left_fix_nav">
+		<a href="javascript:;"><i class="iconfont">&#xe608;</i><span>每日必看</span></a>
+		<a href="javascript:;"><i class="iconfont">&#xe600;</i><span>限时特卖</span></a>
+		<a href="javascript:;"><i class="iconfont">&#xe602;</i><span>新品上市</span></a>
+		<a href="javascript:;"><i class="iconfont">&#xe60c;</i><span>热门品牌</span></a>
+		<a href="javascript:;"><i class="iconfont">&#xe60a;</i><span>销售排行榜</span></a>
+	</div>
+	<!--楼梯导航结束-->
+	<!--定时弹出框-->
+	<div id="setI_box">
+		<div class="mask_op"></div>
+		<div class="img_fixed">
+			<div class="close_fixed"><p>我是一个好人</p><span class="iconfont" title="5秒钟都等不及了？点击关闭！">&#xe616;</span></div>
+		</div>
+	</div>
+	<div id="sideBar_load"></id>
+	</body>
+</html>

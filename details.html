@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>香港莎莎官网 - 正品美妆海淘商城,化妆品护肤品海外购首选</title>
+		<link rel="Shortcut Icon" href="images/favicon.ico.png" />
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="icon/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="css/topBar.css"/>
+		<link rel="stylesheet" type="text/css" href="css/top_main.css"/>
+		<link rel="stylesheet" type="text/css" href="css/footer.css"/>
+		<link rel="stylesheet" type="text/css" href="css/details.css"/>
+		<link rel="stylesheet" type="text/css" href="css/pagination.css"/>
+		<link rel="stylesheet" type="text/css" href="css/fixed.css"/>
+		<script src="libs/jquery-1.11.3.js"></script>
+		<script src="js/header.js"></script>
+		<script src="js/indexMain.js"></script>
+		<script src="js/three_menu.js"></script>
+		<script type="text/javascript" src="js/jquery.pagination.js"></script>
+		<script type="text/javascript" src="js/details.js"></script>
+		<script src="js/jquery.cookie.js"></script>
+		<script src="js/product_buycar.js"></script>
+		
+		<script>
+			$(function(){
+				$("#header_load").load("header.html #topBar",header_callback);
+				$("#top_main_wrap").load("index.html #top_main_wrap");
+				$("#nav_Bar_Wrap").load("index.html #nav_Bar_Wrap");
+				$("#nav_category_wrap").load("index.html #nav_category_wrap",topCallBack);
+				$("#footer_load").load("index.html #helper");
+				$("#sideBar_load").load("product_buycar.html",sideBar_callBack);
+				
+				three_menu_callBack();
+			})
+		</script>
+	</head>
+	<body>
+		<!--调用头部-->
+		<div id="header_load"></div>
+		<!--调用top_main_wrap-->
+		<div id="top_main_wrap"></div>
+		<!--调用顶部导航-->
+		<div id="nav_Bar_Wrap"></div>
+		<!--调用商品分类导航-->
+		<div id="nav_category_wrap"></div>
+		<!--所有详情内容的wrap-->
+		<div id="page_wrap">
+			<div class="details_nav">
+				<a href="index.html">首页</a>/
+				<a href="javascript:;">健康美肌</a>/
+				<a href="javascript:;">保健品</a>/
+				<a href="javascript:;">西方保健品</a>/
+				<a href="javascript:;">有机梅丹</a>/
+			</div>
+			<!--商品详情-->
+			<div class="details_main">
+				<div class="de_main_content">
+					<!--这几个input type=hidden,用于加入购物车-->
+					<form action="">
+						<!--<input type="text" />
+						<input type="text" />
+						<input type="text" />
+						<input type="text" />-->
+						<!--详情图片购买部分左侧-->
+						<div class="content_L">
+							<!--商品相册-->	
+							<div class="product_L">
+								<img class="not_vip_tag" src="images/arr_pic01.png" alt="" />
+								<img class="vip_tag" src="images/vip_logo.png" alt="" />
+								<div class="pro_preview">
+									<i class="icon_over">抢光啦</i>
+									<!--主图-->
+									<div class="pic">
+										<div class="fangdajing_mask"></div>
+										<img class="zhutu" src="" alt="" />
+										<div class="fangdajing"></div>
+									</div>
+									<!--移动放大镜出现的大图-->
+									<div class="pic_big">
+										<div class="pic_big_mask">
+											<img src="" alt="" />
+										</div>
+									</div>
+									<!--点击查看大图-->
+									<div class="search_logo">
+										<a href="javascript:;" title="点击查看大图"></a>
+									</div>
+								</div>
+							</div>
+							<!--轮播图-->
+							<div class="pro_lunbo">
+								<div class="forward">
+									<a href="javascript:;" class="iconfont">&#xe614;</a>
+								</div>
+								<div class="pro_smallPic">
+									<ul>
+										<!--<li><img src="images/meidan_small.jpg" alt="" /></li>
+										<li><img src="images/arr_prod02.jpg" alt="" /></li>
+										<li><img src="images/arr_prod08.jpg" alt="" /></li>
+										<li><img src="images/arr_prod09.jpg" alt="" /></li>
+										<li><img src="images/flash_03.jpg" alt="" /></li>
+										<li><img src="images/hot_pic05.jpg" alt="" /></li>-->
+									</ul>
+								</div>
+								<div class="backward">
+									<a href="javascript:;" class="iconfont">&#xe611;</a>
+									
+								</div>
+							</div>
+						</div>
+						<!--详情图片购买部分左侧结束-->
+						<!--详情图片购买部分右侧开始-->
+						<div class="content_R">
+							<!--标题简介-->
+							<h2 class="con_text_title">
+								<a href="javascript:;">KIWAMI   有机梅丹 (180 粒)</a>
+							</h2>
+							<!--商品基本信息-->
+							<div class="base_info">
+								<!--商品名称及介绍-->
+								<div class="product_jieshao">
+									<div class="product_Name">兰蔻</div>
+									<div class="product_details">清滢柔肤水(粉水)(<span>400毫升</span>)</div>
+								</div>
+								<!--商品价格-->
+								<div class="pro_price_wrap">
+									<div class="pro_price">
+										<span>￥458.0</span>
+										<p>
+											<del>市场价</del>
+											<del class="dele_price">￥645.0</del>
+										</p>
+										<i>7.1折</i>
+									</div>
+								</div>
+								<!--商品价格结束-->
+								<!--商品促销-->
+								<div class="pro_activity">
+									<div class="activity01">
+										<i class="act_tag">订单促销</i>
+										<span class="po_re">
+											<p>满￥249免运费</p>
+											<!--鼠标滑过出现的提示-->
+											<!--<span class="title_act">
+										
+												<p>
+													<i>满￥249免运费！</i>
+													<b></b>
+												</p>
+											</span>-->
+										</span>
+									</div>
+									<div class="activity01">
+										<i class="act_tag">订单促销</i>
+										<span class="po_re">
+											<p>中秋节专场满￥299即减￥10</p>
+										</span>
+									</div>
+									<div class="activity01">
+										<i class="act_tag">订单促销</i>
+										<span class="po_re">
+											<p>中秋节专场满￥699即送￥25无门槛现金券</p>
+										</span>
+									</div>
+								</div>
+								<!--购买区-->
+								<div id="pro_buy">
+									<!--商品规格-->
+									<div class="star">
+										<span>评分</span>
+										<ul>
+											<li class="iconfont">&#xe615;</li>
+											<li class="iconfont">&#xe615;</li>
+											<li class="iconfont">&#xe615;</li>
+											<li class="iconfont">&#xe615;</li>
+											<li class="iconfont">&#xe615;</li>
+										</ul>
+										<a href="javascript:;">(0人评价)</a>
+									</div>
+									<!--商品功能区-->
+									<div class="pro_action">
+										<!--商品库存-->
+										<div class="pro_num">
+											<span>数量：</span>
+											<a class="minus" href="javascript:void(0);">-</a>
+											<input type="text" value="1" class="num_buy" />
+											<a class="plus" href="javascript:void(0);">+</a>
+										</div>
+										<div class="tankuang">
+											<p>此商品的最小购买数量为1件</p>
+											<i class="iconfont lingxing01">&#xe618;</i>
+											<i class="iconfont lingxing02">&#xe618;</i>
+											<i class="iconfont jinggao">&#xe617;</i>
+										</div>
+										<!--购买商品按钮-->
+										<div class="btn_buy">
+											<div class="btn_buy_01">
+												<a href="javascript:void(0);">立即抢购</a>
+											</div>											
+											<div class="btn_buy_02">
+												<p>扫扫即加入购物车</p><span class="iconfont">&#xe607;</span><span class="iconfont">&#xe612;</span>
+												<img src="images/saoma_buy.png" alt="" />
+											</div>
+										</div>
+										<!--分享和收藏-->
+										<div class="share">
+											<div class="store_pro">
+												<a href="javascript:void(0);"><span class="iconfont">&#xe609;</span>收藏</a>
+											</div>
+											<div class="share_pro">
+												<span>分享到</span>
+												<ul>
+													<li><a class="douban" href="javascript:void(0);"></a></li>
+													<li><a class="kaixin" href="javascript:void(0);"></a></li>
+													<li><a class="qzone" href="javascript:void(0);"></a></li>
+													<li><a class="renren" href="javascript:void(0);"></a></li>
+													<li><a class="sinaweibo" href="javascript:void(0);"></a></li>
+													<li><a class="qweibo" href="javascript:void(0);"></a></li>
+												</ul>
+											</div>
+										</div>
+										<!--分享和收藏结束-->
+									</div>
+									<!--商品功能区结束-->
+								</div>
+								<!--购买区结束-->
+							</div>
+							<!--商品基本信息结束-->
+						</div>
+						<!--详情图片购买部分右侧结束-->
+					</form>
+					
+				</div>
+		<div id="left_wrap">
+			<!--下面部分同系列推荐开始-->
+			<div id="left_product"> 
+				<div class="look_his_title">同系列推荐</div>
+				<!--动态生成时选择ul的类名-->
+				<ul class="tongxituijian">
+					<!--每个li就是一个浏览过的商品-->
+					<li>
+						<a class="his_pic" href="javascript:void(0);"><img src="images/arr_prod05.jpg" alt="" /></a>
+						<div class="his_text">
+							<h2><a href="javascript:void(0);">KIWAMI 有机梅丹 180 粒</a></h2>
+							<div>
+								<span>￥458.0</span>
+								<del>￥458.0</del>
+							</div>
+						</div>
+					</li>
+					<li>
+						<a class="his_pic" href="javascript:void(0);"><img src="images/arr_prod05.jpg" alt="" /></a>
+						<div class="his_text">
+							<h2><a href="javascript:void(0);">KIWAMI 有机梅丹 180 粒</a></h2>
+							<div>
+								<span>￥458.0</span>
+								<del>￥458.0</del>
+							</div>
+						</div>
+					</li>
+					<li style="border:none;">
+						<a class="his_pic" href="javascript:void(0);"><img src="images/arr_prod05.jpg" alt="" /></a>
+						<div class="his_text">
+							<h2><a href="javascript:void(0);">KIWAMI 有机梅丹 180 粒</a></h2>
+							<div>
+								<span>￥458.0</span>
+								<del>￥458.0</del>
+							</div>
+						</div>
+					</li>
+					<!--li格式无误，可动态生成，测试通过-->
+				</ul>
+			</div>
+			<!--下面部分同系列推荐结束-->
+			<!--下面部分同类别开始-->
+			<div id="left_product"> 
+				<div class="look_his_title">同类别推荐</div>
+				<!--动态生成时选择ul的类名-->
+				<ul class="tongliebie">
+					<!--每个li就是一个浏览过的商品-->
+					<li>
+						<a class="his_pic" href="javascript:void(0);"><img src="images/arr_prod05.jpg" alt="" /></a>
+						<div class="his_text">
+							<h2><a href="javascript:void(0);">KIWAMI 有机梅丹 180 粒</a></h2>
+							<div>
+								<span>￥458.0</span>
+								<del>￥458.0</del>
+							</div>
+						</div>
+					</li>
+					<li>
+						<a class="his_pic" href="javascript:void(0);"><img src="images/arr_prod05.jpg" alt="" /></a>
+						<div class="his_text">
+							<h2><a href="javascript:void(0);">KIWAMI 有机梅丹 180 粒</a></h2>
+							<div>
+								<span>￥458.0</span>
+								<del>￥458.0</del>
+							</div>
+						</div>
+					</li>
+					<li style="border:none;">
+						<a class="his_pic" href="javascript:void(0);"><img src="images/arr_prod05.jpg" alt="" /></a>
+						<div class="his_text">
+							<h2><a href="javascript:void(0);">KIWAMI 有机梅丹 180 粒</a></h2>
+							<div>
+								<span>￥458.0</span>
+								<del>￥458.0</del>
+							</div>
+						</div>
+					</li>
+					<!--li格式无误，可动态生成，测试通过-->
+				</ul>
+			</div>
+			<!--下面部分同类别结束-->
+			<!--下面部分浏览记录开始-->
+			<div id="left_product"> 
+				<div class="look_his_title">浏览记录</div>
+				<!--动态生成时选择ul的类名-->
+				<ul class="liulanjilu">
+					<!--每个li就是一个浏览过的商品-->
+					<li>
+						<a class="his_pic" href="javascript:void(0);"><img src="images/arr_prod05.jpg" alt="" /></a>
+						<div class="his_text">
+							<h2><a href="javascript:void(0);">KIWAMI 有机梅丹 180 粒</a></h2>
+							<div>
+								<span>￥458.0</span>
+								<del>￥458.0</del>
+							</div>
+						</div>
+					</li>
+					<li>
+						<a class="his_pic" href="javascript:void(0);"><img src="images/arr_prod05.jpg" alt="" /></a>
+						<div class="his_text">
+							<h2><a href="javascript:void(0);">KIWAMI 有机梅丹 180 粒</a></h2>
+							<div>
+								<span>￥458.0</span>
+								<del>￥458.0</del>
+							</div>
+						</div>
+					</li>
+					<li style="border:none;">
+						<a class="his_pic" href="javascript:void(0);"><img src="images/arr_prod05.jpg" alt="" /></a>
+						<div class="his_text">
+							<h2><a href="javascript:void(0);">KIWAMI 有机梅丹 180 粒</a></h2>
+							<div>
+								<span>￥458.0</span>
+								<del>￥458.0</del>
+							</div>
+						</div>
+					</li>
+					<!--li格式无误，可动态生成，测试通过-->
+				</ul>
+			</div>
+			<!--下面部分浏览记录开始-->
+		</div>
+			<!--下面部分商品导航》》》吸顶导航条》》购物车》》详情》》评价-->
+			<div id="pro_main_cont">
+				<div class="pro_main_cont_nav">
+					<ul>
+						<li><a href="javascript:void(0);">商品参数</a></li>
+						<li><a href="javascript:void(0);">商品详情</a></li>
+						<li><a href="javascript:void(0);">用户评价</a></li>
+						<li class="pro_nav_line" ></li>
+					</ul>
+					<div>
+						<span>￥458.0</span>
+						<!--为a添加goods-->
+						<a goods="22222" id="buy_rightNow" href="javascript:void(0);">加入购物车</a>
+					</div>
+				</div>
+				<!--商品参数，详情，评价-->
+				<div class="para_wrap">
+					<!--商品参数-->
+					<div class="para">
+						<div class="para_title">
+							<h3>商品参数</h3>
+						</div>
+						<div class="para_more">
+							<ul>
+								<li><span>商品编号：</span><p>107988002001</p></li>
+								<li><span>商品品牌：</span><p>KIWAMI</p></li>
+								<li><span>商品名称：</span><p>有机梅丹</p></li>
+								<li><span>商品规格：</span><p>180 粒</p></li>
+							</ul>
+						</div>
+					</div>
+					<!--商品参数结束-->
+					<!--商品详情-->
+					<div class="details">
+						<div class="details_title">
+							<h3>商品详情</h3>
+						</div>
+						<div class="details_more">
+							<h6>产品介紹</h6>
+							<p>偏酸体质 百病根源</p>
+							<p>正常人体会自身调节，将酸性物排出体外，以平衡酸碱值。当人体摄取过多淀粉、脂肪和蛋白质等酸性物质，最终变成危害健康的「酸毒」。而随年龄增长及组织器官老化，更易令酸性物累积，形成偏酸体质。日本著名医学博士菊池佑二研究<br>证实100%顽症患者体质酸碱值全低于pH7；85%三高患者受酸性物污染后呈偏酸性，成「酸性人」，引发各种「亚健康」症状。</p>
+							<p>改善偏酸 天然抗病毒の皇者</p>
+							<p>日本和歌山县立医科大学及静冈大学医学研究所临床报告证实，青梅是史上极碱食物，含接近60%天然有机酸，其含量更是柠檬的10倍。经特别处理后的青梅中的蕴含丰富「Mumefural」具有增强心血管功能#及促进血液循环作用※，且有效对抗流行病毒□。</p>
+							<p>「极．有机系列」严选台湾CAS认证农场6分熟有机青梅(证号TOC-C0029)，青梅只有在6分熟时内含丰富；4至5分熟的青梅「Mumefural」含量太少，超过6分熟青梅会因过熟而令「Mumefura」消失。因此「极．有机梅系列」只选用刚好6分熟青梅，由专业人员亲手采摘，以免破坏青梅的活性成分，并以无人工添加之专利技术(证号I309155)保存，绝对天然、无添加。</p>
+							<p>宇都宫博士，和歌山县立医科大学病理学研究部 ※松元博士，Journal of Agricultural & Food Chemistry □Chubu大学生命健康科学研究所、静冈大学及国立感染症研究所共同研究</p>
+							
+							<div>
+								<strong>成份</strong>
+								<p>有机青梅、有机山药、蜂蜜</p>
+								<h6>使用方法</h6>
+								<ul>
+									<li>日常保健：早、晚餐后各3粒</li>
+									<li>改善便秘：餐后及睡前各3粒</li>
+									<li>胃酸倒流：初现时食用6粒</li>
+									<li>流感症状：初现时食用15粒</li>
+									<li>消化不良：初现时食用15粒</li>
+								</ul>
+							</div>
+							
+						</div>
+					</div>
+					<!--商品详情结束-->
+					<!--用户评价-->
+					<div class="reviews">
+						<div class="reviews_title">
+							<h3>用户评价</h3>
+						</div>
+						<!--评价区的星星还有分数开始-->
+						<div class="reviews_more">
+							<div class="reviews_star">
+								<strong class="scores"><span>4.7</span>/5</strong>
+								<ul>
+									<li class="iconfont">&#xe615;</li>
+									<li class="iconfont">&#xe615;</li>
+									<li class="iconfont">&#xe615;</li>
+									<li class="iconfont">&#xe615;</li>
+									<li class="iconfont">&#xe615;</li>
+								</ul>
+							</div>
+							<div class="pinglun_btn"><a href="javascript:void(0);">我要评论</a></div>
+							<div class="pinglun_num"><span>0</span>评论</div>
+						</div>
+						<!--评价区的星星还有分数结束-->
+						<!--评论区域的主要内容-->
+						<div class="reviews_cont">
+							<ul>
+								<!--评论的模板-->
+								<!--<li>-->
+									<!--左侧的-->
+									<!--<div class="user_text">
+										<i class="iconfont">&#xe603;</i>
+										<span>VIP</span>
+										<span>59***4561@qq.com</span>
+									</div>-->
+									<!--右侧的-->
+									<!--<div class="user_talk">
+										<i class="iconfont">&#xe613;</i>
+										<div class="user_talk_title">
+											<h3 >鱼子紧致精华提取</h3>
+											<span>
+												<p>评分</p>
+												<ul>
+													<li class="iconfont">&#xe615;</li>
+													<li class="iconfont">&#xe615;</li>
+													<li class="iconfont">&#xe615;</li>
+													<li class="iconfont">&#xe615;</li>
+													<li class="iconfont">&#xe615;</li>
+												</ul>
+											</span>
+										</div>
+										<div class="user_talk_text">
+											<p>
+												效果显著  与描述相符  强烈推荐  非常满意非常满意 非常满意 非常满意 非常满意 非常满意 非常满意 非常满意 非常满意 非常满意   会回购哦  性价比高  非常好，以后所有用的都在这买
+											</p>
+										</div>
+										<div class="user_date"><span>2016年02月26日</span></div>
+									</div>
+								</li>-->
+								
+							</ul>
+						</div>
+						<!--评论区域的主要内容结束-->
+						<!--评论区域分页-->
+						<div class="reviews_fenye">
+							<div id="Pagination" class="pagination"></div>
+							</div>
+						</div>
+						<!--评论区域的分页结束-->
+
+					</div>
+					<!--用户评价结束-->
+				</div>
+			</div>
+			
+			</div>
+			<!--商品详情结束-->
+			
+		</div>
+		<!--调用尾部-->
+		<div id="footer_load"></div>
+		<!--调用购物车-->			
+		<div id="sideBar_load"></div>
+	</body>
+</html>

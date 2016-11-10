@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>莎莎网密码找回</title>
+		<link rel="Shortcut Icon" href="images/favicon.ico.png" />
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="icon/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="css/topBar.css"/>
+		<link rel="stylesheet" type="text/css" href="css/forgetpwd.css"/>
+		<script src="libs/jquery-1.11.3.js"></script>
+		<script src="js/header.js"></script>
+		<script src="js/forgetpwd.js"></script>
+		
+		<script>
+			$(function(){
+				
+				//console.log(1);//jq加载成功
+				
+				$("#topBar_load").load("header.html #topBar",header_callback);
+				
+			})
+		</script>
+	</head>
+	<body>
+		<!--加载topBar-->
+		<div id="topBar_load"></div>
+			<div id="logo_wrap">
+				<div class="logo">
+					<h1><a href="http://www.sasa.com/">莎莎网</a></h1>
+				</div>
+				
+			</div>
+			<div id="main_wrap" class="clear">
+				
+				<div class="main">
+					
+					<div class="login_box">
+						<div class="title">
+							<h2>找回密码</h2>
+						</div>
+						
+						<div id="flow">
+							<div><p class="active">1</p><span class="on">填写账号名</span></div>
+							<div><p>2</p><span>身份验证</span></div>
+							<div><p>3</p><span>设置新密码</span></div>
+							<div><p>4</p><span>完成</span></div>
+							
+						</div>
+						<form action="" name="login">
+							<input type="text" 		placeholder="请输入邮箱/手机号，最少5个字符" name="phone_num" minlength="5" class="phone_num mOver"/>
+
+							<input type="text" 		placeholder="填写验证码" class="form_act mOver"/>
+							<input type="button"    value="下一步" name="submit" class="submit"/>
+						</form>
+						
+						<div id="position_form">
+							<div id="po_phone_num"><p>!</p><span>请填写邮箱或手机号，最少5个字符</span></div>
+							<div id="form_act"><p>!</p><span>请正确填写验证码</span></div>
+							<div class="po_form_act"><p id="code"></p><a href="javascript:void(0);">看不清?换一张</a></div>
+						</div>
+						<p id="login_again">如果忘记登录名，将无法找回您的账号信息，您可以<a href="login.html" target="_blank">重新注册</a></p>
+					</div>
+				</div>
+			</div>
+			<div id="login_foot">
+				<div class="footer">
+					<p class="left"><span>&copy;</span>Copyright 2000-2016 Sa Sa dot Com Limited 版权所有。</p>
+					<p class="right">莎莎国际控股有限公司成员</p>
+				</div>
+			</div>
+	</body>
+</html>

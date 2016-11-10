@@ -1,0 +1,33 @@
+@charset "utf-8";      
+.pagination a,.pagination .current{
+    text-decoration: none;
+	border: 1px solid #ddd;
+	color: #666;
+	cursor:pointer;
+	display:block;
+	width:24px;
+	height:24px;
+	border-radius:50%;
+	text-align:center;
+	line-height:24px;
+	display: inline-block;
+    margin-right: 5px;
+	margin-bottom: 5px;
+}
+.pagination .current{
+	border: 1px solid #666;
+}
+.pagination a:hover, .pagination .current:hover{
+	color:#EC417D;
+	border:1px solid #EC417D;
+}
+.pagination .current{
+	color:#EC417D;
+	border:1px solid #EC417D;
+}
+.pagination .current.prev, .pagination .current.next{
+	color:#999;
+	border-color:#999;
+
+}
+

@@ -1,0 +1,695 @@
+@charset "utf-8";
+/*css Document*/
+
+/*basket购物车页面顶部logo和流程开始*/
+#basket_header_wrap{
+	background:#fff;
+}
+.basket_header{
+	margin:0 auto;
+	width:1090px;
+	height:95px;
+	line-height:95px;
+}
+/*sasa官网logo*/
+.basket_header .basket_header_logo{
+	float:left;
+	overflow:hidden;
+}
+.basket_header .basket_header_logo h2 {
+	text-indent:-2000px;
+	margin:20px 56px 0 0;
+}
+.basket_header .basket_header_logo h2 a{
+	width:181px;
+	display:block;
+	height:45px;
+	background:url(../images/sasalogo.png) no-repeat left center;
+	
+	
+}
+/*购物车流程*/
+.basket_header .basket_step{
+	float:left;
+	margin:20px 120px 0 0;
+}
+.basket_header .basket_step span{
+	display:block;
+	width:463px;
+	height:62px;
+	background:url(../images/cartstep.png) no-repeat 0 0;
+}
+/*购物车顶部的图标*/
+.basket_header .basket_icon{
+	float:left;
+	margin: 30px 0 0 0; 
+}
+.basket_header .basket_icon img{
+	margin-left:20px;
+}
+/*购物车main*/
+#basket_main_wrap{
+	background:#F5F5F5;
+}
+#basket_main_wrap .basket_main{
+	width:1090PX;
+	margin:0 auto;
+
+}
+#basket_main_wrap .basket_main .your_shopping_cart{
+	padding-top:30px;
+}
+.basket_main .your_shopping_cart span{
+	display: block;
+    width: 584px;
+    height: 40px;
+    margin-left: 52px;
+    background: url(../images/home-bt.png) no-repeat 0 -845px;
+}
+/*购物车商品*/
+.basket_product {
+	padding:60px 0 66px 0;
+}
+.basket_product_header{
+	float: right;
+    font-size: 14px;
+    color: #666;
+    padding: 14px 52px 30px 0;
+}
+.basket_product_header span{
+	color:#EC3E7D;
+}
+.basket_product .basket_product01{
+	width:985px;
+	background:#fff;
+	margin:0 auto;
+}
+/*购物车商品类别*/		
+.basket_product01 .basket_pro_title{
+	height:37px;
+	border-bottom:1px dashed #eee;
+	border-left:5px solid #BE9A5C;
+}
+.basket_product01 .basket_pro_title h3{
+	float:left;
+	width:142px;
+	height:37px;
+	line-height:37px;
+	color:#666;
+	padding-left:15px;
+	
+}
+.basket_product01 .basket_pro_title span{
+	color:#666;
+	line-height:37px;
+}
+.basket_product01 .basket_pro_title .basck_pro_name{
+	width:368px;
+	height:37px;
+	float:left;
+}
+.basket_product01 .basket_pro_title .basket_per_price{
+	width:83px;
+	height:37px;
+	float:left;
+	text-align:center;
+}
+.basket_product01 .basket_pro_title .basket_pro_num{
+	width:140px;
+	height:37px;
+	float:left;
+	text-align:center;
+}
+.basket_product01 .basket_pro_title .xiaoji{
+	width:116px;
+	height:37px;
+	float:left;
+	text-align:center;
+}
+/*加入购物车商品的样式*/
+.basket_pro_cont .basket_cont_img{
+	width:162px;
+	height:161px;
+	text-align:center;
+	line-height:161px;
+	float:left;
+}
+.basket_pro_cont{
+	border-bottom:1px solid #e6e6e6;
+	overflow:hidden;
+}
+.basket_pro_cont .basket_cont_img a{
+	display: inline-block;
+	width:100px;
+	height:100px;
+	padding:15px 0;
+	vertical-align:middle;
+}
+.basket_cont_img span{
+	width:0;
+	height:100%;
+	
+}
+.basket_pro_cont .basket_cont_img img{
+	max-width:100px;
+	max-height:100px;
+	vertical-align:center;
+}
+.basket_pro_cont .basket_cont_name{
+	width:368px;
+	height:121px;
+	padding:20px 0;
+	float:left;
+	color:#666;
+	
+}
+.basket_pro_cont .basket_cont_name p{
+	line-height:20px;
+}
+.basket_pro_cont .basket_cont_name span{
+	line-height:20px;
+}
+/*价格*/
+.basket_pro_cont .basket_cont_price{
+	width:83px;
+	height:121px;
+	text-align:center;
+	padding:20px 0;	
+	color:#666;
+	float:left;
+}
+/*加减按钮*/
+.basket_pro_cont .basket_cont_num{
+	width:140px;
+	height:121px;
+	padding:20px 0;
+	color:#666;
+	text-align: center;
+	float:left;
+}
+.basket_pro_cont .basket_cont_num .pro_num{
+	display: inline-block;
+	overflow: hidden;
+}
+.basket_pro_cont .basket_cont_num .pro_num a{
+	width:20px;
+	height:21px;
+	display: block;
+	float:left;
+	background:#E9E9E9;
+	text-align:center;
+	line-height:21px;
+	
+}
+.basket_pro_cont .basket_cont_num .pro_num a:hover{
+	background:#ddd;
+}
+.basket_pro_cont .basket_cont_num .pro_num input{
+	width:30px;
+	height:19px;
+	display: block;
+	float:left;
+	border:1px solid #E9E9E9;
+	border-left:none;
+	border-right:none;
+	text-align:center;
+	
+}
+/*商品总价*/
+.basket_pro_cont .basket_cont_allprice{
+	width:116px;
+	height:121px;
+	float:left;
+	color:#EC3E7D;
+	text-align:center;
+	font-size:12px;
+	padding:20px 0 ;
+}
+/*删除*/
+.basket_pro_cont .basket_dele{
+	width:116px;
+	padding:20px 0;
+	height:121px;
+	float:left;
+	color:#C0C0C0;
+	text-align:center;
+	font-size:14px;
+	cursor:pointer;
+}
+/*满多少钱免运费，还差多少*/
+#basket_free{
+	width:985px;
+	height:38px;
+	line-height:38px;
+	margin:0 auto;
+	color:#666;
+	text-align:center;
+	margin-top:25px;
+	background:#fff;
+
+}
+#basket_free strong,#basket_free  b{
+	color:#EC3E7D;
+}
+.basket_product02{
+	width:980px;
+	height:38px;
+	margin:25px auto 0;
+	background:#fff;
+	border-left:5px solid #ED407E;
+	line-height:38px;
+}
+.basket_product02 .alreay_youhui{
+	width:157px;
+	float:left;
+	
+}
+.basket_product02 .alreay_youhui a{
+	padding-left:5px;
+	
+}
+.basket_product02 .xiangmu{
+	float:left;
+}
+/*结账*/
+.basket_product03{
+	width:980px;
+	height:35px;
+	margin:25px auto 0;
+	background:#fff;
+	line-height:35px;	
+}
+.basket_product03 .basket_left{
+	float:left;
+	color:#666;
+	
+}
+.basket_product03 .basket_left a{
+	color:#666;
+	padding-left:35px;
+}
+.basket_product03 .basket_left a:hover{
+	color:#ED407E;
+}
+.basket_product03 .basket_right{
+	float:right;
+	
+}
+.basket_product03 .basket_right strong{
+	color:#EC3E7D;
+	
+}
+.basket_product03 .basket_right span{
+	padding-left:40px;
+	color:#666;
+	
+}
+.basket_product03 .basket_right a{
+	width:132px;
+	height:35px;
+	text-align:center;
+	line-height:35px;
+	background:#ED407E;
+	display:inline-block;
+	margin:0 32px 0 32px;
+	color:#fff;
+	font-size:18px;
+}
+/*加购区*/
+.more_to_buy{
+	margin: 0 auto;
+	width:1090px;
+}
+.more_to_buy .more_to_buy_title {
+	/*overflow:hidden; 加上后图片显示不全*/
+	/*padding-bottom:80px;*/
+}
+.more_to_buy .more_to_buy_title h2 {
+	text-align:center;
+	font-size:28px;
+	line-height:28px;
+	margin-bottom:22px;
+}
+/*红色长线条*/
+.more_to_buy_title .line_bg {
+    border-bottom: 1px solid #ec3e7d;
+    height: 20px;
+}
+.more_to_buy_title .line_bg .radius_bg{
+	width:356px;
+	margin: 0 auto;
+    border: 1px solid #ec3e7d;
+    border-radius: 25px;
+    height: 35px;
+    line-height: 29px;
+    background: #f2f2f2;
+    overflow: hidden;
+    
+}
+.more_to_buy_title .line_bg .radius_bg li a{
+    line-height: 30px;
+    /*background: #EDCDDA;*/
+    padding: 0 15px;
+    float: left;
+    border-radius: 15px;
+    display: inline-block;
+}
+.more_to_buy_title .line_bg .radius_bg li{
+    overflow: hidden;
+    float: left;
+    margin:3px 34px 0 3px;
+}
+/*购买数量小于1时弹出*/
+.basket_cont_num{
+	position:relative;
+	
+}
+.basket_cont_num .tankuang{
+    position: absolute;
+    top: 52px;
+    left: 22px;
+    width: 100px;
+    height: 35px;
+    border: 1px solid #FEBF0F;
+    background: #fff;
+    padding: 10px 10px 10px 28px;
+     opacity: 0; 
+    z-index: 20;
+}
+.basket_cont_num .tankuang .jinggao{
+	color:#FEBF0F;
+	position:absolute;
+	top:8px;
+	left:7px;
+	font-size:16px;
+}
+.basket_cont_num .tankuang p{
+	text-align:left;
+	line-height:18px;
+	
+}
+.basket_cont_num .tankuang .lingxing01{
+	font-size: 23px;
+    color: #FEBF0F;
+    position: absolute;
+    top: -7px;
+    left: 30px;
+    z-index: 1;
+}
+.basket_cont_num .tankuang .lingxing02{
+    font-size: 24px;
+    color: #fff;
+    position: absolute;
+    top: -5px;
+    left: 30px;
+    z-index: 2;
+}
+.basket_banner{
+	width:1260px;
+	margin-left:-26px;
+	overflow:hidden;
+	height: 645px;
+	position:relative;
+	
+}
+.basket_banner_wrap{
+	position:relative;
+}
+/*banner*/
+			/*<!--上面小滑块滑到哪里哪个li就显示出来，不滑动的话不动，相当于tab选项卡-->*/
+#getWidth{
+	width:1260px;
+	height:585px;
+	margin-top:60px;
+	overflow:hidden;
+	position: absolute;
+    left: 0;
+    top: 0;
+}
+#getWidth li{
+    float: left;
+    width:253px;
+    height:538px;
+    margin: 0 0 25px 26px;
+    position: relative;
+}
+#getWidth .formall {
+	background:#fff;
+	/*width:253px;
+	height:485px;*/
+	width: 253px;
+    height: 538px;
+	position:absolute;
+	top:0 ;
+	left:0;
+	box-shadow: 0px 0px 15px -5px #000;
+}
+#getWidth .arr_pic b{
+	width:45px;
+	height:45px;
+	position:absolute;
+	top:5px;
+	left:5px;
+}
+#getWidth .arr_pic b img{
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    z-index: 4;
+}
+#getWidth .formall_cont .arr_pic span{
+	width:60px;
+	height:30px;
+	position:absolute;
+	top:5px;
+	line-height:30px;
+	right:5px;
+	color:#98999b;
+	z-index:6;
+	background:url(../images/arr_country.png) no-repeat left center;
+	padding-left:30px;
+}
+#getWidth .formall_cont .arr_pic span p{
+	display:inline-block;
+}
+#getWidth li .arr_pic a{
+	float:none;
+	
+}
+#getWidth li .arr_pic a img{
+	width:253px;
+	max-height:253px;
+	z-index:3;
+	position: absolute;
+}
+#getWidth li .arr_pic{
+	width:253px;
+	height:253px;
+	overflow:hidden;
+	position:relative;
+}
+
+/*价格部分*/
+#getWidth .scal_price{
+	border-bottom: 1px solid #eee;
+    border-top: 1px solid #eee;
+    padding: 10px 15px;
+    color: #858587;
+    overflow:hidden;
+}
+#getWidth .scal_price span{
+	background:none;
+	width:auto;
+	height:auto;
+}
+#getWidth .scal_price .now_price{
+	font-size:24px;
+	color:#ec3e7d;
+	float:left;
+	margin-right:10px;
+	line-height:24px;
+}
+#getWidth .scal_price .old_price{
+	float:left;
+	color:#858587;
+	margin-top:5px;
+}
+#getWidth .scal_price .discout{
+	float:right;
+	color:#c69a62;
+	margin-top:4px;
+}
+#getWidth .arr_info{
+	padding:12px 15px;
+	overflow:hidden;
+}
+#getWidth .arr_name{
+	display:inline-block;
+	height:20px;
+	line-height:20px;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+}
+#getWidth .arr_name a{
+	color:#404040;
+	}
+#getWidth .arr_pr_info a{
+	color:#404040;
+	}
+#getWidth .arr_pr_info {
+	overflow: hidden;
+    line-height: 20px;
+    font-size: 14px;
+    height: 40px;
+}
+/*加入购物车*/
+#getWidth .addBuyCar{
+	overflow:hidden;
+	/*display:none;*/
+	margin-top:66px;
+}
+#getWidth .addBuyCar a{
+	width:224px;
+	height:42px;
+	background:#ec3e7d;
+	font-size:16px;
+	color:#fff;
+	display: block;
+	line-height:42px;
+	text-align:center;
+	margin:0 auto;
+	float:none;
+}
+#getWidth .addBuyCar a:hover{
+	background:#F06597;
+}
+/*#getWidth li:hover .addBuyCar{
+	display:block;
+}*/
+#getWidth li:hover .formall{
+	box-shadow: 0px 0px 15px -5px #000;
+	
+}
+
+/*定位的小图*/
+#getWidth .small_pic{
+	position:absolute;
+	right:0;
+	top:0;
+	overflow:hidden;
+	text-align:center;
+}
+#getWidth .small_pic dd img{
+	width:76px;
+	height:76px;
+	display:block;
+}
+/*定位轮播图按钮*/
+.basket_banner_btn .left_btn{
+    position: absolute;
+    top: 330px;
+    left: -55px;
+    font-size: 38px;
+}
+.basket_banner_btn .right_btn{
+    position: absolute;
+    top: 330px;
+    right: -55px;
+    font-size: 38px;
+}
+
+/*当购物车没有商品的时候出现的页面*/
+#buyCar_null_wrap{
+	padding:80px 0 125px 0;
+}
+.buyCar_null{
+	width:958px;
+	height:408px;
+	background:#fff;
+	margin:0 auto;
+}
+.buyCar_null .basket_null_text{
+	overflow: hidden;
+    text-align: center;
+}
+.buyCar_null .basket_null_text p{
+    font-size: 18px;
+    font-weight: bold;
+    display: inline-block;
+    line-height: 24px;
+    margin-top: 96px;
+}
+.buyCar_null .basket_null_text h3{
+    font-size: 34px;
+    font-weight: bold;
+    line-height: 34px;
+    margin: 30px 0 18px 0;
+}
+
+.top_search{
+    width: 436px;
+    height: 74px;
+    margin: 0 auto;
+    position: relative;
+
+}
+.top_search .search_wrap{
+	width:436px;
+	height:36px;
+	
+}
+/*搜索框外形*/
+.top_search .search{
+	width:335px;
+	height:30px;
+	border:3px solid #EC3E7D;
+	float:left;
+	padding-left:5px;
+}
+.top_search .btn_search_top{
+	height:36px;
+	float:left;
+	width:90px;
+	color:#fff;
+	text-align:center;
+	line-height:36px;
+	border:none;
+	background:#EC3E7D;
+	cursor:pointer;
+}
+/*搜索框下面列表*/
+.top_search .aList a{
+	padding: 0 10px;
+    border-left: 1px solid #A2A3AD;
+    margin-top: 4px;
+    display: inline-block;
+    color:#A2A3A5;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    transition: all .5s;
+}
+.top_search .aList a:hover{
+	color:#EC3E7D;
+	-webkit-filter: grayscale(0);
+    -moz-filter: grayscale(0%);
+    -ms-filter: grayscale(0%);
+    -o-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
+/*返回首页*/
+.comeBack_index a{
+	display:inline-block;
+	width:116px;
+	height:38px;
+	line-height:38px;
+	text-align:center;
+	border:1px solid #C6C6C6;
+	margin:0 auto;
+}
+.comeBack_index {
+	text-align:center;
+}

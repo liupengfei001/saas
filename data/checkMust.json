@@ -1,0 +1,6 @@
+[
+	{"bgl":"url(images/check_bg_l01.jpg) no-repeat 100% 0%","bgr":"url(images/check_bg_r01.jpg) no-repeat 0% 0%"},
+	{"bgl":"url(images/check_bg_l02.jpg) no-repeat 100% 0%","bgr":"url(images/check_bg_r02.jpg) no-repeat 0% 0%"},
+	{"bgl":"url(images/check_bg_l03.jpg) no-repeat 100% 0%","bgr":"url(images/check_bg_r03.jpg) no-repeat 0% 0%"},
+	{"bgl":"url(images/check_bg_l04.jpg) no-repeat 100% 0%","bgr":"url(images/check_bg_r04.jpg) no-repeat 0% 0%"}
+]

@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>香港莎莎官网 - 正品美妆海淘商城,化妆品护肤品海外购首选</title>
+		<link rel="Shortcut Icon" href="images/favicon.ico.png" />
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="icon/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="css/topBar.css"/>
+		<link rel="stylesheet" type="text/css" href="css/top_main.css"/>
+		<link rel="stylesheet" type="text/css" href="css/footer.css"/>
+		<link rel="stylesheet" type="text/css" href="css/productList.css"/>
+		<link rel="stylesheet" type="text/css" href="css/fixed.css"/>
+		
+		<script src="libs/jquery-1.11.3.js"></script>
+		<script src="js/header.js"></script>
+		<script src="js/indexMain.js"></script>
+		<script src="js/three_menu.js"></script>
+		<script src="js/productList.js"></script>
+		<script src="js/jquery.cookie.js"></script>
+		<script src="js/product_buycar.js"></script>
+		<script>
+			$(function(){
+				$("#header_load").load("header.html #topBar",header_callback);
+				$("#top_main_wrap").load("index.html #top_main_wrap");
+				$("#nav_Bar_Wrap").load("index.html #nav_Bar_Wrap");
+				$("#nav_category_wrap").load("index.html #nav_category_wrap",topCallBack);
+				$("#footer_load").load("index.html #helper");
+				$("#sideBar_load").load("product_buycar.html",sideBar_callBack);
+				
+				three_menu_callBack();
+			})
+		</script>
+	</head>
+	<body>
+		<!--调用头部-->
+		<div id="header_load"></div>
+		<!--调用top_main_wrap-->
+		<div id="top_main_wrap"></div>
+		<!--调用顶部导航-->
+		<div id="nav_Bar_Wrap"></div>
+		<!--调用商品分类导航-->
+		<div id="nav_category_wrap"></div>
+		<div id="pro_list_main_wrap">
+			<!--手风琴轮播图-->
+			<div id="flash_banner">
+				<div class="pro_list_limiterOffer">
+					<span></span>
+				</div>
+				<div class="pro_list_banner">
+					<ul>
+						<li class="current_pic">
+							<a href="javascript:void(0);">
+								<!--打折的logo-->
+								<i class="cuxiao_logo">
+									<b>5.3</b>
+								</i>
+								<div class="pro_li_banner_ad">
+									<!--透明层-->
+									<div class="po_opacity"></div>
+									<!--透明层上的文字层-->
+									<div class="po_no_opacity">
+										<!--倒计时-->
+										<div class="time_back">
+											<i class="iconfont clock">&#xe600;</i>
+											剩余
+											<span class="days"></span>天
+											<span class="hours"></span>时
+											<span class="minutes"></span>分
+											<span class="second"></span>秒
+										</div>
+										<!--倒计时结束-->
+										<!--产品结束文字-->
+										<div class="pro_li_banner_cont">
+											<p>超人气卸妆品，内含橄榄油和迷迭香等植物精华，温和无刺激，深层洁净毛孔内的油脂、污垢和化妆品，防水性化妆品亦适用，清洁而不油腻。</p>
+											<h3>雅诗兰黛</h3>
+											<span>鲜活亮彩套装</span>
+											<b>1套</b>
+										</div>
+										<div class="pro_li_banner_price">
+											<strong>￥739.0</strong>
+											<del>￥1210.0</del>
+										</div>
+									</div>
+									<!--透明层上的文字层结束-->
+								</div>
+								<!--透明层结束-->
+								<img src="images/pro_li_01.jpg" alt="" />
+							</a>
+						</li>
+						<li >
+							<a href="javascript:void(0);">
+								<!--打折的logo-->
+								<i class="cuxiao_logo">
+									<b>5.3</b>
+								</i>
+								<div class="pro_li_banner_ad">
+									<!--透明层-->
+									<div class="po_opacity"></div>
+									<!--透明层上的文字层-->
+									<div class="po_no_opacity">
+										<!--倒计时-->
+										<div class="time_back">
+											<i class="iconfont clock">&#xe600;</i>
+											剩余
+											<span class="days"></span>天
+											<span class="hours"></span>时
+											<span class="minutes"></span>分
+											<span class="second"></span>秒
+										</div>
+										<!--倒计时结束-->
+										<!--产品结束文字-->
+										<div class="pro_li_banner_cont">
+											<p>超人气卸妆品，内含橄榄油和迷迭香等植物精华，温和无刺激，深层洁净毛孔内的油脂、污垢和化妆品，防水性化妆品亦适用，清洁而不油腻。</p>
+											<h3>雅诗兰黛</h3>
+											<span>鲜活亮彩套装</span>
+											<b>1套</b>
+										</div>
+										<div class="pro_li_banner_price">
+											<strong>￥739.0</strong>
+											<del>￥1210.0</del>
+										</div>
+									</div>
+									<!--透明层上的文字层结束-->
+								</div>
+								<!--透明层结束-->
+								<img src="images/pro_li_02.jpg" alt="" />
+							</a>
+						</li>
+						<li >
+							<a href="javascript:void(0);">
+								<!--打折的logo-->
+								<i class="cuxiao_logo">
+									<b>5.3</b>
+								</i>
+								<div class="pro_li_banner_ad">
+									<!--透明层-->
+									<div class="po_opacity"></div>
+									<!--透明层上的文字层-->
+									<div class="po_no_opacity">
+										<!--倒计时-->
+										<div class="time_back">
+											<i class="iconfont clock">&#xe600;</i>
+											剩余
+											<span class="days"></span>天
+											<span class="hours"></span>时
+											<span class="minutes"></span>分
+											<span class="second"></span>秒
+										</div>
+										<!--倒计时结束-->
+										<!--产品结束文字-->
+										<div class="pro_li_banner_cont">
+											<p>超人气卸妆品，内含橄榄油和迷迭香等植物精华，温和无刺激，深层洁净毛孔内的油脂、污垢和化妆品，防水性化妆品亦适用，清洁而不油腻。</p>
+											<h3>雅诗兰黛</h3>
+											<span>鲜活亮彩套装</span>
+											<b>1套</b>
+										</div>
+										<div class="pro_li_banner_price">
+											<strong>￥739.0</strong>
+											<del>￥1210.0</del>
+										</div>
+									</div>
+									<!--透明层上的文字层结束-->
+								</div>
+								<!--透明层结束-->
+								<img src="images/pro_li_03.jpg" alt="" />
+							</a>
+						</li>
+						<li >
+							<a href="javascript:void(0);">
+								<!--打折的logo-->
+								<i class="cuxiao_logo">
+									<b>5.3</b>
+								</i>
+								<div class="pro_li_banner_ad">
+									<!--透明层-->
+									<div class="po_opacity"></div>
+									<!--透明层上的文字层-->
+									<div class="po_no_opacity">
+										<!--倒计时-->
+										<div class="time_back">
+											<i class="iconfont clock">&#xe600;</i>
+											剩余
+											<span class="days"></span>天
+											<span class="hours"></span>时
+											<span class="minutes"></span>分
+											<span class="second"></span>秒
+										</div>
+										<!--倒计时结束-->
+										<!--产品结束文字-->
+										<div class="pro_li_banner_cont">
+											<p>超人气卸妆品，内含橄榄油和迷迭香等植物精华，温和无刺激，深层洁净毛孔内的油脂、污垢和化妆品，防水性化妆品亦适用，清洁而不油腻。</p>
+											<h3>雅诗兰黛</h3>
+											<span>鲜活亮彩套装</span>
+											<b>1套</b>
+										</div>
+										<div class="pro_li_banner_price">
+											<strong>￥739.0</strong>
+											<del>￥1210.0</del>
+										</div>
+									</div>
+									<!--透明层上的文字层结束-->
+								</div>
+								<!--透明层结束-->
+								<img src="images/pro_li_04.jpg" alt="" />
+							</a>
+						</li>
+						<li >
+							<a href="javascript:void(0);">
+								<!--打折的logo-->
+								<i class="cuxiao_logo">
+									<b>5.3</b>
+								</i>
+								<!--banner上的透明广告-->
+								<div class="pro_li_banner_ad">
+									<!--透明层-->
+									<div class="po_opacity"></div>
+									<!--透明层上的文字层-->
+									<div class="po_no_opacity">
+										<!--倒计时-->
+										<div class="time_back">
+											<i class="iconfont clock">&#xe600;</i>
+											剩余
+											<span class="days"></span>天
+											<span class="hours"></span>时
+											<span class="minutes"></span>分
+											<span class="second"></span>秒
+										</div>
+										<!--倒计时结束-->
+										<!--产品结束文字-->
+										<div class="pro_li_banner_cont">
+											<p>超人气卸妆品，内含橄榄油和迷迭香等植物精华，温和无刺激，深层洁净毛孔内的油脂、污垢和化妆品，防水性化妆品亦适用，清洁而不油腻。</p>
+											<h3>雅诗兰黛</h3>
+											<span>鲜活亮彩套装</span>
+											<b>1套</b>
+										</div>
+										<div class="pro_li_banner_price">
+											<strong>￥739.0</strong>
+											<del>￥1210.0</del>
+										</div>
+									</div>
+									<!--透明层上的文字层结束-->
+								</div>
+								<!--banner上的透明广告结束-->
+								<img src="images/pro_li_05.jpg" alt="" />
+							</a>
+						</li>
+						<li>
+							<a href="javascript:void(0);">
+								<!--打折的logo-->
+								<i class="cuxiao_logo">
+									<b>5.3</b>
+								</i>
+								<div class="pro_li_banner_ad">
+									<!--透明层-->
+									<div class="po_opacity"></div>
+									<!--透明层上的文字层-->
+									<div class="po_no_opacity">
+										<!--倒计时-->
+										<div class="time_back">
+											<i class="iconfont clock">&#xe600;</i>
+											剩余
+											<span class="days"></span>天
+											<span class="hours"></span>时
+											<span class="minutes"></span>分
+											<span class="second"></span>秒
+										</div>
+										<!--倒计时结束-->
+										<!--产品结束文字-->
+										<div class="pro_li_banner_cont">
+											<p>超人气卸妆品，内含橄榄油和迷迭香等植物精华，温和无刺激，深层洁净毛孔内的油脂、污垢和化妆品，防水性化妆品亦适用，清洁而不油腻。</p>
+											<h3>雅诗兰黛</h3>
+											<span>鲜活亮彩套装</span>
+											<b>1套</b>
+										</div>
+										<div class="pro_li_banner_price">
+											<strong>￥739.0</strong>
+											<del>￥1210.0</del>
+										</div>
+									</div>
+									<!--透明层上的文字层结束-->
+								</div>
+								<!--透明层结束-->
+								<img src="images/pro_li_06.jpg" alt="" />
+							</a>
+						</li>
+
+					</ul>
+				</div>
+			</div>
+			<!--手风琴轮播图结束-->
+			<!--商品列表-->
+			<div id="flash_product">
+				<!--商品列表标题limitedoffer-->
+				<div class="pro_list_limiterOffer02">
+					<span class="bg_title"></span>
+				</div>
+				<!--商品列表标题limitedoffer结束-->
+				
+				<!--导航标签-->
+				<div id="pro_list_tag">
+					<!--<a href="javascript:;">全部分类</a>-->
+				</div>
+				<!--导航标签结束-->
+				<!--所有商品-->
+				<div id="pro_list_all">
+					<ul id="pro_list_all_pic">
+						<!--<li class="limite_children" >
+							<a href="javascript:;">
+								<i class="count">
+									<b>2.8</b>
+								</i>
+								<div class="flashscal_pic">
+									<span class="vertical"></span>
+									<img src="images/flash_01.jpg" alt="金装双倍特强保湿水库针剂裸贴水凝胶面膜 (V3)"/>
+								</div>
+								<div class="scale_price clear">
+									<span class="buy_num">已售78件</span>
+									<span class="buy_price">￥88.0</span>
+									<span class="buy_del"><del>￥315.0</del></span>
+								</div>
+								<div class="flash_info">
+									<div class="des01">
+										<i class="douhao"></i>
+										含2倍以上的透明质酸和神经酰胺3，天然保湿因子 (N.M.F – Nutrient Moisturizing Factor) 及金缕梅、大马士革玫瑰水等多种保湿成份提炼而成高浓度保湿精华。
+									</div>
+									<div class="des02">美迪惠尔 MEDIHEAL NUDE GEL MASK </div>
+									<p class="des03">金装双倍特强保湿水库针剂裸贴水凝胶面膜 (V3)</p>
+									<p class="des04">30 克 x 10</p>
+									<p class="des05">
+										<i class="iconfont clock">&#xe600;</i>
+										剩余
+										<span class="days"></span>天
+										<span class="hours"></span>时
+										<span class="minutes"></span>分
+										<span class="second"></span>秒
+									</p>
+								</div>-->
+								<!--鼠标划上去出现的立即购买图片-->
+								<!--<span class="comeBuy_bg"></span>-->
+								<!--获取id用的input，隐藏不显示-->
+								<!--<input type="text" value="" name="id" />
+								
+							</a>
+						</li>-->
+						
+					</ul>
+				</div>
+				<!--所有商品-->
+				
+			</div>
+			<!--商品列表结束-->
+		</div>
+		<!--调用尾部-->
+		<div id="footer_load"></div>
+		<!--调用购物车-->			
+		<div id="sideBar_load"></div>
+	</body>
+</html>

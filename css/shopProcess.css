@@ -1,0 +1,214 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*shopProcess*/
+.shop_show {
+	margin:0 auto;
+	width:1090px;
+	overflow:hidden;
+
+}
+#show_wrap {
+	border-bottom: 1px solid #E8E8E8;
+	
+}
+/*轻松购左侧列表*/
+
+#main_wrap{
+	background:#F5F5F5;
+	overflow: hidden;
+}
+#main_wrap .tab_buy{
+	width:1090px;
+	margin:0 auto;
+	margin-top:30px;
+	
+}
+#main_wrap .list_buy{
+	width:254px;
+	min-height:450px;
+	height:450px;
+	height:auto !important;
+	float:left;
+}
+#main_wrap .list_title{
+	height:50px;
+	border-bottom:1px solid #CFCFCF;
+	border-left:5px solid #C69A62;
+	color:#585C65;
+	background:#fff;
+	font-size:16px;
+	padding-left:12px;
+	line-height:50px;
+}
+#main_wrap dl dt{
+	height:50px;
+	background:#E8E6E7;
+	padding: 0 16px 0 22px;
+	line-height:50px;
+	cursor:pointer;
+	margin-bottom:12px;
+}
+#main_wrap dl{
+	padding-bottom:12px;
+	background:#fff;
+	height:40px;
+	overflow:hidden;
+}
+#main_wrap dl dt i{
+	font-size:16px;
+	float:left;	
+	padding-right:12px;
+}
+#main_wrap dl dt span{
+	font-size:26px;
+	float:right;
+	color:#C2C4C5;
+}
+#main_wrap dl dd{
+	cursor:pointer;
+	
+}
+#main_wrap dl dd a{
+	/*width:254px;*/
+	display:block;
+	line-height:30px;
+	background:#fff;
+	color:#BFC4D3;
+	padding-left:46px;
+}
+
+
+/*主要内容*/
+
+.content{
+	width:710px;
+	margin-left:26px;
+	background:#fff;
+	padding: 50px ;
+	float:left;
+
+}
+.main_content{
+	overflow:hidden;
+	
+	
+}
+.main_content .title h2{
+	font-size:20px;
+	color:#414141;
+	line-height:34px;
+	font-weight:100;
+}
+.main_content .title{
+	border-bottom:1px solid #ddd;
+	padding-bottom:30px;
+}
+.type_logo{
+	margin:50px 0;
+	overflow:hidden;
+}
+.type_logo ul{
+	float:left;
+	
+}
+.type_logo ul li{
+	float:left;
+	text-align:center;
+	padding:0 10px 0 40px;
+	background:url(../images/30pxline.jpg) no-repeat left center;
+}
+.type_logo ul li a{
+	width:98px;
+	height:112px;
+	border-radius:10px;
+	float:left;
+	display:block;
+	font-size:14px;
+	text-decoration:none;
+	
+
+}
+
+.type_logo ul li img{
+	margin-top:16px;
+	width:64px;
+	height:64px;
+	border:none;
+	margin-bottom:0;
+	-webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    transition: all .5s;
+}
+.type_logo ul li:hover img{
+	-webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    -ms-filter: grayscale(0%);
+    -o-filter: grayscale(0%);
+    filter: grayscale(0%);    
+}
+.type_logo ul li a span{
+	color:#FF7579;
+	display:block;
+	-webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    transition: all .5s;
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+
+}
+.type_logo ul li:hover span{
+	-webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    -ms-filter: grayscale(0%);
+    -o-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
+/*tab分页*/
+.tab01_one{
+	height:272px;
+	color:#3E3E3E;
+}
+.content_shop h3{
+	font-weight:100;
+	height:42px;
+	font-size:16px;
+	line-height:16px;
+}
+.content_shop p{
+	line-height:22px;
+}
+.tab01 ol{
+	margin:20px 0;
+	line-height:20px;
+	
+}
+.tab01 ol li{
+	list-style-type:disc;
+	list-style-position: inside;
+}
+.content_shop a{
+	color:#BBB5B5;
+	text-decoration:underline;
+}
+
+.tab01_two{
+	height:316px;
+	margin-top:50px;
+	padding-bottom:100px;
+}
+.content_shop img{
+	border:10px solid #F5F5F5;
+	margin:42px 0;
+}
+
+/*将所有的分页默认不显示,给第一个加行内样式block*/
+.tab_click{
+	display:none;
+}
+
+

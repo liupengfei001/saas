@@ -1,0 +1,341 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*商品列表主要内容*/
+
+
+#pro_list_main_wrap{
+	padding: 30px 0;
+	background:#f2f2f2;
+	overflow: hidden;
+}
+/*手风琴banner图*/
+#flash_banner{
+	width:1090px;
+	margin:0 auto;
+}
+/*banner上面的标题*/
+#flash_banner .pro_list_limiterOffer span{
+	width: 328px;
+    height: 30px;
+    display: inline-block;
+    background: url(../images/home-bt.png) no-repeat 0 -70px;
+    margin-top: 40px;
+}
+/*banner*/
+#flash_banner .pro_list_banner ul{
+	width: 1090px;
+    height: 450px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+/*统一图片大小*/
+#flash_banner .pro_list_banner ul img{
+	width:675px;
+	height:450px;
+}
+#flash_banner .pro_list_banner ul li{
+	float:left;
+	position:relative;
+	height:100%;
+	overflow:hidden;
+	width:82px;
+}
+/*默认显示class为current_pic的图片和他下面的透明广告*/
+#flash_banner .pro_list_banner ul .current_pic{
+	width:675px;
+}
+#flash_banner .pro_list_banner ul .current_pic .pro_li_banner_ad{
+	opacity:1;
+}
+#flash_banner .pro_list_banner ul li .pro_li_banner_ad{
+	opacity:0;
+}
+#flash_banner .pro_list_banner ul li a .cuxiao_logo{
+	background: url(../images/tips.png) no-repeat -265px -532px;
+	width:42px;
+	height:46px;
+	position:absolute;
+	left:10px;
+	bottom:10px;
+	padding:18px 26px 0 0 ;
+	font-size: 24px;
+    color: #fff;
+	display:block;
+}
+/*banner上面的透明广告*/
+.pro_li_banner_ad {
+	position:absolute;
+	right:0;
+	top:65px;
+	overflow:hidden;
+}
+/*放在banner上的透明底色*/
+.pro_li_banner_ad .po_opacity{
+	background:#000;
+	opacity:0.5;
+	width:275px;
+	height:320px;
+}
+/*透明底色上的文字层*/
+.pro_li_banner_ad .po_no_opacity{
+	position:absolute;
+	top:0;
+	left:0;
+	width:275px;
+	height:320px;
+}
+.pro_li_banner_ad .po_no_opacity .time_back{
+	width:240px;
+	height:50px;
+	border-bottom:1px solid #fff;
+}
+.pro_li_banner_ad .po_no_opacity .time_back{
+	height:50px;
+	line-height:50px;
+	color:#fff;
+}
+.pro_li_banner_ad .po_no_opacity .time_back i{
+	color: #c69a62;
+    font-size: 18px;
+    margin:0 5px 0 12px;
+}
+.pro_li_banner_ad .po_no_opacity .pro_li_banner_cont{
+	padding:10px 20px 10px 10px;
+}
+.pro_li_banner_ad .po_no_opacity .pro_li_banner_cont p{
+	font-size:16px;
+	color:#fff;
+	line-height:24px;
+	margin-bottom:10px;
+	text-indent:32px;
+}
+.pro_li_banner_ad .po_no_opacity .pro_li_banner_cont h3{
+	font-size:16px;
+	line-height:22px;
+	color:#fff;
+	
+}
+.pro_li_banner_ad .po_no_opacity .pro_li_banner_cont span{
+	font-size:16px;
+	color:#fff;
+	line-height:22px;
+	display: block;
+	margin-bottom:20px;
+}
+.pro_li_banner_ad .po_no_opacity .pro_li_banner_cont b{
+	font-size:16px;
+	color:#fff;
+
+}
+.pro_li_banner_ad .po_no_opacity .pro_li_banner_price {
+	padding:10px;
+}
+.pro_li_banner_ad .po_no_opacity .pro_li_banner_price strong{
+	font-size:20px;
+	color:#F5A853;
+}
+.pro_li_banner_ad .po_no_opacity .pro_li_banner_price del{
+	color:#fff;
+	font-size:12px;
+}
+
+/*商品列表标题limitedoffer*/
+#flash_product{
+	padding-top:40px;
+	margin:0 auto;
+	width:1090px;
+}
+#flash_product .pro_list_limiterOffer02{
+	border-bottom:4px solid #EC417B;
+	width:1090px;
+	padding-bottom:26px;    
+}
+#flash_product .bg_title{
+	width: 328px;
+    height: 30px;
+    display: inline-block;
+    background: url(../images/home-bt.png) no-repeat 0 -70px;
+    margin-top: 40px;
+
+}
+/*<!--导航标签-->*/
+#pro_list_tag{
+	padding:30px 0 20px 0;
+	overflow:hidden;
+}
+#pro_list_tag a{
+	font-size:14px;
+	float:left;
+	display:block;
+	color:#B49F84;
+	border:1px solid #B49F84;
+	border-radius:10px;
+	padding:6px 10px;
+	margin:5px 8px;
+}
+#pro_list_tag a:hover{
+	color:#ED557F;
+	border:1px solid #ED557F;
+}
+/*所有商品的样式*/
+#pro_list_all_pic{
+	width:1260px;
+	overflow: hidden;
+	margin-left:-26px;
+}
+#pro_list_all_pic li{
+	width:346px;
+	height:574px;
+	margin: 0 0 25px 25px;
+	float:left;
+	position:relative;
+	background:#fff;
+	position:relative;
+	-webkit-transition:all 0.5s ease-in-out;
+    -moz-transition:all 1s ease-in-out;
+
+	
+}
+#pro_list_all_pic li .count{
+	background:url(../images/tips.png) no-repeat -265px -532px;
+	position:absolute;
+	top:12px;
+	left:14px;
+	width:65px;
+	height:65px;
+	z-index:100;
+}
+#pro_list_all_pic li .count b{
+	font-size: 22px;
+    font-style: italic;
+    color: #fff;
+    line-height: 54px;
+    font-weight: 100;
+    margin-left: 5px;
+}
+#pro_list_all_pic .flashscal_pic{
+	width: 346px;
+    height: 346px;
+    text-align: center;
+    overflow: hidden;
+    line-height: 346px;
+	
+}
+#pro_list_all_pic .flashscal_pic .vertical{
+	height:100%;
+	width:0;
+}
+#pro_list_all_pic .flashscal_pic img{
+	vertical-align:middle;
+	
+}
+#pro_list_all_pic .scale_price {
+	border-bottom: 1px solid #eee;
+    border-top: 1px solid #eee;
+    padding: 10px 15px;
+    color: #858587;
+    
+}
+#pro_list_all_pic .scale_price .buy_num{
+	float:right;
+	margin-right:30px;
+	font-size:14px;
+	color:#858587;
+}
+#pro_list_all_pic .scale_price .buy_price{
+	font-size:24px;
+	float:left;
+	color: #ec3e7d;
+	margin-right:14px;
+}
+#pro_list_all_pic .scale_price .buy_del{
+	color: #858587;
+	text-decoration:line-through;
+}
+#pro_list_all_pic .flash_info{
+	padding: 5px 15px;
+	overflow:hidden;
+	
+}
+#pro_list_all_pic .flash_info .douhao{
+	width:18px;
+	height:11px;
+	display: inline-block;
+	background:url(../images/douhao.jpg) no-repeat left center;
+}
+#pro_list_all_pic .flash_info .des01{
+	font-size:15px;
+	font-weight:bold;
+	height:55px;
+	line-height:28px;
+	color:#3e3e3e;
+	overflow:hidden;
+}
+#pro_list_all_pic .flash_info .des02{
+	height:30px;
+	font-size:14px;
+	line-height:30px;
+	color:#808082;
+	font-weight:bold;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	
+}
+#pro_list_all_pic .flash_info .des03{
+	height:40px;
+	line-height:20px;
+	overflow:hidden;
+	color:#808082;
+}
+#pro_list_all_pic .flash_info des04{
+	color:#808082;
+	line-height:24px;
+	
+}
+#pro_list_all_pic .flash_info .des05{
+	height:30px;
+	line-height:30px;
+	color:#808082;
+	float:right;
+}
+#pro_list_all_pic .flash_info .des05 i{
+	color: #c69a62;
+    font-size: 18px;
+    margin-right: 5px;
+}
+#pro_list_all_pic .comeBuy_bg{
+	position: absolute;
+    top: 12%;
+    left: 16%;
+    background: url(../images/tips.png) no-repeat;
+    width: 183px;
+    height: 183px;
+    z-index: 20;
+    display: none;
+    padding-left: 43px;
+    padding-top: 48px;
+}
+#pro_list_all_pic li:hover .comeBuy_bg {
+	display:block;
+}
+#pro_list_all_pic li:hover {
+	 box-shadow: 4px 0px 25px -6px #000;
+}
+#pro_list_all_pic li:hover img{
+	   
+	-webkit-filter: blur(24px);
+    -moz-filter: blur(40px);
+    -o-filter: blur(40px);
+    -ms-filter: blur(40px);
+    filter: blur(12px);
+}
+/*input用来存放商品的id*/
+#pro_list_all_pic input {
+	position:absolute;
+	top:0;
+	left:0;
+	/*z-index:-1;*/
+}
+<!--所有商品结束-->

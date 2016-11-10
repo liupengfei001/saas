@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>香港莎莎官网 - 正品美妆海淘商城,化妆品护肤品海外购首选</title>
+		<link rel="Shortcut Icon" href="images/favicon.ico.png" />
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="icon/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="css/topBar.css"/>
+		<link rel="stylesheet" type="text/css" href="css/footer.css"/>
+		<link rel="stylesheet" type="text/css" href="css/basket.css"/>
+		<script src="libs/jquery-1.11.3.js"></script>
+		<script src="js/header.js"></script>
+		<script src="js/jquery.cookie.js"></script>
+		<script src="js/basket.js"></script>
+		
+		<script>
+			$(function(){
+				$("#header_load").load("header.html #topBar",header_callback);
+				$("#footer_load").load("index.html #helper");
+			})
+		</script>
+	</head>
+	<body>
+		<!--调用头部-->
+		<div id="header_load"></div>
+		<!--basket-header-main-->
+		<div id="basket_header_wrap">
+			<div class="basket_header">
+				<div class="basket_header_logo">
+					<h2><a href="index.html">莎莎购物车</a></h2>
+				</div>
+				<div class="basket_step">
+					<span></span>
+				</div>
+				<div class="basket_icon">
+					<img src="images/basket_header_logo01.png" alt="" />
+					<img src="images/basket_header_logo02.png" alt="" />
+					<img src="images/basket_header_logo03.png" alt="" />
+				</div>
+			</div>
+		</div>
+		<!--购物车main-->
+		<div id="basket_main_wrap">
+			<div class="basket_main">
+				<div class="your_shopping_cart">
+					<span></span>
+				</div>
+				<div class="basket_product_header">
+						香港直送商品订单满<span>￥249.0</span>包邮
+				</div>
+				<div class="basket_product">
+					
+					<div class="basket_product01">
+						<!--加入购物车的商品的头部-->
+						<div class="basket_pro_title">
+							<h3>商品</h3>
+							<span class="basck_pro_name">商品名称</span>
+							<span class="basket_per_price">单价</span>
+							<span class="basket_pro_num">数量</span>
+							<span class="xiaoji">小计</span>
+						</div>
+						<!--加入购物车的商品的头部结束-->
+						<!--加入购物车的商品-->
+						<ul class="all_product"></ul>
+						<!--将li放在ul外面，放置js判断干扰-->
+						<!--每个li为一个加入购物车的商品-->
+							<!--<li>
+								<div class="basket_pro_cont">-->
+									<!--加入购物车商品的图片大小为100*100-->
+									<!--<div class="basket_cont_img"><span></span><a href=""><img src="images/arr_prod06.jpg" alt="" /></a></div>
+									<div class="basket_cont_name"><p>sasatinnie BEAUTY CARE 水母紧致修护面膜 ( 韩国制造)</p><span>1片</span></div>
+									<div class="basket_cont_price">￥<span>860.0</span></div>
+									<div class="basket_cont_num">
+										<div class="pro_num">
+											<a class="minus" href="javascript:void(0);">-</a>
+											<input type="text" value="1" class="num_buy" />
+											<a class="plus" href="javascript:void(0);">+</a>
+										</div>
+										<div class="tankuang">
+											<p>此商品的最小购买数量为1件</p>
+											<i class="iconfont lingxing01">&#xe618;</i>
+											<i class="iconfont lingxing02">&#xe618;</i>
+											<i class="iconfont jinggao">&#xe617;</i>
+										</div>
+									</div>
+									<div class="basket_cont_allprice">￥<span>6.0</span></div>
+									<div class="basket_dele">删除</div>
+								</div>-->
+							<!--</li>-->
+						<!--加入购物车的商品-->
+						
+					</div>
+					<!--满多少钱免运费，还差多少-->
+					<div id="basket_free">
+						<span>清单价值满￥ <strong>249.0 </strong>即免费付运，尚欠 ￥<b>249.0</b></span>
+					</div>
+					<!--满多少钱免运费，还差多少结束-->
+					<div class="basket_product02">
+						<div class="alreay_youhui">
+							<a>已享受的优惠</a>
+						</div>
+						<div class="xiangmu">
+							<a>优惠项目</a>
+						</div>
+					</div>
+					<!--结账-->
+					<div class="basket_product03">
+						<div class="basket_left">
+							<a href="index.html" target="_blank">继续购物</a>
+							<a class="clear_carAll" href="javascript:;">清空购物车</a>
+						</div>
+						<div class="basket_right">
+							<span>共<strong>0</strong>件商品</span>
+							<span>商品应付金额<strong>￥0.0</strong></span>
+							<a href="javascript:;">结账</a>
+						</div>
+					</div>
+					<!--结账j结束-->
+					
+				</div>
+				
+			</div>
+			<!--没有商品时显示的页面-->
+			<div id="buyCar_null_wrap">
+				<div class="buyCar_null">
+					<!--上面的两行文字-->
+					<div class="basket_null_text">
+						<p>亲，您的购物车中没有商品</p>
+						<h3>赶紧挑选心爱的商品吧！</h3>
+					</div>
+					<!--从主页复制过来的顶部搜索框-->
+					<div class="top_search">
+				
+						<div class="search_wrap">
+							<input type="text" placeholder="面膜" class="search">
+							<input type="button" value="搜索" class="btn_search_top">
+						</div>
+						
+						<div class="aList">
+								<a style="border-left:none;padding-left:0;" href="javascript:void(0);">防晒</a>
+								<a href="javascript:void(0);">兰蔻</a>
+								<a href="javascript:void(0);">雅诗兰黛</a>
+								<a href="javascript:void(0);">兰芝</a>
+								<a href="javascript:void(0);">眼霜</a>
+								<a href="javascript:void(0);">保湿</a>
+								<a href="javascript:void(0);">迪奥</a>
+						</div>
+					</div>
+					<!--从主页复制过来的顶部搜索框结束-->
+					<!--返回首页-->
+					<div class="comeBack_index">
+						<a href="index.html">返回首页</a>
+					</div>
+				</div>
+			</div>
+			<!--加购区-->
+			<div id="more_to_buy_wrap">
+				<div class="more_to_buy">
+					<div class="more_to_buy_title">
+						<h2>加购区</h2>
+						<div class="line_bg">
+							<ul class="radius_bg">
+								<li><a href="javascript:;">20元以下</a></li>
+								<li><a href="javascript:;">20-50元以</a></li>
+								<li style="margin-right:0;"><a href="javascript:;">50-100元</a></li>
+							</ul>
+						</div>
+						<!--banner图区-->
+						<div class="basket_banner_wrap">
+							<div class="basket_banner">
+								<ul id="getWidth">
+									<li>
+										<div class="formall">
+											<div class="formall_cont">
+												<!--图片和定位的文字-->
+												<div class="arr_pic">
+													<b>
+														<img src="images/arr_pic01.png" alt="" />
+													</b>
+													<span>
+														韩国品牌
+													</span>
+													<a href="javascript:;">
+														<img src="images/arr_prod.jpg" alt="" />
+													</a>
+												</div>
+												<!--价格-->
+												<div class="scal_price">
+													<span class="now_price">￥166.1</span>
+													<span class="old_price"><del>￥207.6</del></span>
+													<span class="discout">8折</span>
+												</div>
+												<!--介绍部分-->
+												<div class="arr_info">
+													<h3 class="arr_name"><a href="javascript:;">DR.ORACLE</a></h3>
+													<p class="arr_pr_info"><a href="javascript:;">MAKEUP BASE爱护理抗敏BB修饰霜SPF50+ PA+++</a></p>
+													<p class="volume">40 毫升  </p>
+												</div>
+												<!--加入购物车-->
+												<div class="addBuyCar">
+													<a href="javascritp:;">加入购物车</a>
+												</div>
+											</div>
+											
+											<!--定位的小图片-->
+											<dl class="small_pic">
+												<dd><img style="border:4px solid #C89961;" src="images/arr_prod02.jpg" alt="" /></dd>
+												<dd><img src="images/arr_prod06.jpg" alt="" /></dd>
+												<dd><img src="images/arr_prod08.jpg" alt="" /></dd>
+											</dl>
+										</div>
+										
+									</li>
+								</ul>
+							</div>
+							<!--左右按钮-->
+							<div class="basket_banner_btn">
+								<a href="javascript:;" class="left_btn iconfont" >&#xe619;</a>
+								<a href="javascript:;" class="right_btn iconfont" >&#xe61a;</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--加购区结束-->
+		</div>
+		<!--购物车主要内容结束-->
+		
+		<!--调用尾部-->
+		<div id="footer_load"></div>
+					
+	</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>莎莎网登录界面</title>
+		<link rel="Shortcut Icon" href="images/favicon.ico.png" />
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="icon/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="css/topBar.css"/>
+		<link rel="stylesheet" type="text/css" href="css/registercom.css"/>
+		<script src="libs/jquery-1.11.3.js"></script>
+		<script src="js/header.js"></script>
+		<script src="js/register.js"></script>
+		<script src="js/jquery.cookie.js"></script>
+		
+		
+		<script>
+			$(function(){
+				
+				//console.log(1);//jq加载成功
+				
+				$("#topBar_load").load("header.html #topBar",header_callback);
+				
+			})
+		</script>
+	</head>
+	<body>
+		<!--加载topBar-->
+		<div id="topBar_load"></div>
+			<div id="logo_wrap">
+				<div class="logo">
+					<h1><a href="http://www.sasa.com/">莎莎网</a></h1>
+				</div>
+				
+			</div>
+			<div id="main_wrap" class="clear">
+				<div class="main">
+					<div class="login_box">
+						<div class="title">
+							<h2>用户登录</h2>
+							<span>还没有莎莎账号？<a href="login.html" target="_blank">立即注册</a></span>
+						</div>
+						<form action="" name="login">
+							<input type="text" 		placeholder="邮箱/手机" name="phone_num" minlength="5" class="phone_num mOver"/>
+							<input type="password"  placeholder="填写密码" name="password" class="password mOver" />
+							<label><input type="checkbox"  class="checkbox"/><span>记住我</span></label>
+							<input type="button"    value="登录" name="submit" class="submit"/>
+							
+						</form>
+						<div id="position_form">
+							<div class="po_checkbox"><a href="forgetpwd.html" target="_blank">忘记密码？</a></div>
+						</div>
+						<div id="partners">
+							<p>第三方账号登录</p>
+							<span class="qq"><a href="javascript:;">QQ登录</a></span>
+							<span class="weibo"><a href="javascript:;">微博登录</a></span>
+							<span class="zhifubao"><a href="javascript:;">支付宝登录</a></span>
+						</div>
+						<div id="z_index_10">
+							<p>!</p><span>用户名或密码错误</span>
+						</div>
+						<div id="z_index_11">
+							<p>!</p><span>用户名不存在</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="login_foot">
+				<div class="footer">
+					<p class="left"><span>&copy;</span>Copyright 2000-2016 Sa Sa dot Com Limited 版权所有。</p>
+					<p class="right">莎莎国际控股有限公司成员</p>
+				</div>
+			</div>
+	</body>
+</html>

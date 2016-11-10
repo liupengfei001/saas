@@ -1,0 +1,208 @@
+@charset "utf-8";
+/* CSS Document */
+
+			/*logo*/
+
+.logo{
+	width:1090px;
+	height:95px;
+	margin:0 auto;
+}
+.logo a{
+	display: block;
+	margin-top:22px;
+	height:45px;
+	width:181px;
+	float:left;
+	text-indent:-2000px;
+	background:url(../images/sasalogo.png) no-repeat;
+}
+#main_wrap .main{
+	min-height:492px;
+	height:auto !important;
+	height:492px;
+	margin:40px auto 0;
+	width:1090px;
+	background:url(../images/login_bg.jpg) no-repeat left 116px;
+}
+#login_foot .footer{
+	width:1090px;
+	height:46px;
+	margin:20px auto 0;
+
+}
+.footer .left{
+	float:left;
+}
+.footer .right{
+	float:right;
+}
+.footer p{
+	font-size:14px;
+	color:#C2BCB5;
+}
+#main_wrap .login_box{
+	width:350px;
+	background:#fff;
+	padding:35px;
+	float:right;
+	margin:40px 68px 0 0;
+	box-shadow: -1px 3px 15px 2px #e1e1e1;
+	position: relative;
+}
+
+/*密码框*/
+#main_wrap .title {
+	width:350px;
+	height:40px;
+	
+}
+#main_wrap .title h2{
+	float:left;
+	font-size:24px;
+	line-height:24px;
+	color:#5A5D6C;
+	font-weight:100;
+}
+#main_wrap .title span{
+	display: block;
+	float:right;
+	font-size:12px;
+	color:#5a5d6c;
+	line-height:24px;
+}
+#main_wrap .title span a{
+	color:#ec3e7d;
+}
+#main_wrap .form_act{
+	width:130px;
+}
+
+/*表单中input的边框设置*/
+
+form input{
+	width:348px;
+	height:34px;
+	background:none;
+	border:1px solid #ccc;
+	padding-left:5px;
+	margin-top:25px;
+}
+form .phone_num{
+	padding-left:21px;
+	background:url(../images/q.png) no-repeat  0 -120px;
+}
+form .password{
+	padding-left:21px;
+	background:url(../images/q.png) no-repeat  0 -160px;
+}
+form .checkbox{
+	width:14px;
+	height:14px;
+	margin:16px 5px 0;
+}
+form .submit{
+	background:#EC3E7D;
+	font-size:16px;
+	color:#fff;
+	cursor:pointer;
+}
+form label span{
+	position: absolute;
+	top:16px;
+
+}
+form label{
+	height:34px;
+	display:block;
+	position:relative;
+	margin-top:25px;
+}
+form .form_act{
+	position: relative;
+}
+
+form .checkbox{
+	position: relative;
+}
+
+#position_form .po_checkbox{
+	position: absolute;
+	left: 114px;
+    top: 238px;
+    
+}
+#position_form .po_checkbox a{
+	
+	color:#EC3E7D;
+}
+/*第三方账号登录*/
+#partners{
+	width:350px;
+	height:75px;
+	margin-top:50px;
+}
+#partners p{
+	color:#3e3e3e;
+	font-size:14px;
+}
+#partners a{
+	padding-left:40px;
+	display: inline-block;
+	font-size:12px;
+}
+#partners span{
+	display: inline-block;
+	overflow: hidden;
+	text-align:center;
+	line-height:55px;
+	margin-right:10px;
+}
+#partners .qq a{
+	background:url(../images/qq.jpg) no-repeat left center; 
+}
+#partners .weibo a{
+	background:url(../images/weibo.jpg) no-repeat left center; 
+}
+#partners .zhifubao a{
+	background:url(../images/zhifubao.jpg) no-repeat left center; 
+}
+
+/*鼠标滑过input 的边框变色*/
+form .mOver:hover{
+	box-shadow: 0px 0px 9px -1px #F9A0B4;
+    border: 1px solid #F9A0B4;
+}
+
+/*错误时弹出的框*/
+#z_index_10,#z_index_11{
+	width:260px;
+	height:90px;
+	box-shadow: 2px 2px 9px -1px #666;
+	z-index:10;
+	position:absolute;
+	left:-46%;
+	top:38%;
+	background:#fff;
+	line-height:90px;
+	display:none;
+	
+}
+#z_index_10 p,#z_index_11 p{
+	width:30px;
+	height:30px;
+	background:#EC4717;
+	border-radius:50%;
+	color:#fff;
+	font-size:24px;
+	text-align:center;
+	line-height:30px;
+	margin-left:44px;
+	display:inline-block;
+}
+#z_index_10 span,#z_index_11 span{
+	font-size:16px;
+	color:#3e3e3e;
+	
+}
+

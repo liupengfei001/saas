@@ -1,0 +1,116 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*footer_helper*/
+#helper{
+	background-color: #fff;
+    border-top: 4px solid #c69a62;
+    min-height: 209px;
+    padding: 30px 0;
+}
+#helper .content{
+	width:1090px;
+	margin:0 auto;
+	min-height:250px;
+	height:auto !important;
+	height:250px;
+}
+#helper .foot_logo a {
+	display: block;
+	width:180px;
+	height:60px;
+	background:url(../images/foot_logo.png) no-repeat left center;
+	
+}
+#helper .foot_logo {
+	overflow:hidden;
+	float:left;
+	margin: 20px 20px 0 0;
+}
+#helper dl{
+	width:90px;
+	height:230px;
+	overflow:hidden;
+	float:left;
+	margin: 20px 0 0 30px;
+}
+#helper dl dt{
+	font-size:16px;
+	font-weight:bold;
+	color:#ec3e7d;
+	line-height:24px;
+}
+#helper dl dd{
+	line-height:25px;
+	
+}
+#helper dl dd a{
+	color:#3e3e3e;
+}
+#helper dl dd a:hover{
+	color:#000;
+}
+/*foot上面的二维码*/
+#helper .weixin .wx01 a{
+	display:block;
+	height:114px;
+	width:88px;
+	background:url(../images/sasaweibo.png) no-repeat left center;
+	
+}
+#helper .weixin .wx02 a{
+	display:block;
+	height:114px;
+	width:88px;
+	background:url(../images/sasaweixin.png) no-repeat left center;
+	
+}
+#helper .weixin span {
+	display:block;
+	padding:0 25px;
+	float:left;
+
+}
+#helper .weixin{
+	margin-top:16px;
+	float:left;
+
+}
+/*foot_link*/
+#helper .foot_link a{
+	display:inline-block;
+	padding: 0 15px;
+    color: #c69a62;
+}
+#helper .foot_link a:hover{
+	color:#333;
+}
+#helper .foot_link{
+	border-top: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 15px 0;
+
+}
+#helper .foot_link .margin_auto{
+	 margin:0 auto;
+	width:1090px;   
+}
+
+
+
+#login_foot .footer{
+	width:1090px;
+	height:25px;
+	margin:20px auto 0;
+
+}
+.footer .left{
+	float:left;
+}
+.footer .right{
+	float:right;
+}
+.footer p{
+	font-size:14px;
+	color:#C2BCB5;
+}

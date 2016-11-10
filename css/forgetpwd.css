@@ -1,0 +1,194 @@
+@charset "utf-8";
+/* CSS Document */
+
+			/*logo*/
+
+.logo{
+	width:1090px;
+	height:95px;
+	margin:0 auto;
+}
+.logo a{
+	display: block;
+	margin-top:22px;
+	height:45px;
+	width:181px;
+	float:left;
+	text-indent:-2000px;
+	background:url(../images/sasalogo.png) no-repeat;
+}
+#main_wrap .main{
+	min-height:492px;
+	height:auto !important;
+	height:492px;
+	margin:40px auto 0;
+	width:1090px;
+	background:url(../images/login_bg.jpg) no-repeat left 116px;
+}
+#login_foot .footer{
+	width:1090px;
+	height:46px;
+	margin:20px auto 0;
+
+}
+.footer .left{
+	float:left;
+}
+.footer .right{
+	float:right;
+}
+.footer p{
+	font-size:14px;
+	color:#C2BCB5;
+}
+#main_wrap .login_box{
+	width:350px;
+	background:#fff;
+	padding:35px;
+	float:right;
+	margin:40px 68px 0 0;
+	box-shadow: -1px 3px 15px 2px #e1e1e1;
+	position: relative;
+}
+
+/*密码框*/
+#main_wrap .title {
+	width:350px;
+	height:40px;
+	
+}
+#main_wrap .title h2{
+	float:left;
+	font-size:24px;
+	line-height:24px;
+	color:#5A5D6C;
+	font-weight:100;
+}
+
+#main_wrap .form_act{
+	width:130px;
+}
+/*修改密码流程flow*/
+
+#flow{
+	width:350px;
+	
+}
+#flow div {
+	width:70px;
+	height:60px;
+	float:left;
+	margin-right:15px;
+	text-align:center;
+	
+}
+#flow div p{
+	border-radius:50%;
+	width:30px;
+	height:30px;
+	border:1px solid #ECECEC;
+	text-align:center;
+	line-height:30px;
+	margin: 0 0 14px 19px;
+	color:#ECECEC;
+	
+}
+#flow div span{
+	color:#8C8C8C;
+	
+	
+}
+#flow .active{
+	background:#BE9A5C;
+	border:1px solid #BE9A5C;
+}
+#flow .on{
+	color:#BE9A5C;
+}
+
+/*表单中input的边框设置*/
+
+form input{
+	width:348px;
+	height:34px;
+	background:none;
+	border:1px solid #ccc;
+	padding-left:5px;
+	margin-top:25px;
+}
+
+form .submit{
+	background:#EC3E7D;
+	font-size:16px;
+	color:#fff;
+	cursor:pointer;
+}
+
+#position_form  .po_form_act #code{
+	width: 80px;
+    height: 34px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    margin-right: 15px;
+    float: left;
+    background: #fff;
+    border-radius: 0;
+    color: #000;
+    text-align: center;
+    line-height: 34px;
+}
+#position_form  .po_form_act a{
+	float: left;	
+}
+
+#position_form p{
+	background:#db3f7e;
+	width:14px;
+	height:14px;
+	font-size:14px;
+	color:#fff;
+	text-align:center;
+	line-height:14px;
+	border-radius:50%;
+	display:inline-block;
+	margin-right:5px;
+}
+#position_form span{
+	font-size:12px;
+}
+
+#position_form #po_phone_num{
+	position: absolute;
+	left: 36px;
+    top: 200px;
+    display:none;
+}
+#position_form  .po_form_act{
+	position: absolute;
+	left:180px;
+	top:221px;;
+	line-height:36px;
+}
+
+#position_form #form_act{
+	position: absolute;
+	left: 36px;
+    top: 262px;
+    display:none;
+}
+/*重新注册*/
+#login_again{
+	font-size:12px;
+	color:#3e3e3e;
+	margin-top:8px;
+}
+#login_again a{
+	text-decoration: underline;
+}
+/*鼠标滑过input 的边框变色*/
+form .mOver:hover{
+	box-shadow: 0px 0px 9px -1px #F9A0B4;
+    border: 1px solid #F9A0B4;
+}
+
+

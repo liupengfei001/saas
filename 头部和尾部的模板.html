@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>香港莎莎官网 - 正品美妆海淘商城,化妆品护肤品海外购首选</title>
+		<link rel="Shortcut Icon" href="images/favicon.ico.png" />
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="icon/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="css/topBar.css"/>
+		<link rel="stylesheet" type="text/css" href="css/top_main.css"/>
+		<link rel="stylesheet" type="text/css" href="css/footer.css"/>
+		<script src="libs/jquery-1.11.3.js"></script>
+		<script src="js/header.js"></script>
+		<script src="js/indexMain.js"></script>
+		<script src="js/three_menu.js"></script>
+		<script>
+			$(function(){
+				$("#header_load").load("header.html #topBar",header_callback);
+				$("#top_main_wrap").load("index.html #top_main_wrap");
+				$("#nav_Bar_Wrap").load("index.html #nav_Bar_Wrap");
+				$("#nav_category_wrap").load("index.html #nav_category_wrap",topCallBack);
+				$("#footer_load").load("index.html #helper");
+				
+				three_menu_callBack();
+			})
+		</script>
+	</head>
+	<body>
+		<!--调用头部-->
+		<div id="header_load"></div>
+		<!--调用top_main_wrap-->
+		<div id="top_main_wrap"></div>
+		<!--调用顶部导航-->
+		<div id="nav_Bar_Wrap"></div>
+		<!--调用商品分类导航-->
+		<div id="nav_category_wrap"></div>
+		<!--调用尾部-->
+		<div id="footer_load"></div>
+					
+	</body>
+</html>
